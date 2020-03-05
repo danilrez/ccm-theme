@@ -6,10 +6,10 @@
     "Themes"
   ],
   "version": "1.0.0",
-  "publisher": "vscode",
+  "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "engines": {
-    "vscode": "*"
+    "vscode": "CrappyCodeMaker_Danil"
   },
   "contributes": {
     "themes": [
