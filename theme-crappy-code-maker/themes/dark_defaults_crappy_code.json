@@ -3,46 +3,56 @@
   "name": "Dark Default Colors",
   "colors": {
     //// HEADER >>>
-    "titleBar.border": "#FFFFFF10",
-    "titleBar.activeBackground": "#101113",
-    "titleBar.activeForeground": "#FFFFFFAA",
+    "titleBar.border": "#222",
+    "titleBar.activeBackground": "#171717",
+    "titleBar.activeForeground": "#777",
     //// HEADER <<<
-
     //// RIGHT MENU PANEL >>>
-    "sideBar.background": "#101113", //FOLDERS
-    "tree.indentGuidesStroke": "#FFFFFFAA", //COLOR FOR ACTIVE LINE IN FOLDER TREE
+    "sideBar.background": "#171717", //FOLDERS
+    "tree.indentGuidesStroke": "#444", //COLOR FOR LINE IN FOLDER TREE
     "activityBarBadge.background": "#007ACC",
-    "list.dropBackground": "#1E1E1E",
-    "button.hoverBackground": "#0061b1",
-    "button.background": "#1E1E1E",
-    "sideBarSectionHeader.background": "#101113", //MENU HEADERS
-    "activityBar.activeBackground": "#1E1E1E", //ACTIVE MENU
+    "list.dropBackground": "#1C1C1C",
+    "button.hoverBackground": "#007ACC",
+    "button.background": "#1C1C1C",
+    "sideBarSectionHeader.background": "#171717", //MENU HEADERS BG
+    "sideBarSectionHeader.foreground": "#555", //MENU HEADERS FONT COLOR
+    "activityBar.activeBackground": "#1C1C1C00", //ACTIVE MENU BG
+    "activityBar.foreground": "#007ACC", //ACTIVE MENU COLOR
+    "activityBar.inactiveForeground": "#555", //INACTIVE MENU COLOR
+    "activityBarBadge.foreground": "#FFF", //LABEL FONT COLOR
     "activityBar.activeBorder": "#007ACC", //ACTIVE MENU RIGHT BORDER
-    "activityBar.background": "#101113", //MENU BG
-    "badge.background": "#034a64", //"UNSAVED MESSAGE"
-    "sideBarTitle.foreground": "#FFFFFFAA",
-    "list.inactiveSelectionBackground": "#1E1E1E",
+    "activityBar.background": "#171717", //MENU BG
+    "badge.background": "#034A64", //"UNSAVED MESSAGE"
+    "sideBarTitle.foreground": "#CCC",
+    "list.inactiveSelectionBackground": "#1C1C1C", //BG INACTIVE SELECTION
+    "list.inactiveSelectionForeground": "#22CCEE", //FONT COLOR INACTIVE SELECTION
     //// RIGHT MENU PANEL <<<
-
     //// EDITOR >>>
-    "editor.background": "#1E1E1E", //BG
-    "editor.foreground": "#FFFFFFAA", //FONT COLOR
-    "editor.lineHighlightBackground": "#10101045", // ACTIVE LINE
-    "editor.inactiveSelectionBackground": "#3A3D41",
+    "editor.background": "#232323", //BG
+    "editor.foreground": "#CCC", //FONT COLOR
+    "editor.lineHighlightBackground": "#1F1F1F", // ACTIVE LINE BG
+    "editor.lineHighlightBorder": "#17171750", // ACTIVE LINE BORDER
+    "editor.inactiveSelectionBackground": "#e0e0e0",
     "editor.selectionHighlightBackground": "#ADD6FF26",
-    "editorIndentGuide.activeBackground": "#FFFFFFAA", //ACTIVE LINE
+    "editorIndentGuide.activeBackground": "#FFFFFF90", //ACTIVE LINE
     "editorIndentGuide.background": "#EEEEEE10", //INACTIVE LINES
-    "editorGroupHeader.tabsBorder": "#FFFFFF10", //TOP EDITOR BORDER
-    "panel.border": "#FFFFFF10", //BOTTOM EDITOR BORDER
+    "editorGroupHeader.tabsBorder": "#171717", //TOP EDITOR BORDER
+    "scrollbar.shadow": "#0C0C0C", //TOP EDITOR SHADOW
+    "panel.border": "#171717", //BOTTOM EDITOR BORDER
+    "panel.background": "#1B1B1B", //BOTTOM PANEL -> terminal debug problems
     "editorCursor.foreground": "#FFBB00", // CURSOR COLOR
     "editorError.foreground": "#FF005C", // ERROR's LINE COLOR
     "editorWarning.foreground": "#FFBB00", //WARNING's LINE COLOR
-    "editorGroup.dropBackground": "#FFFFFF20", // COLOR WHEN YOU MOVE WINDOW
-    "editorGroupHeader.tabsBackground": "#101113", //COLOR FOR TOP TAB PANEL
+    "editorGroup.dropBackground": "#444", // COLOR WHEN YOU MOVE WINDOW
+    "editorGroupHeader.tabsBackground": "#171717", //COLOR FOR TOP TAB PANEL
     "tab.border": "#FFFFFF00", //BORDER BETWEEN TABS
-    "editorGroup.border": "#FFFFFF50", // BORDER BETWEEN WINDOWS
-    "terminal.background": "#101113", //COLOR TRMINAL
-    "dropdown.background": "#101113", //TERMINAL's MENU
+    "editorGroup.border": "#007ACC70", // BORDER BETWEEN WINDOWS
+    //TERMINAL
+    "panelTitle.inactiveForeground": "#555", //INACTIVE FONT COLOR
+    "panelTitle.activeForeground": "#CCC", //ACTIVE FONT COLOR
+    "terminal.background": "#1C1C1C", //COLOR TRMINAL
+    "terminalCursor.foreground": "#FFBB00CC", //TERMINAL CURSOR
+    "dropdown.background": "#232323", //TERMINAL's MENU
     // FOR GIT
     "editorGutter.commentRangeForeground": "#008300", //GIT COMMENT LINE ???
     "editorGutter.deletedBackground": "#FF005C", //GIT DELETED LINE
@@ -50,25 +60,26 @@
     "diffEditor.insertedTextBackground": "#00AEFF25", //GIT REDACTOR NEW LINE
     "diffEditor.removedTextBackground": "#FF005C25", //GIT REDACTOR OLD LINE
     // SCROLL
-    "scrollbarSlider.activeBackground": "#FFFFFF90",
-    "scrollbarSlider.background": "#FFFFFF10",
-    "scrollbarSlider.hoverBackground": "#FFFFFF40",
+    "scrollbarSlider.activeBackground": "#FFFFFF50",
+    "scrollbarSlider.background": "#222",
+    "scrollbarSlider.hoverBackground": "#FFFFFF20",
     // TABS
-    "tab.activeBackground": "#1E1E1E", //ACTIV TAB
-    "tab.inactiveBackground": "#101113", //INACTIVE TABS
+    "tab.activeBackground": "#1C1C1C", //ACTIV TAB
+    "tab.activeBorderTop": "#007ACC", //ACTIV TAB TOP BORDER
+    "tab.inactiveBackground": "#171717", //INACTIVE TABS
     "tab.inactiveModifiedBorder": "#FFAE00CC", //UNSAVED TAB IN INACTIVE WINDOW
-    "panelTitle.activeBorder": "#00D9FF", //UNSAVED TAB IN ACTIVE WINDOW
+    "tab.activeModifiedBorder": "#007ACC", //UNSAVED TAB IN ACTIVE WINDOW
+    "tab.unfocusedActiveModifiedBorder": "#007ACC70", //UNSAVED TAB IN INACTIVE GROUP
     // NAVIGATION
-    "breadcrumb.background": "#1E1E1E",
+    "breadcrumb.background": "#1C1C1C",
     "breadcrumb.foreground": "#555",
     // COLORS FOR TAB WITH NUMBERS of LINE
-    "editorGutter.background": "#1E1E1E", //TAB BG WITH LINE NUMBERS
+    "editorGutter.background": "#1C1C1C", //TAB BG WITH LINE NUMBERS
     "editorLineNumber.foreground": "#555", //NUMBERS COLOR
     // COLOR FOR SELECTED BRACKETS
     "editorBracketMatch.border": "#00AEFFAA",
     "editorBracketMatch.background": "#00AEFF50",
     //// EDITOR <<<
-
     //// HIDING BORDERS >>>
     "statusBar.border": "#FFFFFF00",
     "activityBar.border": "#FFFFFF00",
@@ -77,18 +88,19 @@
     "editorOverviewRuler.border": "#FFFFFF00",
     "dropdown.border": "#FFFFFF00",
     //// HIDING BORDERS <<<
-
     //// BOTTOM STATUSBAR >>>
-    "statusBar.foreground": "#FFFFFFAA",
+    "statusBar.foreground": "#CCC",
     "statusBar.background": "#050B10",
     //Status Bar no Folder
     "statusBar.noFolderBackground": "#0061b1",
     "statusBar.noFolderForeground": "#EEEEEE",
     // Menu
-    "menu.background": "#1E1E1E",
-    "menu.foreground": "#FFFFFFAA",
+    "menu.background": "#1C1C1C", //MENU BG
+    "widget.shadow": "#0C0C0C", // MENU SHADOW
+    "menu.foreground": "#CCC", // MENU FONT COLOR
+    "menu.selectionBackground": "#007ACC70", //BG SELECTED MENU
+    "menu.separatorBackground": "#AAA", //BORDER BETWEEN ELEMENTS MENU
     //// BOTTOM STATUSBAR <<<
-
     //// UNKNOWN
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D"
