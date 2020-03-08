@@ -60,9 +60,9 @@
     "diffEditor.insertedTextBackground": "#00AEFF25", //GIT REDACTOR NEW LINE
     "diffEditor.removedTextBackground": "#FF005C25", //GIT REDACTOR OLD LINE
     // SCROLL
-    "scrollbarSlider.activeBackground": "#FFFFFF50",
-    "scrollbarSlider.background": "#222",
-    "scrollbarSlider.hoverBackground": "#FFFFFF20",
+    "scrollbarSlider.activeBackground": "#FFFFFF50", //when move
+    "scrollbarSlider.background": "#FFFFFF10", //default
+    "scrollbarSlider.hoverBackground": "#FFFFFF25", //hover
     // TABS
     "tab.activeBackground": "#1C1C1C", //ACTIV TAB
     "tab.activeBorderTop": "#007ACC", //ACTIV TAB TOP BORDER

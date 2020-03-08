@@ -9,7 +9,7 @@
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "engines": {
-    "vscode": "CrappyCodeMaker_Danil"
+    "vscode": "*"
   },
   "contributes": {
     "themes": [
@@ -18,13 +18,6 @@
         "label": "Dark CrappyCodeMaker edition",
         "uiTheme": "vs-dark",
         "path": "./themes/dark_crappy_code.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "vs-minimal",
-        "label": "Minimal (Visual Studio Code)",
-        "path": "./fileicons/vs_minimal-icon-theme.json"
       }
     ]
   }
