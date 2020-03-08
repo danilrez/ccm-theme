@@ -87,7 +87,7 @@
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#DB4899",
+        "foreground": "#ff0080",
         "fontStyle": "italic"
       }
     },
@@ -208,7 +208,13 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#666",
+        "foreground": "#666"
+      }
+    },
+    {
+      "scope": "comment.block.js",
+      "settings": {
+        "foreground": "#66666690",
         "fontStyle": "italic"
       }
     },
@@ -400,7 +406,7 @@
         "meta.embedded.assembly"
       ],
       "settings": {
-        "foreground": "#E9A78D"
+        "foreground": "#ecb39d"
       }
     },
     {
@@ -462,7 +468,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#ffe600"
       }
     },
     {
