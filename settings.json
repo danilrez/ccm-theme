@@ -42,6 +42,7 @@
   "prettier.singleQuote": true,
   "workbench.colorTheme": "Dark CrappyCodeMaker edition"
   //CUSTOM COLOR =>>
+  "editor.semanticHighlighting.enabled": false //ON/OFF TypeScript semantic highlighting
   //	"workbench.colorCustomizations": {
   //testing colors
   //	}
