@@ -104,6 +104,18 @@
       }
     },
     {
+      "scope": "variable.other.property.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.other.object.property.js",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Object keys, TS grammar specific",
       "scope": ["meta.object-literal.key"],
       "settings": {
@@ -184,7 +196,7 @@
     {
       "scope": ["meta.embedded", "source.groovy.embedded"],
       "settings": {
-        "foreground": "#D4D4D4"
+        "foreground": "#EEE"
       }
     },
     {
@@ -468,7 +480,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#ffe600"
+        "foreground": "#FFD700"
       }
     },
     {

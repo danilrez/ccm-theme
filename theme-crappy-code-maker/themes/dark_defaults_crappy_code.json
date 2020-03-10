@@ -19,17 +19,17 @@
     "activityBar.activeBackground": "#1C1C1C00", //ACTIVE MENU BG
     "activityBar.foreground": "#007ACC", //ACTIVE MENU COLOR
     "activityBar.inactiveForeground": "#555", //INACTIVE MENU COLOR
-    "activityBarBadge.foreground": "#FFF", //LABEL FONT COLOR
+    "activityBarBadge.foreground": "#EEE", //LABEL FONT COLOR
     "activityBar.activeBorder": "#007ACC", //ACTIVE MENU RIGHT BORDER
     "activityBar.background": "#171717", //MENU BG
     "badge.background": "#034A64", //"UNSAVED MESSAGE"
-    "sideBarTitle.foreground": "#CCC",
+    "sideBarTitle.foreground": "#DDD",
     "list.inactiveSelectionBackground": "#1C1C1C", //BG INACTIVE SELECTION
     "list.inactiveSelectionForeground": "#22CCEE", //FONT COLOR INACTIVE SELECTION
     //// RIGHT MENU PANEL <<<
     //// EDITOR >>>
     "editor.background": "#232323", //BG
-    "editor.foreground": "#CCC", //FONT COLOR
+    "editor.foreground": "#EEE", //FONT COLOR
     "editor.lineHighlightBackground": "#1F1F1F", // ACTIVE LINE BG
     "editor.lineHighlightBorder": "#17171750", // ACTIVE LINE BORDER
     "editor.inactiveSelectionBackground": "#e0e0e0",
@@ -49,7 +49,7 @@
     "editorGroup.border": "#007ACC70", // BORDER BETWEEN WINDOWS
     //TERMINAL
     "panelTitle.inactiveForeground": "#555", //INACTIVE FONT COLOR
-    "panelTitle.activeForeground": "#CCC", //ACTIVE FONT COLOR
+    "panelTitle.activeForeground": "#DDD", //ACTIVE FONT COLOR
     "terminal.background": "#1C1C1C", //COLOR TRMINAL
     "terminalCursor.foreground": "#FFBB00CC", //TERMINAL CURSOR
     "dropdown.background": "#232323", //TERMINAL's MENU
@@ -89,7 +89,7 @@
     "dropdown.border": "#FFFFFF00",
     //// HIDING BORDERS <<<
     //// BOTTOM STATUSBAR >>>
-    "statusBar.foreground": "#CCC",
+    "statusBar.foreground": "#DDD",
     "statusBar.background": "#050B10",
     //Status Bar no Folder
     "statusBar.noFolderBackground": "#0061b1",
@@ -97,12 +97,12 @@
     // Menu
     "menu.background": "#1C1C1C", //MENU BG
     "widget.shadow": "#0C0C0C", // MENU SHADOW
-    "menu.foreground": "#CCC", // MENU FONT COLOR
+    "menu.foreground": "#DDD", // MENU FONT COLOR
     "menu.selectionBackground": "#007ACC70", //BG SELECTED MENU
     "menu.separatorBackground": "#AAA", //BORDER BETWEEN ELEMENTS MENU
     //// BOTTOM STATUSBAR <<<
     //// UNKNOWN
-    "statusBarItem.remoteForeground": "#FFF",
+    "statusBarItem.remoteForeground": "#EEE",
     "statusBarItem.remoteBackground": "#16825D"
   }
 }
