@@ -8,7 +8,7 @@
 
 <p align="center"><img width="800px" src="https://sun1-91.userapi.com/gaMHJLCrOpGe9ERoIvOqCid9wbSaoraNQ78XAQ/2FKOY_jD3eQ.jpg"></p>
 
-## Extensions:
+## Extensions that i use:
 + Auto Import
 + Auto Rename Tag
 + Auto-Open Markdown Preview
@@ -22,9 +22,7 @@
 + Scope
 
 ## Customizing
-
 > You can customize the colors used by `yourself + extension "Scope"` by overriding it in your config file.
-
 ```json
 "textMateRules": [
     {
@@ -36,8 +34,7 @@
 ]
 ```
 
-### Note
-
+### Note (For customize theme)
 > _Use `F1` -> `Developer: Inspect TM Scopes` to inspect TM scopes._
 
 | Token Type   | TM Scope                                                    |
