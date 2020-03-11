@@ -9,17 +9,17 @@
 <p align="center"><img width="800px" src="https://sun1-91.userapi.com/gaMHJLCrOpGe9ERoIvOqCid9wbSaoraNQ78XAQ/2FKOY_jD3eQ.jpg"></p>
 
 ## Extensions:
->`Auto Import
-Auto Rename Tag
-Auto-Open Markdown Preview
-Bracket Pair Colorizer 2
-ES7 React/Redux/GraphQL/React-Native snippets
-GitLens — Git supercharged
-JavaScript (ES6) code snippets
-Live Server
-Path Intellisense
-Prettier - Code formatter
-Scope`
+>`+ ulAuto Import
++ ul Auto Rename Tag
++ ul Auto-Open Markdown Preview
++ ul Bracket Pair Colorizer 2
++ ul ES7 React/Redux/GraphQL/React-Native snippets
++ ul GitLens — Git supercharged
++ ul JavaScript (ES6) code snippets
++ ul Live Server
++ ul Path Intellisense
++ ul Prettier - Code formatter
++ ul Scope`
 
 ## Customizing
 
