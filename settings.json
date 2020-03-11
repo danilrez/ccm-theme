@@ -1,51 +1,50 @@
 {
-  //WORKBENCH =>>
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.editor.highlightModifiedTabs": true,
-  //EDITOR =>>
-  "editor.minimap.enabled": false,
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": false,
-  "editor.smoothScrolling": true,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.acceptSuggestionOnEnter": "off",
-  //TERMINAL =>>
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  //bracket-Pair-Colorizer-2 =>>
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
-  "bracket-pair-colorizer-2.showBracketsInRuler": true,
-  "bracket-pair-colorizer-2.rulerPosition": "Full",
-  "bracket-pair-colorizer-2.colors": [
-    "Gold",
-    "Orchid",
-    "LightSkyBlue"
-    //"#FF0080",
-    //"#B3FF00"
-  ],
-  "bracket-pair-colorizer-2.scopeLineCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1.5px",
-    "borderColor : {color}",
-    "opacity: 0.5"
-  ],
-  //OTHER =>>
-  "explorer.sortOrder": "type",
-  "git.autofetch": true,
-  "prettier.singleQuote": true,
-  "workbench.colorTheme": "Dark CrappyCodeMaker edition"
-  //CUSTOM COLOR =>>
-  "editor.semanticHighlighting.enabled": false //ON/OFF TypeScript semantic highlighting
-  //	"workbench.colorCustomizations": {
-  //testing colors
-  //	}
-
-  //=>>
+	//WORKBENCH =>>
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.editor.highlightModifiedTabs": true,
+	//EDITOR =>>
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.tabSize": 2,
+	"editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.acceptSuggestionOnEnter": "off",
+	//TERMINAL =>>
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	//bracket-Pair-Colorizer-2 =>>
+	"bracket-pair-colorizer-2.showBracketsInGutter": true,
+	"bracket-pair-colorizer-2.showBracketsInRuler": true,
+	"bracket-pair-colorizer-2.rulerPosition": "Center",
+	"bracket-pair-colorizer-2.colors": [
+		"Gold",
+		"Orchid",
+		"LightSkyBlue"
+		//"#FF0080",
+		//"#B3FF00"
+	],
+	"bracket-pair-colorizer-2.scopeLineCSS": [
+		"borderStyle : solid",
+		"borderWidth : 1.5px",
+		"borderColor : {color}",
+		"opacity: 0.5"
+	],
+	//OTHER =>>
+	"explorer.sortOrder": "type",
+	"git.autofetch": true,
+	"prettier.singleQuote": true,
+	"workbench.colorTheme": "Dark CrappyCodeMaker edition",
+	//CUSTOM COLOR =>>
+	"editor.semanticHighlighting.enabled": false //ON/OFF TypeScript semantic highlighting
+	//	"workbench.colorCustomizations": {
+	//testing colors
+	//	}
+	//=>>
 }
