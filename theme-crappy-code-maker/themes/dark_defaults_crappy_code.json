@@ -2,12 +2,12 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Default Colors",
   "colors": {
-    //// HEADER >>>
+    //// HEADER =>>
     "titleBar.border": "#222",
     "titleBar.activeBackground": "#171717",
     "titleBar.activeForeground": "#777",
-    //// HEADER <<<
-    //// RIGHT MENU PANEL >>>
+    //// HEADER <<=
+    //// RIGHT MENU PANEL =>>
     "sideBar.background": "#171717", //FOLDERS
     "tree.indentGuidesStroke": "#444", //COLOR FOR LINE IN FOLDER TREE
     "activityBarBadge.background": "#007ACC",
@@ -26,8 +26,8 @@
     "sideBarTitle.foreground": "#DDD",
     "list.inactiveSelectionBackground": "#1C1C1C", //BG INACTIVE SELECTION
     "list.inactiveSelectionForeground": "#22CCEE", //FONT COLOR INACTIVE SELECTION
-    //// RIGHT MENU PANEL <<<
-    //// EDITOR >>>
+    //// RIGHT MENU PANEL <<=
+    //// EDITOR =>>
     "editor.background": "#232323", //BG
     "editor.foreground": "#EEE", //FONT COLOR
     "editor.lineHighlightBackground": "#1F1F1F", // ACTIVE LINE BG
@@ -79,16 +79,16 @@
     // COLOR FOR SELECTED BRACKETS
     "editorBracketMatch.border": "#00AEFFAA",
     "editorBracketMatch.background": "#00AEFF50",
-    //// EDITOR <<<
-    //// HIDING BORDERS >>>
+    //// EDITOR <<=
+    //// HIDING BORDERS =>>
     "statusBar.border": "#FFFFFF00",
     "activityBar.border": "#FFFFFF00",
     "sideBar.border": "#FFFFFF00",
     "sideBarSectionHeader.border": "#FFFFFF00",
     "editorOverviewRuler.border": "#FFFFFF00",
     "dropdown.border": "#FFFFFF00",
-    //// HIDING BORDERS <<<
-    //// BOTTOM STATUSBAR >>>
+    //// HIDING BORDERS <<=
+    //// BOTTOM STATUSBAR =>>
     "statusBar.foreground": "#DDD",
     "statusBar.background": "#050B10",
     //Status Bar no Folder
@@ -100,9 +100,10 @@
     "menu.foreground": "#DDD", // MENU FONT COLOR
     "menu.selectionBackground": "#007ACC70", //BG SELECTED MENU
     "menu.separatorBackground": "#AAA", //BORDER BETWEEN ELEMENTS MENU
-    //// BOTTOM STATUSBAR <<<
+    //// BOTTOM STATUSBAR <<=
     //// UNKNOWN
     "statusBarItem.remoteForeground": "#EEE",
     "statusBarItem.remoteBackground": "#16825D"
   }
 }
+
