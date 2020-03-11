@@ -9,7 +9,7 @@
 <p align="center"><img width="800px" src="https://sun1-91.userapi.com/gaMHJLCrOpGe9ERoIvOqCid9wbSaoraNQ78XAQ/2FKOY_jD3eQ.jpg"></p>
 
 ## Extensions:
->`+ ulAuto Import
++ ulAuto Import
 + ul Auto Rename Tag
 + ul Auto-Open Markdown Preview
 + ul Bracket Pair Colorizer 2
@@ -19,7 +19,7 @@
 + ul Live Server
 + ul Path Intellisense
 + ul Prettier - Code formatter
-+ ul Scope`
++ ul Scope
 
 ## Customizing
 
