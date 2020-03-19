@@ -1,4 +1,4 @@
-# Version 0.6.9
+# Version 0.6.10
 
 ## [beta]
 
