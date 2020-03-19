@@ -1,9 +1,5 @@
-# Change Log
+# Version 0.6.8
 
-All notable changes to the "crappycode-theme" extension will be documented in this file.
+## [beta]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- in progress
