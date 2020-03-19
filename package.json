@@ -2,25 +2,40 @@
   "name": "crappycode-theme",
   "displayName": "CrappyCode Theme",
   "description": "My first theme for Visual Studio Code",
+  "version": "0.6.7",
+  "publisher": "CrappyCodeMaker",
+  "license": "MIT",
+  "author": "CrappyCodeMaker [@CrappyCodeMaker]",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#11131C",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme",
   "repository": {
     "type": "git",
-    "url": "github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme.git"
+    "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme.git"
   },
-  "version": "0.6.4",
+  "bugs": {
+    "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues"
+  },
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.41.0"
   },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
   "keywords": [
     "color-theme",
     "theme",
     "Themes",
-    "VSCode"
+    "VSCode",
+    "dark"
   ],
-  "publisher": "CrappyCodeMaker",
-  "license": "MIT",
-  "categories": [
-    "Themes",
-    "Other"
+  "extensionKind": [
+    "ui",
+    "workspace"
   ],
   "contributes": {
     "themes": [
