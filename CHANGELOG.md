@@ -1,5 +1,5 @@
-# Version 0.6.10
+# Version 0.6.11
 
 ## [beta]
 
-- in progress
+- release in progress

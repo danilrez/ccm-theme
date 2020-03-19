@@ -85,7 +85,7 @@ If you do not have these fonts, use your favorite font.
 
 ## Feedback
 
-If you have suggestions, please [open an issue](https://https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues) or better yet, a [pull request](https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/pulls).
+If you have suggestions, please [open an issue](https://https://github.com/CrappyCodeMaker/issues) or better yet, a [pull request](https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/pulls).
 
 Be nice.
 
