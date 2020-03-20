@@ -1,5 +1,11 @@
-# Version 0.6.12
+# [beta]
 
-## [beta]
+## Version 0.6.13
 
-- release in progress
+- New themes [beta]
+
+## Version 0.6.12
+
+---
+
+# Release in progress
