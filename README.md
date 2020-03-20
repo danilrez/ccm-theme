@@ -16,6 +16,60 @@
 
 > `Preview:`
 
+### **Dark:**
+
+1. CCM Theme: DARK (default)
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+2. CCM Theme: Halloween
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+3. CCM Theme: Monokai
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+4. CCM Theme: Moon
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+5. CCM Theme: Night
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+6. CCM Theme: Purple Medium 1977
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+7. CCM Theme: Sea Wave
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+### **Light:**
+
+1. CCM Theme: Light
+
+<p align="center">
+  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+</p>
+
+2. CCM Theme: Super Light
+
 <p align="center">
   <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
 </p>

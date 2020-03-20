@@ -46,6 +46,11 @@
         "path": "./themes/ccm-theme-dark-plus.json"
       },
       {
+        "label": "CCM Theme: Halloween",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ccm-theme-halloween.json"
+      },
+      {
         "label": "CCM Theme: Monokai",
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-monokai.json"
@@ -56,9 +61,9 @@
         "path": "./themes/ccm-theme-moon.json"
       },
       {
-        "label": "CCM Theme: Halloween",
+        "label": "CCM Theme: Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-halloween.json"
+        "path": "./themes/ccm-theme-night.json"
       },
       {
         "label": "CCM Theme: Purple Medium 1977",
@@ -66,24 +71,19 @@
         "path": "./themes/ccm-theme-1977-purple.json"
       },
       {
-        "label": "CCM Theme: Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-night.json"
-      },
-      {
         "label": "CCM Theme: Sea Wave",
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-sea-wave-theme.json"
       },
       {
-        "label": "CCM Theme: Super Light",
-        "uiTheme": "vs",
-        "path": "./themes/ccm-theme-light-plus.json"
-      },
-      {
         "label": "CCM Theme: Light",
         "uiTheme": "vs",
         "path": "./themes/ccm-theme-light.json"
+      },
+      {
+        "label": "CCM Theme: Super Light",
+        "uiTheme": "vs",
+        "path": "./themes/ccm-theme-light-plus.json"
       }
     ]
   }
