@@ -2,7 +2,7 @@
   "name": "crappycode-theme",
   "displayName": "CrappyCode Theme",
   "description": "My first theme for Visual Studio Code",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
@@ -51,29 +51,29 @@
         "path": "./themes/ccm-theme-monokai.json"
       },
       {
-        "label": "CCM Theme: Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-night.json"
-      },
-      {
         "label": "CCM Theme: Moon",
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-moon.json"
       },
       {
+        "label": "CCM Theme: Halloween",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ccm-theme-halloween.json"
+      },
+      {
+        "label": "CCM Theme: Purple Medium 1977",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ccm-theme-1977-purple.json"
+      },
+      {
+        "label": "CCM Theme: Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ccm-theme-night.json"
+      },
+      {
         "label": "CCM Theme: Sea Wave",
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-sea-wave-theme.json"
-      },
-      {
-        "label": "CCM Theme: 1977 Medium Purple",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-1977-dark.json"
-      },
-      {
-        "label": "CCM Theme: Darcula",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-dracula.json"
       },
       {
         "label": "CCM Theme: Super Light",
