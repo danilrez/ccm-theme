@@ -10,9 +10,11 @@
 
 ---
 
-> This theme is based on `Dark+ (default dark)` and adjusts colors for
+> `CCM Theme: DARK (default)` is based on `Dark+ (default dark)` and adjusts colors for
 > block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
 > And with improved color contrast for editing React/JSX code.
+
+> Bonus: six dark themes & two light themes
 
 > `Preview:`
 
@@ -21,43 +23,43 @@
 1. CCM Theme: DARK (default)
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview1" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/DARK%20(default).png">
 </p>
 
 2. CCM Theme: Halloween
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview2" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Halloween.png">
 </p>
 
 3. CCM Theme: Monokai
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview3" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Monokai.png">
 </p>
 
 4. CCM Theme: Moon
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview4" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Moon.png">
 </p>
 
 5. CCM Theme: Night
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview5" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Night.png">
 </p>
 
 6. CCM Theme: Purple Medium 1977
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview6" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Purple%20Medium%201977.png">
 </p>
 
 7. CCM Theme: Sea Wave
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview7" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Sea%20Wave.png">
 </p>
 
 ### **Light:**
@@ -65,13 +67,13 @@
 1. CCM Theme: Light
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview8" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Light.png">
 </p>
 
 2. CCM Theme: Super Light
 
 <p align="center">
-  <img alt="preview" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/preview.PNG">
+  <img alt="preview9" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Super%20Light.png">
 </p>
 
 ## Usage
