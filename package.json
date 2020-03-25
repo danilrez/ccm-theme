@@ -2,7 +2,7 @@
   "name": "crappycode-theme",
   "displayName": "CrappyCode Theme",
   "description": "My first theme for Visual Studio Code",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
@@ -32,7 +32,8 @@
     "Themes",
     "VSCode",
     "dark",
-    "light"
+    "light",
+    "colors"
   ],
   "extensionKind": [
     "ui",
