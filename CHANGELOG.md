@@ -6,7 +6,7 @@
 
 ## [pre-release]
 
-### Version 0.7.1
+### Version 0.7.2
 
 Update some colors for:
 
