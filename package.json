@@ -2,13 +2,13 @@
   "name": "crappycode-theme",
   "displayName": "CrappyCode Theme",
   "description": "My first theme for Visual Studio Code",
-  "version": "0.6.15",
+  "version": "0.7.0",
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#14141e",
+    "color": "#606988",
     "theme": "dark"
   },
   "homepage": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme",

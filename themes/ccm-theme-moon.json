@@ -78,8 +78,8 @@
     "editorGroup.border": "#4f68802d",
     "editorGroup.dropBackground": "#444",
     // The editorGroupHeader
-    "editorGroupHeader.tabsBorder": "#171717",
     "editorGroupHeader.tabsBackground": "#171717",
+    "editorGroupHeader.tabsBorder": "#FFFFFF00", //top border under path
     // The tabs
     "tab.activeBackground": "#1C1C1C",
     "tab.activeForeground": "#EEE",
@@ -121,7 +121,7 @@
     "scrollbarSlider.background": "#FFFFFF10",
     "scrollbarSlider.hoverBackground": "#FFFFFF25",
     // Panel
-    "panel.border": "#171717",
+    "panel.border": "#FFFFFF00", //bottom line above terminal
     "panel.background": "#1C1C1C",
     "panelTitle.inactiveForeground": "#555",
     "panelTitle.activeForeground": "#DDD",
