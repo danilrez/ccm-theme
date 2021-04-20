@@ -1,8 +1,8 @@
 {
-  "name": "ccm-theme",
+  "name": "crappycodemaker-theme",
   "displayName": "CrappyCodeMaker Theme",
   "description": "My first theme for Visual Studio Code",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
