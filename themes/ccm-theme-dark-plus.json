@@ -186,6 +186,16 @@
       }
     },
     {
+      "name": "Oracle commit or rollback",
+      "scope": [
+        "oracle.support.function"
+      ],
+      "settings": {
+	    "fontStyle": "bold italic",
+        "foreground": "#E7CA7A"
+      }
+    },	
+    {
       "name": "Types declaration and references",
       "scope": [
         "meta.return-type",
@@ -234,12 +244,22 @@
         "support.constant.math",
         "support.constant.dom",
         "support.constant.json",
+		"support.constant.oracle",
         "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#2B916F"
       }
     },
+    {
+      "name": "PL/SQL dbms",
+      "scope": [
+		"support.constant.mainoracle",
+      ],
+      "settings": {
+        "foreground": "#2B916F"
+      }
+    },	
     {
       "name": "Control flow / Special keywords",
       "scope": [
@@ -276,7 +296,7 @@
       "scope": "variable.other.property.js",
       "settings": {
         "fontStyle": "italic"
-      }
+      } 
     },
     {
       "scope": "variable.other.object.property.js",
@@ -460,6 +480,7 @@
     {
       "scope": "invalid",
       "settings": {
+		"fontStyle": "bold italic underline",
         "foreground": "#F44747"
       }
     },
@@ -710,8 +731,8 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#50A0E9",
-        "fontStyle": "italic"
+        "foreground": "#50A0E9"
+		,"fontStyle": "italic"
       }
     }
   ]
