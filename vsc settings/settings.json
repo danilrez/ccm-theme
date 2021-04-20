@@ -1,43 +1,70 @@
 {
-  //WORKBENCH
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.colorTheme": "CCM Theme: DARK (default)",
-  //EDITOR
-  "editor.minimap.enabled": false,
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": false,
-  "editor.smoothScrolling": true,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.semanticHighlighting.enabled": false,
-  //TERMINAL
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  //bracket-Pair-Colorizer-2
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
-  "bracket-pair-colorizer-2.showBracketsInRuler": true,
-  "bracket-pair-colorizer-2.rulerPosition": "Center",
-  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
-  "bracket-pair-colorizer-2.scopeLineCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1.5px",
-    "borderColor : {color}",
-    "opacity: 0.5"
-  ],
-  //OTHER =>>
-  "explorer.sortOrder": "type",
-  "git.autofetch": true,
-  "prettier.singleQuote": true,
-  //CUSTOM COLOR =>>
-  "workbench.colorCustomizations": {
-    //testing colors
+    //WORKBENCH
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.highlightModifiedTabs": true,
+    //EDITOR
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false,
+    "editor.smoothScrolling": true,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    //TERMINAL
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    //bracket-Pair-Colorizer-2
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "bracket-pair-colorizer-2.rulerPosition": "Center",
+    "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+    "bracket-pair-colorizer-2.scopeLineCSS": [
+      "borderStyle : solid",
+      "borderWidth : 1.5px",
+      "borderColor : {color}",
+      "opacity: 0.5"
+    ],
+		//Material Icons
+		"material-icon-theme.folders.color": "#42a5f5",
+		"material-icon-theme.opacity": 0.95,
+		"material-icon-theme.saturation": 0.95,
+		"material-icon-theme.folders.theme": "classic",
+		"material-icon-theme.activeIconPack": "react_redux",
+		"material-icon-theme.hidesExplorerArrows": false,
+		//other
+		"editor.codeActionsOnSave": null,
+    "explorer.sortOrder": "type",
+    "git.autofetch": true,
+    "prettier.singleQuote": true,
+		"editor.semanticHighlighting.enabled": false,
+		"workbench.iconTheme": "material-icon-theme",
+		"git.confirmSync": false,
+		"prettier.tabWidth": 4,
+		"workbench.colorTheme": "CCM Theme: DARK (default)",
+		"files.associations": {
+			"*.pck": "plsql"
+		},
+		"oracledevtools.bookmarkFileFolder": "C:\\Users\\danil\\Oracle\\oracle.oracledevtools",
+		"oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
+		"oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
+		"oracledevtools.connections": [
+			{
+				"authenticationType": 2,
+				"dBAPrivilege": "None",
+				"userID": "SYSTEM",
+				"passwordSaved": true,
+				"password": "1Gfhjkm2Gfhjkm",
+				"dataSource": "XE",
+				"connectionType": 1,
+				"tnsAdmin": "c:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\network\\ADMIN",
+				"name": "@XE",
+				"currentSchema": ""
+			}
+		],
   }
-}
