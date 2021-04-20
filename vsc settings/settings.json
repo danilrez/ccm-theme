@@ -38,7 +38,6 @@
 		"material-icon-theme.activeIconPack": "react_redux",
 		"material-icon-theme.hidesExplorerArrows": false,
 		//other
-		"editor.codeActionsOnSave": null,
     "explorer.sortOrder": "type",
     "git.autofetch": true,
     "prettier.singleQuote": true,
@@ -66,5 +65,5 @@
 				"name": "@XE",
 				"currentSchema": ""
 			}
-		],
+		]
   }
