@@ -1,4 +1,4 @@
-### Version 0.8.0
+### Version 0.8.1
 
 -   Update colors for "CCM Theme: DARK (default)"
 -   Add scopes for plsql
