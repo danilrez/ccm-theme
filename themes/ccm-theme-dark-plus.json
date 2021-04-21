@@ -188,7 +188,7 @@
     {
       "name": "Oracle commit or rollback",
       "scope": [
-        "oracle.support.function"
+        "oracleplsql.support.function"
       ],
       "settings": {
 	    "fontStyle": "bold italic",
@@ -244,7 +244,7 @@
         "support.constant.math",
         "support.constant.dom",
         "support.constant.json",
-		"support.constant.oracle",
+				"support.constant.oracleplsql",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -254,7 +254,7 @@
     {
       "name": "PL/SQL dbms",
       "scope": [
-		"support.constant.mainoracle"
+			"support.constant.oracleplsql"
       ],
       "settings": {
         "foreground": "#2B916F"
