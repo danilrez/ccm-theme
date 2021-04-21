@@ -1,14 +1,6 @@
-# CrappyCodeMaker Theme
-
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme">
-    <img alt="crappycode banner" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/title.png">
-  </a>
-</p>
-
----
-
----
+<div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px">
+<h1 style="font-weight: bold; color: #ffa500">CCM Theme</h1>
+<div style="color: white;">
 
 > `CCM Theme: DARK (default)` is based on `Dark+ (default dark)` and adjusts colors for
 > block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
@@ -16,71 +8,80 @@
 
 > Bonus: six dark themes & two light themes
 
-> `Preview:`
+</div>
+<div style="color: white;">
 
-### **Dark:**
+<h2 style="font-weight: bold; color: white">Preview:</h2>
+<h3 style="font-weight: bold; color: white">Dark</h3>
 
 1. CCM Theme: DARK (default)
 
 <p align="center">
-  <img alt="preview1" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/DARK%20(default).png">
+  <img alt="preview1" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/DARK%20(default).png?raw=true">
 </p>
 
 2. CCM Theme: Halloween
 
 <p align="center">
-  <img alt="preview2" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Halloween.png">
+  <img alt="preview2" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Halloween.png?raw=true">
 </p>
 
 3. CCM Theme: Monokai
 
 <p align="center">
-  <img alt="preview3" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Monokai.png">
+  <img alt="preview3" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Monokai.png?raw=true">
 </p>
 
 4. CCM Theme: Moon
 
 <p align="center">
-  <img alt="preview4" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Moon.png">
+  <img alt="preview4" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Moon.png?raw=true">
 </p>
 
 5. CCM Theme: Night
 
 <p align="center">
-  <img alt="preview5" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Night.png">
+  <img alt="preview5" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Night.png?raw=true">
 </p>
 
 6. CCM Theme: Purple Medium 1977
 
 <p align="center">
-  <img alt="preview6" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Purple%20Medium%201977.png">
+  <img alt="preview6" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Purple%20Medium%201977.png?raw=true">
 </p>
 
 7. CCM Theme: Sea Wave
 
 <p align="center">
-  <img alt="preview7" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Sea%20Wave.png">
+  <img alt="preview7" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Sea%20Wave.png?raw=true">
 </p>
 
-### **Light:**
+</div>
+
+<h3 style="font-weight: bold; color: white">Light:</h3>
+<div style="color: white;">
 
 1. CCM Theme: Light
 
 <p align="center">
-  <img alt="preview8" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Light.png">
+  <img alt="preview8" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Light.png?raw=true">
 </p>
 
 2. CCM Theme: Super Light
 
 <p align="center">
-  <img alt="preview9" width="100%" src="https://raw.githubusercontent.com/CrappyCodeMaker/CrappyCode-Theme/dev_theme/images/Super%20Light.png">
+  <img alt="preview9" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Super%20Light.png?raw=true">
 </p>
 
-## Usage
+</div>
 
-Select the theme and go!
+<h2 style="font-weight: bold; color: white">Usage</h2>
+<div style="color: white;">
+	Select the theme and go!
+</div>
 
-## Installation
+<h2 style="font-weight: bold; color: white">Installation</h2>
+<div style="color: white;">
 
 1. Open the **Extensions** sidebar in VS Code
 1. Search for `CrappyCode Theme`
@@ -90,61 +91,27 @@ Select the theme and go!
 1. Enjoy! 🎉
 1. Optional: Use the recommended settings below for best experience
 
-## Recommended Settings
+</div>
+<h2 style="font-weight: bold; color: white">Fonts</h2>
+<div style="color: white;">
 
-```json
-{
-  //WORKBENCH
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.editor.highlightModifiedTabs": true,
-  //EDITOR
-  "editor.minimap.enabled": false,
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": false,
-  "editor.smoothScrolling": true,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.acceptSuggestionOnEnter": "off",
-  //TERMINAL
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  //bracket-Pair-Colorizer-2
-  "bracket-pair-colorizer-2.showBracketsInGutter": true,
-  "bracket-pair-colorizer-2.showBracketsInRuler": true,
-  "bracket-pair-colorizer-2.rulerPosition": "Center",
-  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
-  "bracket-pair-colorizer-2.scopeLineCSS": [
-    "borderStyle : solid",
-    "borderWidth : 1.5px",
-    "borderColor : {color}",
-    "opacity: 0.5"
-  ],
-  "explorer.sortOrder": "type",
-  "git.autofetch": true,
-  "prettier.singleQuote": true,
-  "editor.semanticHighlighting.enabled": false,
-  //ON/OFF TypeScript semantic highlighting
-  "workbench.colorTheme": "Dark CrappyCodeMaker Theme"
-}
-```
-
-## Fonts
-
-I am using this fonts: **Fira Code**, **Consolas**, **Courier New**, **monospace** .
+I'm using this fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace** .
 If you do not have these fonts, use your favorite font.
 
-## Feedback
+</div>
+<h2 style="font-weight: bold; color: white">Feedback</h2>
+<div style="color: white;">
 
-If you have suggestions, please [open an issue](https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues) or better yet, a [pull request](https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/pulls).
+If you have suggestions, please <b>[open an issue](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues)</b> or better yet, a <b>[pull request](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/pulls)</b>.
 
 Be nice.
 
-## Authors
+</div>
+<h2 style="font-weight: bold; color: white">Authors</h2>
+<div style="color: white;">
 
-Authored by © [CrappyCodeMaker](https://github.com/CrappyCodeMaker)
+Authored by <b>© [CrappyCodeMaker](https://github.com/CrappyCodeMaker)</b>
+
+</div>
+
+</div></div>
