@@ -1,18 +1,16 @@
 <div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px">
 <h1 style="font-weight: bold; color: #ffa500">CCM Theme</h1>
-<div style="color: white;">
 
-> `CCM Theme: DARK (default)` is based on `Dark+ (default dark)` and adjusts colors for
+> <p style="color: white"><b><i>CCM Theme: DARK (default)</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
 > block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
-> And with improved color contrast for editing React/JSX code.
+> And with improved color contrast for editing <i>React/JSX code</i>.</p>
 
-> Bonus: six dark themes & two light themes
+> <p style="color: white"><b>Bonus:</b> six dark themes & two light themes</p>
 
-</div>
 <div style="color: white;">
 
-<h2 style="font-weight: bold; color: white">Preview:</h2>
-<h3 style="font-weight: bold; color: white">Dark</h3>
+<h2 style="font-weight: bold; color: white">Preview</h2>
+<h4 style="font-weight: bold; color: white">Dark themes:</h4>
 
 1. CCM Theme: DARK (default)
 
@@ -58,7 +56,7 @@
 
 </div>
 
-<h3 style="font-weight: bold; color: white">Light:</h3>
+<h4 style="font-weight: bold; color: white">Light themes:</h4>
 <div style="color: white;">
 
 1. CCM Theme: Light
@@ -84,7 +82,7 @@
 <div style="color: white;">
 
 1. Open the **Extensions** sidebar in VS Code
-1. Search for `CrappyCode Theme`
+1. Search for `CCM Theme`
 1. Click **Install**
 1. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
 1. File > Preferences > Color Theme > **Dark CrappyCodeMaker Theme**
@@ -102,7 +100,7 @@ If you do not have these fonts, use your favorite font.
 <h2 style="font-weight: bold; color: white">Feedback</h2>
 <div style="color: white;">
 
-If you have suggestions, please <b>[open an issue](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues)</b> or better yet, a <b>[pull request](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/pulls)</b>.
+If you have suggestions, please <b>[open an issue](https://github.com/CrappyCodeMaker/CCM-Theme/issues)</b> or better yet, a <b>[pull request](https://github.com/CrappyCodeMaker/CCM-Theme/pulls)</b>.
 
 Be nice.
 
