@@ -2,6 +2,7 @@
 
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <h4 style="font-weight: bold; color: white">Dark themes:</h4>
+<div style="color: white;">
 
 1. CCM Theme: DARK (default)
 
