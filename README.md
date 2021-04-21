@@ -10,7 +10,7 @@
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <div style="color: white;">
 
-For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/CrappyCodeMaker/CCM-Theme/issues)</b>.
+For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/CrappyCodeMaker/CCM-Theme/tree/main_theme/images/PREVIEW#readme)</b>.
 
 </div>
 
