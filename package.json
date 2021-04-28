@@ -46,6 +46,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-dark-plus.json"
       },
+			{
+				"label": "CCM Theme: Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ccm-theme-dracula.json"
+			},
       {
         "label": "CCM Theme: Halloween",
         "uiTheme": "vs-dark",

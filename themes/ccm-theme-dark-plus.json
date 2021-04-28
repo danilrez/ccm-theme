@@ -7,15 +7,15 @@
 		"activityBar.foreground": "#EEE",
 		"activityBar.inactiveForeground": "#555",
 		"activityBarBadge.foreground": "#EEE",
-		"activityBar.activeBorder": "#00BBFF",
+		"activityBar.activeBorder": "#FFBB00",
 		"activityBar.background": "#171717",
-		"activityBar.activeBackground": "#1C1C1C00",
+		"activityBar.activeBackground": "#FFFFFF00",
 		"activityBar.border": "#FFFFFF00",
 		// Sidebar
 		"sideBar.background": "#171717",
 		"sideBarSectionHeader.background": "#171717",
 		"sideBarSectionHeader.border": "#FFFFFF00",
-		"sideBarSectionHeader.foreground": "#555",
+		"sideBarSectionHeader.foreground": "#777",
 		"sideBarTitle.foreground": "#DDD",
 		"sideBar.border": "#FFFFFF00",
 		// Badge
@@ -86,7 +86,7 @@
 		"tab.border": "#FFFFFF00",
 		"tab.activeBorderTop": "#3C3C3C",
 		"tab.inactiveBackground": "#171717",
-		"tab.inactiveModifiedBorder": "#FFAE00CC",
+		"tab.inactiveModifiedBorder": "#FF300050",
 		"tab.activeModifiedBorder": "#00BBFF",
 		"tab.inactiveForeground": "#777",
 		"tab.unfocusedActiveForeground": "#777",
@@ -100,7 +100,7 @@
 		"list.dropBackground": "#1C1C1C",
 		"list.inactiveSelectionBackground": "#1C1C1C",
 		"list.inactiveSelectionForeground": "#22CCEE",
-		"tree.indentGuidesStroke": "#444",
+		"tree.indentGuidesStroke": "#555",
 		// Tab stops
 		"editor.snippetTabstopHighlightBackground": "#4f6880",
 		"editor.snippetTabstopHighlightBorder": "#4f6880",
@@ -118,8 +118,8 @@
 		// Scroll Bar Control
 		"scrollbar.shadow": "#0C0C0C",
 		"scrollbarSlider.activeBackground": "#FFFFFF50",
-		"scrollbarSlider.background": "#FFFFFF10",
-		"scrollbarSlider.hoverBackground": "#FFFFFF25",
+		"scrollbarSlider.background": "#FFFFFF20",
+		"scrollbarSlider.hoverBackground": "#FFFFFF30",
 		// Panel
 		"panel.border": "#FFFFFF00", //bottom line above terminal
 		"panel.background": "#1C1C1C",
@@ -128,14 +128,14 @@
 		// Status Bar Colors
 		// The Status Bar is shown in the bottom of the workbench
 		"statusBar.foreground": "#DDD",
-		"statusBar.background": "#050B10",
+		"statusBar.background": "#111",
 		"statusBar.noFolderBackground": "#0075BB",
 		"statusBar.noFolderForeground": "#EEEEEE",
 		"statusBar.border": "#FFFFFF00",
 		"statusBarItem.remoteForeground": "#EEE",
 		"statusBarItem.remoteBackground": "#16825D",
 		// Title bar
-		"titleBar.border": "#222",
+		"titleBar.border": "#FFFFFF00",
 		"titleBar.activeBackground": "#171717",
 		"titleBar.activeForeground": "#777",
 		"widget.shadow": "#0C0C0C",

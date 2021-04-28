@@ -2,149 +2,149 @@
   "name": "CCM Theme: Moon",
   "type": "dark",
   "colors": {
-    // Activity Bar
-    "activityBarBadge.background": "#00BBFF",
-    "activityBar.foreground": "#EEE",
-    "activityBar.inactiveForeground": "#555",
-    "activityBarBadge.foreground": "#EEE",
-    "activityBar.activeBorder": "#00BBFF",
-    "activityBar.background": "#171717",
-    "activityBar.activeBackground": "#1C1C1C00",
-    "activityBar.border": "#FFFFFF00",
-    // Sidebar
-    "sideBar.background": "#171717",
-    "sideBarSectionHeader.background": "#171717",
-    "sideBarSectionHeader.border": "#FFFFFF00",
-    "sideBarSectionHeader.foreground": "#555",
-    "sideBarTitle.foreground": "#DDD",
-    "sideBar.border": "#FFFFFF00",
-    // Badge
-    "badge.background": "#444",
-    "badge.foreground": "#EEE",
-    // Button
-    "button.foreground": "#999",
-    "button.hoverBackground": "#FFFFFF25",
-    "button.background": "#1C1C1C",
-    // Contrast
-    "contrastActiveBorder": "#FFFFFF00",
-    "contrastBorder": "#FFFFFF00",
-    // Foreground color for description text providing additional information, for example for a label.
-    "descriptionForeground": "#4f6880",
-    "selection.background": "#3c6d9b93",
-    // Dropdown
-    "dropdown.background": "#232323",
-    "dropdown.border": "#FFFFFF00",
-    // ——— Editor ———
-    "editor.background": "#232323",
-    "editor.foreground": "#EEE",
-    "editorLineNumber.foreground": "#555",
-    "editorLineNumber.activeForeground": "#EEE",
-    "editorCursor.foreground": "#FFBB00",
-    //  The selection color battle starts here.
-    "editor.selectionBackground": "#3c6d9b93",
-    "editor.inactiveSelectionBackground": "#e0e0e0",
-    "editor.selectionHighlightBackground": "#ADD6FF26",
-    "editor.wordHighlightBackground": "#ff478448",
-    "editor.wordHighlightStrongBackground": "#FFFFFF0D",
-    "editor.hoverHighlightBackground": "#3c6d9b63",
-    "editor.lineHighlightBackground": "#1F1F1F",
-    "editor.lineHighlightBorder": "#17171750",
-    "editor.rangeHighlightBackground": "#1F1F1F",
-    "editorLink.activeForeground": "#4f6880",
-    "editorIndentGuide.activeBackground": "#FFFFFF90",
-    "editorIndentGuide.background": "#EEEEEE10",
-    "editorRuler.foreground": "#A599E91C",
-    "editorOverviewRuler.border": "#FFFFFF00",
-    "editorBracketMatch.border": "#00AEFFAA",
-    "editorBracketMatch.background": "#00AEFF50",
-    "editorOverviewRuler.addedForeground": "#37d78c",
-    "editorOverviewRuler.deletedForeground": "#EC3A37F5",
-    "editorOverviewRuler.modifiedForeground": "#ffd6ae",
-    // Errors and warnings:
-    "editorError.foreground": "#FF005C",
-    "editorWarning.border": "#FFFFFF00",
-    "editorWarning.foreground": "#FFBB00",
-    // Gutter: The gutter contains the glyph margins and the line numbers:
-    "editorGutter.background": "#1C1C1C",
-    "editorGutter.addedBackground": "#37d78c",
-    "editorGutter.commentRangeForeground": "#008300",
-    "editorGutter.deletedBackground": "#FF005C",
-    "editorGutter.modifiedBackground": "#00AEFFAA",
-    // Diff Editor
-    "diffEditor.insertedTextBackground": "#00AEFF25",
-    "diffEditor.removedTextBackground": "#FF005C25",
-    // Editor Groups & Tabs
-    "editorGroup.emptyBackground": "#171717",
-    "editorGroup.border": "#4f68802d",
-    "editorGroup.dropBackground": "#444",
-    // The editorGroupHeader
-    "editorGroupHeader.tabsBackground": "#171717",
-    "editorGroupHeader.tabsBorder": "#FFFFFF00", //top border under path
-    // The tabs
-    "tab.activeBackground": "#1C1C1C",
-    "tab.activeForeground": "#EEE",
-    "tab.border": "#FFFFFF00",
-    "tab.activeBorderTop": "#3C3C3C",
-    "tab.inactiveBackground": "#171717",
-    "tab.inactiveModifiedBorder": "#FFAE00CC",
-    "tab.activeModifiedBorder": "#00BBFF",
-    "tab.inactiveForeground": "#777",
-    "tab.unfocusedActiveForeground": "#777",
-    "tab.unfocusedInactiveForeground": "#444",
-    // Customizable menu
-    "menu.foreground": "#DDD",
-    "menu.separatorBackground": "#AAA",
-    "menu.background": "#1C1C1C",
-    "menu.selectionBackground": "#FFFFFF25",
-    // Lists and Trees
-    "list.dropBackground": "#1C1C1C",
-    "list.inactiveSelectionBackground": "#1C1C1C",
-    "list.inactiveSelectionForeground": "#22CCEE",
-    "tree.indentGuidesStroke": "#444",
-    // Tab stops
-    "editor.snippetTabstopHighlightBackground": "#4f6880",
-    "editor.snippetTabstopHighlightBorder": "#4f6880",
-    "editor.snippetFinalTabstopHighlightBackground": "#4f6880",
-    "editor.snippetFinalTabstopHighlightBorder": "#4f6880",
-    // Debug menu
-    "debugIcon.stopForeground": "#EC3A37F5",
-    "debugIcon.continueForeground": "#FAD000",
-    "debugIcon.pauseForeground": "#FAD000",
-    "debugIcon.stepOverForeground": "#FAD000",
-    "debugIcon.stepIntoForeground": "#FAD000",
-    "debugIcon.stepOutForeground": "#FAD000",
-    "debugIcon.startForeground": "#37d78c",
-    "debugIcon.restartForeground": "#37d78c",
-    // Scroll Bar Control
-    "scrollbar.shadow": "#0C0C0C",
-    "scrollbarSlider.activeBackground": "#FFFFFF50",
-    "scrollbarSlider.background": "#FFFFFF10",
-    "scrollbarSlider.hoverBackground": "#FFFFFF25",
-    // Panel
-    "panel.border": "#FFFFFF00", //bottom line above terminal
-    "panel.background": "#1C1C1C",
-    "panelTitle.inactiveForeground": "#555",
-    "panelTitle.activeForeground": "#DDD",
-    // Status Bar Colors
-    // The Status Bar is shown in the bottom of the workbench
-    "statusBar.foreground": "#DDD",
-    "statusBar.background": "#050B10",
-    "statusBar.noFolderBackground": "#0075BB",
-    "statusBar.noFolderForeground": "#EEEEEE",
-    "statusBar.border": "#FFFFFF00",
-    "statusBarItem.remoteForeground": "#EEE",
-    "statusBarItem.remoteBackground": "#16825D",
-    // Title bar
-    "titleBar.border": "#222",
-    "titleBar.activeBackground": "#171717",
-    "titleBar.activeForeground": "#777",
-    "widget.shadow": "#0C0C0C",
-    // Breadcrumbs
-    "breadcrumb.background": "#1C1C1C",
-    "breadcrumb.foreground": "#555",
-    // Terminal
-    "terminal.background": "#1C1C1C",
-    "terminalCursor.foreground": "#FFBB00CC"
+		// Activity Bar
+		"activityBarBadge.background": "#00BBFF",
+		"activityBar.foreground": "#EEE",
+		"activityBar.inactiveForeground": "#555",
+		"activityBarBadge.foreground": "#EEE",
+		"activityBar.activeBorder": "#FFBB00",
+		"activityBar.background": "#171717",
+		"activityBar.activeBackground": "#FFFFFF00",
+		"activityBar.border": "#FFFFFF00",
+		// Sidebar
+		"sideBar.background": "#171717",
+		"sideBarSectionHeader.background": "#171717",
+		"sideBarSectionHeader.border": "#FFFFFF00",
+		"sideBarSectionHeader.foreground": "#777",
+		"sideBarTitle.foreground": "#DDD",
+		"sideBar.border": "#FFFFFF00",
+		// Badge
+		"badge.background": "#444",
+		"badge.foreground": "#EEE",
+		// Button
+		"button.foreground": "#999",
+		"button.hoverBackground": "#FFFFFF25",
+		"button.background": "#1C1C1C",
+		// Contrast
+		"contrastActiveBorder": "#FFFFFF00",
+		"contrastBorder": "#FFFFFF00",
+		// Foreground color for description text providing additional information, for example for a label.
+		"descriptionForeground": "#4f6880",
+		"selection.background": "#3c6d9b93",
+		// Dropdown
+		"dropdown.background": "#232323",
+		"dropdown.border": "#FFFFFF00",
+		// ——— Editor ———
+		"editor.background": "#232323",
+		"editor.foreground": "#EEE",
+		"editorLineNumber.foreground": "#555",
+		"editorLineNumber.activeForeground": "#EEE",
+		"editorCursor.foreground": "#FFBB00",
+		//  The selection color battle starts here.
+		"editor.selectionBackground": "#3c6d9b93",
+		"editor.inactiveSelectionBackground": "#e0e0e0",
+		"editor.selectionHighlightBackground": "#ADD6FF26",
+		"editor.wordHighlightBackground": "#ff478448",
+		"editor.wordHighlightStrongBackground": "#FFFFFF0D",
+		"editor.hoverHighlightBackground": "#3c6d9b63",
+		"editor.lineHighlightBackground": "#1F1F1F",
+		"editor.lineHighlightBorder": "#17171750",
+		"editor.rangeHighlightBackground": "#1F1F1F",
+		"editorLink.activeForeground": "#4f6880",
+		"editorIndentGuide.activeBackground": "#FFFFFF90",
+		"editorIndentGuide.background": "#EEEEEE10",
+		"editorRuler.foreground": "#A599E91C",
+		"editorOverviewRuler.border": "#FFFFFF00",
+		"editorBracketMatch.border": "#00AEFFAA",
+		"editorBracketMatch.background": "#00AEFF50",
+		"editorOverviewRuler.addedForeground": "#37d78c",
+		"editorOverviewRuler.deletedForeground": "#EC3A37F5",
+		"editorOverviewRuler.modifiedForeground": "#ffd6ae",
+		// Errors and warnings:
+		"editorError.foreground": "#FF005C",
+		"editorWarning.border": "#FFFFFF00",
+		"editorWarning.foreground": "#FFBB00",
+		// Gutter: The gutter contains the glyph margins and the line numbers:
+		"editorGutter.background": "#1C1C1C",
+		"editorGutter.addedBackground": "#37d78c",
+		"editorGutter.commentRangeForeground": "#008300",
+		"editorGutter.deletedBackground": "#FF005C",
+		"editorGutter.modifiedBackground": "#00AEFFAA",
+		// Diff Editor
+		"diffEditor.insertedTextBackground": "#00AEFF25",
+		"diffEditor.removedTextBackground": "#FF005C25",
+		// Editor Groups & Tabs
+		"editorGroup.emptyBackground": "#171717",
+		"editorGroup.border": "#4f68802d",
+		"editorGroup.dropBackground": "#444",
+		// The editorGroupHeader
+		"editorGroupHeader.tabsBackground": "#171717",
+		"editorGroupHeader.tabsBorder": "#FFFFFF00", //top border under path
+		// The tabs
+		"tab.activeBackground": "#1C1C1C",
+		"tab.activeForeground": "#EEE",
+		"tab.border": "#FFFFFF00",
+		"tab.activeBorderTop": "#3C3C3C",
+		"tab.inactiveBackground": "#171717",
+		"tab.inactiveModifiedBorder": "#FF300050",
+		"tab.activeModifiedBorder": "#00BBFF",
+		"tab.inactiveForeground": "#777",
+		"tab.unfocusedActiveForeground": "#777",
+		"tab.unfocusedInactiveForeground": "#444",
+		// Customizable menu
+		"menu.foreground": "#DDD",
+		"menu.separatorBackground": "#AAA",
+		"menu.background": "#1C1C1C",
+		"menu.selectionBackground": "#FFFFFF25",
+		// Lists and Trees
+		"list.dropBackground": "#1C1C1C",
+		"list.inactiveSelectionBackground": "#1C1C1C",
+		"list.inactiveSelectionForeground": "#22CCEE",
+		"tree.indentGuidesStroke": "#555",
+		// Tab stops
+		"editor.snippetTabstopHighlightBackground": "#4f6880",
+		"editor.snippetTabstopHighlightBorder": "#4f6880",
+		"editor.snippetFinalTabstopHighlightBackground": "#4f6880",
+		"editor.snippetFinalTabstopHighlightBorder": "#4f6880",
+		// Debug menu
+		"debugIcon.stopForeground": "#EC3A37F5",
+		"debugIcon.continueForeground": "#FAD000",
+		"debugIcon.pauseForeground": "#FAD000",
+		"debugIcon.stepOverForeground": "#FAD000",
+		"debugIcon.stepIntoForeground": "#FAD000",
+		"debugIcon.stepOutForeground": "#FAD000",
+		"debugIcon.startForeground": "#37d78c",
+		"debugIcon.restartForeground": "#37d78c",
+		// Scroll Bar Control
+		"scrollbar.shadow": "#0C0C0C",
+		"scrollbarSlider.activeBackground": "#FFFFFF50",
+		"scrollbarSlider.background": "#FFFFFF20",
+		"scrollbarSlider.hoverBackground": "#FFFFFF30",
+		// Panel
+		"panel.border": "#FFFFFF00", //bottom line above terminal
+		"panel.background": "#1C1C1C",
+		"panelTitle.inactiveForeground": "#555",
+		"panelTitle.activeForeground": "#DDD",
+		// Status Bar Colors
+		// The Status Bar is shown in the bottom of the workbench
+		"statusBar.foreground": "#DDD",
+		"statusBar.background": "#111",
+		"statusBar.noFolderBackground": "#0075BB",
+		"statusBar.noFolderForeground": "#EEEEEE",
+		"statusBar.border": "#FFFFFF00",
+		"statusBarItem.remoteForeground": "#EEE",
+		"statusBarItem.remoteBackground": "#16825D",
+		// Title bar
+		"titleBar.border": "#FFFFFF00",
+		"titleBar.activeBackground": "#171717",
+		"titleBar.activeForeground": "#777",
+		"widget.shadow": "#0C0C0C",
+		// Breadcrumbs
+		"breadcrumb.background": "#1C1C1C",
+		"breadcrumb.foreground": "#555",
+		// Terminal
+		"terminal.background": "#1C1C1C",
+		"terminalCursor.foreground": "#FFBB00CC"
   },
 
   "tokenColors": [
