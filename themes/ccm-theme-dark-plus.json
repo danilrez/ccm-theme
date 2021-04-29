@@ -22,9 +22,9 @@
 		"badge.background": "#444",
 		"badge.foreground": "#EEE",
 		// Button
-		"button.foreground": "#999",
-		"button.hoverBackground": "#FFFFFF25",
-		"button.background": "#1C1C1C",
+		"button.background": "#357D40",
+		"button.foreground": "#FFF",
+		"button.hoverBackground": "#25A72E",
 		// Contrast
 		"contrastActiveBorder": "#FFFFFF00",
 		"contrastBorder": "#FFFFFF00",

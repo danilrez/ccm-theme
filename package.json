@@ -33,7 +33,11 @@
     "VSCode",
     "dark",
     "light",
-    "colors"
+    "colors",
+		"ccm",
+		"CrappyCode",
+		"CrappyCodeMaker",
+		"CCM"
   ],
   "extensionKind": [
     "ui",
@@ -45,11 +49,6 @@
         "label": "CCM Theme: DARK (default)",
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-dark-plus.json"
-      },
-      {
-        "label": "CCM Theme: Dracula",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-dracula.json"
       },
       {
         "label": "CCM Theme: Halloween",
