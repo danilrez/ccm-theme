@@ -7,7 +7,7 @@
 		"foreground": "#CCC",
 		"focusBorder": "#FFFFFF10",
 		// Activity Bar
-		"activityBarBadge.background": "#00BBFF",
+		"activityBarBadge.background": "#3DA0FF",
 		"activityBar.foreground": "#EEE",
 		"activityBar.inactiveForeground": "#555",
 		"activityBarBadge.foreground": "#EEE",
@@ -27,7 +27,7 @@
 		"badge.foreground": "#EEE",
 		//Quotes
 		"textBlockQuote.background": "#FFFFFF10",
-		"textBlockQuote.border": "#529EE5CC",
+		"textBlockQuote.border": "#3DA0FFCC",
 		// Button
 		"button.background": "#357D40",
 		"button.foreground": "#FFF",
@@ -64,6 +64,7 @@
 		"editorHoverWidget.border": "#333",
 		"editorError.border": "#333",
 		"editorWidget.border": "#333",
+		"editorCodeLens.foreground": "#777",
 		// input
 		"input.background": "#333",
 		"input.border": "#FFFFFF00",
@@ -92,6 +93,7 @@
 		"editorOverviewRuler.modifiedForeground": "#ffd6ae",
 		// The editorGroupHeader
 		"textPreformat.foreground": "#F3C57A",
+		"textCodeBlock.background": "#10101090",
 		// Errors and warnings:
 		"editorError.foreground": "#FF005C",
 		"editorWarning.border": "#FFFFFF00",
@@ -155,7 +157,7 @@
 		"list.hoverForeground": "#FFF",
 		// Tab stops
 		"editor.snippetTabstopHighlightBackground": "#4f6880",
-		"editor.snippetTabstopHighlightBorder": "#4f6880",
+		"editor.snippetTabstopHighlightBorder": "#4f6880", 
 		"editor.snippetFinalTabstopHighlightBackground": "#4f6880",
 		"editor.snippetFinalTabstopHighlightBorder": "#4f6880",
 		// Debug menu
@@ -197,7 +199,7 @@
 		"notifications.foreground": "#CCC",
 		"notifications.background": "#232323",
 		"notifications.border": "#FFFFFF00",
-		"notificationLink.foreground": "#529EE5",
+		"notificationLink.foreground": "#3DA0FF",
 		// Title bar
 		"titleBar.border": "#FFFFFF00",
 		"titleBar.activeBackground": "#171717",
@@ -206,12 +208,12 @@
 		"titleBar.inactiveForeground": "#333",
 		"widget.shadow": "#0C0C0C",
 		"textLink.activeForeground": "#8C00FF",
-		"textLink.foreground": "#529EE5",
+		"textLink.foreground": "#3DA0FF",
 		// Breadcrumbs
 		"breadcrumb.background": "#1C1C1C",
 		"breadcrumb.foreground": "#555",
 		// Panel
-		"panelTitle.activeBorder": "#529EE5",
+		"panelTitle.activeBorder": "#3DA0FF",
 		// Terminal
 		"terminal.background": "#1C1C1C",
 		"terminalCursor.foreground": "#FFCC00AA",
