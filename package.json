@@ -6,7 +6,7 @@
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
-  "icon": "./images/icon.png",
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#525B7C",
     "theme": "dark"
