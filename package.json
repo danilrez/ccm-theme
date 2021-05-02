@@ -2,7 +2,7 @@
   "name": "crappycode-theme",
   "displayName": "CCM Theme",
   "description": "My first theme for Visual Studio Code",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "publisher": "CrappyCodeMaker",
   "license": "MIT",
   "author": "CrappyCodeMaker [@CrappyCodeMaker]",
@@ -50,11 +50,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/dark/ccm-theme-dark-plus.json"
       },
-			{
-				"label": "CCM Theme: DARK (testing)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-theme-dark-plus-TEST.json"
-			},			
+      {
+        "label": "CCM Theme: DARK (testing)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/ccm-theme-dark-plus-TEST.json"
+      },
       {
         "label": "CCM Theme: Fresh",
         "uiTheme": "vs-dark",
