@@ -65,6 +65,9 @@
 		"editorError.border": "#333",
 		"editorWidget.border": "#333",
 		"editorCodeLens.foreground": "#777",
+		// picker
+		"pickerGroup.border": "#FFFFFF20",
+		"pickerGroup.foreground": "#3DA0FF",
 		// input
 		"input.background": "#333",
 		"input.border": "#FFFFFF00",
