@@ -50,6 +50,26 @@
         "uiTheme": "vs-dark",
         "path": "./themes/ccm-theme-dark-plus.json"
       },
+			{
+				"label": "CCM Theme: Arc-blueberry",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ccm-theme-arc-blueberry.json"
+			},
+			{
+				"label": "CCM Theme: Cobalt",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ccm-theme-cobalt.json"
+			},
+			{
+				"label": "CCM Theme: Fresh",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ccm-theme-fresh.json"
+			},
+			{
+				"label": "CCM Theme: Github",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ccm-theme-github-dark.json"
+			},
       {
         "label": "CCM Theme: Halloween",
         "uiTheme": "vs-dark",
