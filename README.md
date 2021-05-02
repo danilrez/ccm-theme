@@ -52,5 +52,4 @@ Be nice.
 Authored by <b>© [CrappyCodeMaker](https://github.com/CrappyCodeMaker)</b>
 
 </div>
-
 </div></div>
