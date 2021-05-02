@@ -1,5 +1,5 @@
 {
-	"name": "CCM Theme: DARK (default)",
+	"name": "CCM Theme: DARK+ (default)",
 	"type": "dark",
 	"colors": {
 		// Activity Bar
@@ -392,7 +392,8 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#666"
+				"foreground": "#666",
+				"fontStyle": "italic"
 			}
 		},
 		{

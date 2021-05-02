@@ -48,67 +48,52 @@
       {
         "label": "CCM Theme: DARK (default)",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-dark-plus.json"
-      },
-      {
-        "label": "CCM Theme: Arc-blueberry",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-arc-blueberry.json"
-      },
-      {
-        "label": "CCM Theme: Cobalt",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-cobalt.json"
+        "path": "./themes/dark/ccm-theme-dark-plus.json"
       },
       {
         "label": "CCM Theme: Fresh",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-fresh.json"
+        "path": "./themes/dark/ccm-theme-fresh.json"
       },
       {
         "label": "CCM Theme: Github",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-github-dark.json"
+        "path": "./themes/dark/ccm-theme-github-dark.json"
       },
       {
         "label": "CCM Theme: Halloween",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-halloween.json"
+        "path": "./themes/dark/ccm-theme-halloween.json"
       },
       {
         "label": "CCM Theme: Monokai",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-monokai.json"
+        "path": "./themes/dark/ccm-theme-monokai.json"
       },
       {
         "label": "CCM Theme: Moon",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-moon.json"
+        "path": "./themes/dark/ccm-theme-moon.json"
       },
       {
         "label": "CCM Theme: Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-night.json"
-      },
-      {
-        "label": "CCM Theme: Purple Medium 1977",
-        "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-1977-purple.json"
+        "path": "./themes/dark/ccm-theme-night.json"
       },
       {
         "label": "CCM Theme: Sea Wave",
         "uiTheme": "vs-dark",
-        "path": "./themes/ccm-theme-sea-wave-theme.json"
+        "path": "./themes/dark/ccm-theme-sea-wave-theme.json"
       },
       {
         "label": "CCM Theme: Light",
         "uiTheme": "vs",
-        "path": "./themes/ccm-theme-light.json"
+        "path": "./themes/light/ccm-theme-light.json"
       },
       {
         "label": "CCM Theme: Super Light",
         "uiTheme": "vs",
-        "path": "./themes/ccm-theme-light-plus.json"
+        "path": "./themes/light/ccm-theme-light-plus.json"
       }
     ]
   }
