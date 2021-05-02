@@ -220,7 +220,7 @@
 		// Terminal
 		"terminal.background": "#1C1C1C",
 		"terminalCursor.foreground": "#FFCC00AA",
-		"terminal.foreground": "#EEE",
+		"terminal.foreground": "#CCC",
 		"terminalCursor.background": "#FFBB00",
 		"terminal.ansiBlack": "#000",
 		"terminal.ansiRed": "#FF3060",
@@ -229,7 +229,7 @@
 		"terminal.ansiBlue": "#0088FF",
 		"terminal.ansiMagenta": "#E60FE6",
 		"terminal.ansiCyan": "#00FFFF",
-		"terminal.ansiWhite": "#FFF",
+		"terminal.ansiWhite": "#AAA",
 		"terminal.ansiBrightBlack": "#003E80",
 		"terminal.ansiBrightRed": "#FF628C",
 		"terminal.ansiBrightGreen": "#8AFF60",
@@ -237,7 +237,7 @@
 		"terminal.ansiBrightBlue": "#3DA5FF",
 		"terminal.ansiBrightMagenta": "#FB94FF",
 		"terminal.ansiBrightCyan": "#80FCFF",
-		"terminal.ansiBrightWhite": "#FFF"
+		"terminal.ansiBrightWhite": "#CCC"
   },
   "tokenColors": [
     {
