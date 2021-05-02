@@ -3,6 +3,9 @@
 	"type": "dark",
 	//"semanticHighlighting": true,
 	"colors": {
+		//Main color
+		"foreground": "#CCC",
+		"focusBorder": "#FFFFFF10",
 		// Activity Bar
 		"activityBarBadge.background": "#00BBFF",
 		"activityBar.foreground": "#EEE",
@@ -22,10 +25,17 @@
 		// Badge
 		"badge.background": "#444",
 		"badge.foreground": "#EEE",
+		//Quotes
+		"textBlockQuote.background": "#FFFFFF10",
+		"textBlockQuote.border": "#529EE5CC",
 		// Button
 		"button.background": "#357D40",
 		"button.foreground": "#FFF",
 		"button.hoverBackground": "#25A72E",
+		// extensionButton
+		"extensionButton.prominentBackground": "#357D40",
+		"extensionButton.prominentForeground": "#FFF",
+		"extensionButton.prominentHoverBackground": "#25A72E",
 		// Contrast
 		"contrastActiveBorder": "#FFFFFF00",
 		"contrastBorder": "#FFFFFF00",
@@ -35,12 +45,31 @@
 		// Dropdown
 		"dropdown.background": "#232323",
 		"dropdown.border": "#FFFFFF00",
+		// Currently found item
+		"editor.findMatchBackground": "#8AFF60AA",
+		"editor.findMatchBorder": "#66FF00CC",
+		// Other Found Items int the document
+		"editor.findMatchHighlightBackground": "#5CDEFF50",
+		"editor.findMatchHighlightBorder": "#5CDEFFCC",
 		// ——— Editor ———
 		"editor.background": "#232323",
 		"editor.foreground": "#EEE",
 		"editorLineNumber.foreground": "#555",
 		"editorLineNumber.activeForeground": "#EEE",
 		"editorCursor.foreground": "#FFBB00",
+		"editorWhitespace.foreground": "#777",
+		"errorForeground": "#FF3000AA",
+		"editorHoverWidget.background": "#1C1C1C",
+		"editorWidget.background": "#1C1C1C",
+		"editorHoverWidget.border": "#333",
+		"editorError.border": "#333",
+		"editorWidget.border": "#333",
+		// input
+		"input.background": "#333",
+		"input.border": "#FFFFFF00",
+		"input.foreground": "#CCC",
+		"input.placeholderForeground": "#999",
+		"inputOption.activeBorder": "#FFFFFF00",
 		//  The selection color battle starts here.
 		"editor.selectionBackground": "#3c6d9b93",
 		"editor.inactiveSelectionBackground": "#e0e0e0",
@@ -61,6 +90,8 @@
 		"editorOverviewRuler.addedForeground": "#37d78c",
 		"editorOverviewRuler.deletedForeground": "#EC3A37F5",
 		"editorOverviewRuler.modifiedForeground": "#ffd6ae",
+		// The editorGroupHeader
+		"textPreformat.foreground": "#F3C57A",
 		// Errors and warnings:
 		"editorError.foreground": "#FF005C",
 		"editorWarning.border": "#FFFFFF00",
@@ -76,6 +107,14 @@
 		"diffEditor.removedTextBorder": "#FF005C45",
 		"diffEditor.insertedTextBackground": "#00AEFF25",
 		"diffEditor.removedTextBackground": "#FF005C25",
+		// Git status colors in File Explorer
+		"gitDecoration.modifiedResourceForeground": "#F3C57A",
+		"gitDecoration.deletedResourceForeground": "#FF3666",
+		"gitDecoration.untrackedResourceForeground": "#75C570",
+		"gitDecoration.ignoredResourceForeground": "#777",
+		"gitDecoration.conflictingResourceForeground": "#FF7200",		
+		// progressBar
+		"progressBar.background": "#FFBB00",
 		// Editor Groups & Tabs
 		"editorGroup.emptyBackground": "#171717",
 		"editorGroup.border": "#4f68802d",
@@ -95,17 +134,22 @@
 		"tab.inactiveForeground": "#777",
 		"tab.unfocusedActiveForeground": "#777",
 		"tab.unfocusedInactiveForeground": "#444",
-		// Customizable menu
+		// Menu
 		"menu.foreground": "#DDD",
 		"menu.separatorBackground": "#AAA",
 		"menu.background": "#1C1C1C",
 		"menu.selectionBackground": "#FFFFFF25",
+		"menu.selectionForeground": "#FFF",
+		"menubar.selectionBackground": "#FFFFFF10",
 		// Lists and Trees
+		"list.highlightForeground": "#0F80DD",
 		"list.dropBackground": "#1C1C1C",
 		"list.activeSelectionBackground": "#0D90FF77",
 		"list.activeSelectionForeground": "#EEE",
+		"list.focusBackground": "#0D90FF77",
+		"list.focusForeground": "#FFF",
 		"list.inactiveSelectionBackground": "#1C1C1C",
-		"list.inactiveSelectionForeground": "#22CCEE",
+		"list.inactiveSelectionForeground": "#EEE",
 		"tree.indentGuidesStroke": "#555",
 		"list.hoverBackground": "#232323",
 		"list.hoverForeground": "#FFF",
@@ -143,6 +187,17 @@
 		"statusBar.noFolderBorder": "#FFFFFF00",
 		"statusBarItem.remoteForeground": "#EEE",
 		"statusBarItem.remoteBackground": "#16825D",
+		"statusBarItem.hoverBackground": "#FFFFFF30",
+		"statusBarItem.activeBackground": "#FFFFFF40",
+		// notification colors - The colors below only apply for VS Code versions 1.21 and higher.
+		"notificationCenter.border": "#FFFFFF00",
+		"notificationCenterHeader.foreground": "#CCC",
+		"notificationCenterHeader.background": "#2F2F2F",
+		"notificationToast.border": "#FFFFFF00",
+		"notifications.foreground": "#CCC",
+		"notifications.background": "#232323",
+		"notifications.border": "#FFFFFF00",
+		"notificationLink.foreground": "#529EE5",
 		// Title bar
 		"titleBar.border": "#FFFFFF00",
 		"titleBar.activeBackground": "#171717",
