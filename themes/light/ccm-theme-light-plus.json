@@ -1,6 +1,7 @@
 {
   "name": "CCM Theme: Super Light",
   "type": "light",
+	//"semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#EBEEF5",
     "activityBar.activeBorder": "#EBEEF5",

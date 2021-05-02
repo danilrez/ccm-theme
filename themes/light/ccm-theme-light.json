@@ -1,7 +1,7 @@
 {
   "name": "CCM Theme: Light",
   "type": "light",
-	"semanticHighlighting": true,
+	//"semanticHighlighting": true,
   "colors": {
     "foreground": "#36373B",
     "focusBorder": "#161F26",

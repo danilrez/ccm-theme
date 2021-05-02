@@ -1,6 +1,7 @@
 {
   "name": "CCM Theme: Sea Wave",
   "type": "dark",
+	//"semanticHighlighting": true,
   "colors": {
     "editor.background": "#0f1824",
     "editor.foreground": "#25a2a6",

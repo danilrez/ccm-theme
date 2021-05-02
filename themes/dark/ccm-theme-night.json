@@ -1,7 +1,7 @@
 {
   "name": "Night",
   "type": "dark",
-
+	//"semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#21252B",
     "activityBar.activeBorder": "#282c34",

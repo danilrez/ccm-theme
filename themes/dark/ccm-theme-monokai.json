@@ -1,6 +1,7 @@
 {
   "name": "CCM Theme: Monokai",
   "type": "dark",
+	//"semanticHighlighting": true,
   "colors": {
 		// Activity Bar
 		"activityBarBadge.background": "#00BBFF",
