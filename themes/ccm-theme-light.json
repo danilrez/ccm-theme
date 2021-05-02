@@ -1,6 +1,7 @@
 {
   "name": "CCM Theme: Light",
   "type": "light",
+	"semanticHighlighting": true,
   "colors": {
     "foreground": "#36373B",
     "focusBorder": "#161F26",
@@ -145,8 +146,6 @@
     "peekViewTitleDescription.foreground": "#685C66",
     "peekViewTitleLabel.foreground": "#2D3E4C"
   },
-  "tokenColors": [
-	"semanticHighlighting": true,
 	"tokenColors": [
 		{
 			"scope": [
