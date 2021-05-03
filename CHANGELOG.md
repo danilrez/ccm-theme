@@ -1,3 +1,11 @@
+### 1.0.18
+
+-   Updated all themes' colors
+
+### 1.0.0
+
+-   Huge refactoring
+
 ### Version 0.8.1
 
 -   Update colors for "CCM Theme: DARK (default)"
