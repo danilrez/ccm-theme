@@ -1,5 +1,5 @@
 <div style="background: #1C1C1C; border-radius: 5px"><div style="padding: 10px; margin: 5px">
-<h1 style="font-weight: bold; color: #ffa500">CCM Theme</h1>
+<h1 style="font-weight: bold; color: #FFBB00">CCM Theme</h1>
 
 > <p style="color: white"><b><i>CCM Theme: DARK++</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
 > block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
