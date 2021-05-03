@@ -1,14 +1,16 @@
-<div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px; margin: 5px">
+<div style="background: #1C1C1C; border-radius: 5px"><div style="padding: 10px; margin: 5px">
 <h1 style="font-weight: bold; color: #ffa500">CCM Theme</h1>
 
-> <p style="color: white"><b><i>CCM Theme: DARK (default)</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
+> <p style="color: white"><b><i>CCM Theme: DARK++</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
 > block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
 > And with improved color contrast for editing <i>React/JSX(TSX), JS(TS), PL/SQL code</i>.</p>
 
-> <p style="color: white"><b>Bonus:</b> six dark themes & two light themes</p>
-
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <div style="color: white;">
+
+<p align="center">
+  <img alt="preview1" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/DARK%20(default).png?raw=true">
+</p>
 
 For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/CrappyCodeMaker/CCM-Theme/tree/main_theme/images/PREVIEW#readme)</b>.
 
