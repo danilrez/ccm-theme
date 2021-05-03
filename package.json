@@ -46,7 +46,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "CCM Theme: DARK (default)",
+        "label": "CCM Theme: DARK++",
         "uiTheme": "vs-dark",
         "path": "./themes/dark/ccm-theme-dark-plus.json"
       },
