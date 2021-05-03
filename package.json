@@ -51,11 +51,6 @@
         "path": "./themes/dark/ccm-theme-dark-plus.json"
       },
       {
-        "label": "CCM Theme: DARK (testing)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-dark-plus-TEST.json"
-      },
-      {
         "label": "CCM Theme: Fresh",
         "uiTheme": "vs-dark",
         "path": "./themes/dark/ccm-theme-fresh.json"
