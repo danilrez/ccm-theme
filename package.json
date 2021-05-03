@@ -1,100 +1,100 @@
 {
-  "name": "crappycode-theme",
-  "displayName": "CCM Theme",
-  "description": "My first theme for Visual Studio Code",
-  "version": "1.0.19",
-  "publisher": "CrappyCodeMaker",
-  "license": "MIT",
-  "author": "CrappyCodeMaker [@CrappyCodeMaker]",
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#1C1C1C",
-    "theme": "dark"
-  },
-  "homepage": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues"
-  },
-  "engines": {
-    "vscode": "^1.41.0"
-  },
-  "categories": [
-    "Themes",
-    "Other"
-  ],
-  "keywords": [
-    "color-theme",
-    "theme",
-    "Themes",
-    "VSCode",
-    "dark",
-    "light",
-    "colors",
-    "ccm",
-    "CrappyCode",
-    "CrappyCodeMaker",
-    "CCM"
-  ],
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "CCM Theme: DARK++",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-dark-plus.json"
-      },
-      {
-        "label": "CCM Theme: Fresh",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-fresh.json"
-      },
-      {
-        "label": "CCM Theme: Github",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-github-dark.json"
-      },
-      {
-        "label": "CCM Theme: Halloween",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-halloween.json"
-      },
-      {
-        "label": "CCM Theme: Monokai",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-monokai.json"
-      },
-      {
-        "label": "CCM Theme: Moon",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-moon.json"
-      },
-      {
-        "label": "CCM Theme: Night",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-night.json"
-      },
-      {
-        "label": "CCM Theme: Sea Wave",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ccm-theme-sea-wave-theme.json"
-      },
-      {
-        "label": "CCM Theme: Light",
-        "uiTheme": "vs",
-        "path": "./themes/light/ccm-theme-light.json"
-      },
-      {
-        "label": "CCM Theme: Super Light",
-        "uiTheme": "vs",
-        "path": "./themes/light/ccm-theme-light-plus.json"
-      }
-    ]
-  }
+    "name": "crappycode-theme",
+    "displayName": "CCM Theme",
+    "description": "My first theme for Visual Studio Code",
+    "version": "1.0.19",
+    "publisher": "CrappyCodeMaker",
+    "license": "MIT",
+    "author": "CrappyCodeMaker [@CrappyCodeMaker]",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#1C1C1C",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "color-theme",
+        "theme",
+        "Themes",
+        "VSCode",
+        "dark",
+        "light",
+        "colors",
+        "ccm",
+        "CrappyCode",
+        "CrappyCodeMaker",
+        "CCM"
+    ],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "CCM Theme: DARK++",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-dark-plus.json"
+            },
+            {
+                "label": "CCM Theme: Fresh",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-fresh.json"
+            },
+            {
+                "label": "CCM Theme: Github",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-github-dark.json"
+            },
+            {
+                "label": "CCM Theme: Halloween",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-halloween.json"
+            },
+            {
+                "label": "CCM Theme: Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-monokai.json"
+            },
+            {
+                "label": "CCM Theme: Moon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-moon.json"
+            },
+            {
+                "label": "CCM Theme: Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-night.json"
+            },
+            {
+                "label": "CCM Theme: Sea Wave",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark/ccm-theme-sea-wave.json"
+            },
+            {
+                "label": "CCM Theme: Light",
+                "uiTheme": "vs",
+                "path": "./themes/light/ccm-theme-light.json"
+            },
+            {
+                "label": "CCM Theme: Super Light",
+                "uiTheme": "vs",
+                "path": "./themes/light/ccm-theme-light-plus.json"
+            }
+        ]
+    }
 }
