@@ -9,7 +9,7 @@
 <div style="color: white;">
 
 <p align="center">
-  <img alt="preview1" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/DARK%20(default).png?raw=true">
+  <img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Title.png?raw=true">
 </p>
 
 For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/CrappyCodeMaker/CCM-Theme/tree/main_theme/images/PREVIEW#readme)</b>.

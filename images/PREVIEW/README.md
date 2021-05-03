@@ -7,13 +7,13 @@
 1. Classic
 
 <p align="center">
-  <img alt="preview1" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/DARK%20(default).png?raw=true">
+  <img alt="preview1" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Classic-themes.png?raw=true">
 </p>
 
 2. Alternative
 
 <p align="center">
-  <img alt="preview2" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Halloween.png?raw=true">
+  <img alt="preview2" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Alternative-themes.png?raw=true">
 </p>
 
 </div>
@@ -22,7 +22,7 @@
 <div style="color: white;">
 
 <p align="center">
-  <img alt="preview8" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Light.png?raw=true">
+  <img alt="preview8" width="70%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Light-themes.png?raw=true">
 </p>
 
 </div>
