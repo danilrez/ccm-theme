@@ -86,6 +86,19 @@
 		// picker
 		"pickerGroup.border": "#FFFFFF20",
 		"pickerGroup.foreground": "#3DA0FF",
+		"peekView.border": "#333",
+		"peekViewEditor.background": "#1C1C1C",
+		"peekViewEditor.matchHighlightBackground": "#8AFF60A0",
+		"peekViewEditorGutter.background": "#111",
+		"peekViewResult.background": "#232323",
+		"peekViewResult.fileForeground": "#ff0000",
+		"peekViewResult.lineForeground": "#EEE",
+		"peekViewResult.matchHighlightBackground": "#3DA0FFA0",
+		"peekViewResult.selectionBackground": "#3DA0FF50",
+		"peekViewResult.selectionForeground": "#FFBB00",
+		"peekViewTitle.background": "#171717",
+		"peekViewTitleDescription.foreground": "#FFBB00",
+		"peekViewTitleLabel.foreground": "#30DD00",
 		// input
 		"input.background": "#333",
 		"input.border": "#FFFFFF00",
@@ -153,7 +166,7 @@
 		"editorGroup.border": "#4f68802d",
 		"editorGroup.dropBackground": "#444",
 		// The editorGroupHeader
-		"editorGroupHeader.tabsBorder": "#FFFFFF00", //top border under path		
+		"editorGroupHeader.tabsBorder": "#FFFFFF00", //top border under path
 		"editorGroupHeader.tabsBackground": "#171717",
 		"textPreformat.foreground": "#F3C57A",
 		"textCodeBlock.background": "#10101090",
@@ -240,6 +253,9 @@
 		"statusBarItem.remoteBackground": "#16825D",
 		"statusBarItem.hoverBackground": "#FFFFFF30",
 		"statusBarItem.activeBackground": "#FFFFFF40",
+		"statusBar.debuggingBackground": "#500500",
+		"statusBar.debuggingBorder": "#FFFFFF00",
+		"statusBar.debuggingForeground": "#EEE",
 		// notification colors - The colors below only apply for VS Code versions 1.21 and higher.
 		"notificationCenter.border": "#FFFFFF00",
 		"notificationCenterHeader.foreground": "#CCC",
@@ -271,31 +287,27 @@
 		"terminal.background": "#1C1C1C",
 		"terminalCursor.foreground": "#FFCC00AA",
 		"terminal.foreground": "#CCC",
-		"terminalCursor.background": "#FFBB00",
+		"terminalCursor.background": "#FB0",
 		"terminal.ansiBlack": "#000",
-		"terminal.ansiRed": "#FF3060",
-		"terminal.ansiGreen": "#30DD00",
-		"terminal.ansiYellow": "#FFE600",
-		"terminal.ansiBlue": "#0088FF",
-		"terminal.ansiMagenta": "#E60FE6",
-		"terminal.ansiCyan": "#00FFFF",
-		"terminal.ansiWhite": "#AAA",
-		"terminal.ansiBrightBlack": "#003E80",
-		"terminal.ansiBrightRed": "#FF628C",
-		"terminal.ansiBrightGreen": "#8AFF60",
-		"terminal.ansiBrightYellow": "#FFDD5B",
-		"terminal.ansiBrightBlue": "#3DA5FF",
-		"terminal.ansiBrightMagenta": "#FB94FF",
-		"terminal.ansiBrightCyan": "#80FCFF",
-		"terminal.ansiBrightWhite": "#CCC"
+		"terminal.ansiRed": "#F36",
+		"terminal.ansiGreen": "#3D0",
+		"terminal.ansiYellow": "#FB0",
+		"terminal.ansiBlue": "#08F",
+		"terminal.ansiMagenta": "#E0E",
+		"terminal.ansiCyan": "#0CC",
+		"terminal.ansiWhite": "#CCC",
+		"terminal.ansiBrightBlack": "#069",
+		"terminal.ansiBrightRed": "#F68",
+		"terminal.ansiBrightGreen": "#8F6",
+		"terminal.ansiBrightYellow": "#FD5",
+		"terminal.ansiBrightBlue": "#3AF",
+		"terminal.ansiBrightMagenta": "#F9F",
+		"terminal.ansiBrightCyan": "#8EF",
+		"terminal.ansiBrightWhite": "#EEE"
 	},
 	"tokenColors": [
 		{
-			"scope": [
-				"comment",
-				"punctuation.definition.comment",
-				"string.comment"
-			],
+			"scope": ["comment", "punctuation.definition.comment", "string.comment"],
 			"settings": {
 				"foreground": "#768390"
 			}
@@ -343,10 +355,7 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.tag",
-				"support.class.component"
-			],
+			"scope": ["entity.name.tag", "support.class.component"],
 			"settings": {
 				"foreground": "#8ddb8c"
 			}
@@ -358,10 +367,7 @@
 			}
 		},
 		{
-			"scope": [
-				"storage",
-				"storage.type"
-			],
+			"scope": ["storage", "storage.type"],
 			"settings": {
 				"foreground": "#f47067"
 			}
@@ -466,10 +472,7 @@
 			}
 		},
 		{
-			"scope": [
-				"source.regexp",
-				"string.regexp"
-			],
+			"scope": ["source.regexp", "string.regexp"],
 			"settings": {
 				"foreground": "#96d0ff"
 			}
@@ -517,10 +520,7 @@
 			}
 		},
 		{
-			"scope": [
-				"markup.heading",
-				"markup.heading entity.name"
-			],
+			"scope": ["markup.heading", "markup.heading entity.name"],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#6cb6ff"
@@ -575,20 +575,14 @@
 			}
 		},
 		{
-			"scope": [
-				"markup.changed",
-				"punctuation.definition.changed"
-			],
+			"scope": ["markup.changed", "punctuation.definition.changed"],
 			"settings": {
 				"background": "#682d0f",
 				"foreground": "#f69d50"
 			}
 		},
 		{
-			"scope": [
-				"markup.ignored",
-				"markup.untracked"
-			],
+			"scope": ["markup.ignored", "markup.untracked"],
 			"settings": {
 				"foreground": "#2d333b",
 				"background": "#6cb6ff"
@@ -640,10 +634,7 @@
 			}
 		},
 		{
-			"scope": [
-				"constant.other.reference.link",
-				"string.other.link"
-			],
+			"scope": ["constant.other.reference.link", "string.other.link"],
 			"settings": {
 				"foreground": "#96d0ff",
 				"fontStyle": "underline"
