@@ -153,12 +153,12 @@
 		"diffEditor.insertedTextBackground": "#00AEFF25",
 		"diffEditor.removedTextBackground": "#FF005C25",
 		// Git status colors in File Explorer
-		"gitDecoration.addedResourceForeground": "#40AD41",
-		"gitDecoration.modifiedResourceForeground": "#F3C57A",
-		"gitDecoration.deletedResourceForeground": "#FF3666",
-		"gitDecoration.untrackedResourceForeground": "#75C570",
+		"gitDecoration.addedResourceForeground": "#0F1",
+		"gitDecoration.modifiedResourceForeground": "#FA0",
+		"gitDecoration.deletedResourceForeground": "#F06",
+		"gitDecoration.untrackedResourceForeground": "#7D7",
 		"gitDecoration.ignoredResourceForeground": "#777",
-		"gitDecoration.conflictingResourceForeground": "#FF7200",
+		"gitDecoration.conflictingResourceForeground": "#F40",
 		// progressBar
 		"progressBar.background": "#FFBB00",
 		// Editor Groups & Tabs
