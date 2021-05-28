@@ -1,62 +1,104 @@
 {
-	//new
+	/* <- DEFAULT -> */
+
+	"update.showReleaseNotes": false,
+	"explorer.sortOrder": "type",
+
 	//WORKBENCH
-	"workbench.startupEditor": "newUntitledFile",
+	"workbench.colorTheme": "CCM Theme: DARK++",
 	"workbench.statusBar.visible": true,
 	"workbench.activityBar.visible": true,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.tree.renderIndentGuides": "always",
 	"workbench.editor.highlightModifiedTabs": true,
-	"workbench.colorTheme": "CCM Theme: DARK (default)",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "none",
+
 	//EDITOR
-	"editor.cursorBlinking": "expand",
-	"editor.minimap.enabled": false,
-	"editor.detectIndentation": false,
-	"editor.insertSpaces": false,
-	"editor.smoothScrolling": true,
-	"editor.tabSize": 2,
+	"editor.cursorSmoothCaretAnimation": true,
 	"editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
+	"editor.fontSize": 14,
+	"editor.minimap.enabled": false,
+	"editor.smoothScrolling": true,
+	"editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
 	"editor.acceptSuggestionOnEnter": "off",
+	"editor.semanticHighlighting.enabled": false,
+	"editor.cursorBlinking": "expand",
+	"editor.detectIndentation": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+
+	//FILES
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"files.associations": {
+		"*.pck": "ccm-plsql",
+		"*.sql": "ccm-plsql",
+		"*.json": "jsonc"
+	},
+
 	//TERMINAL
-	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-	//bracket-Pair-Colorizer-2
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell"
+		},
+		"Bash": {
+			"source": "Git Bash",
+			"path": "C:\\Program Files\\Git\\bin\\bash.exe"
+		},
+		"Command Prompt": {
+			"path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+			"args": [],
+			"icon": "terminal-cmd"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Bash",
+
+	//GIT
+	"git.autofetch": true,
+	"git.autorefresh": true,
+	"git.autofetchPeriod": 180,
+	"git.confirmSync": false,
+
+	/* <- EXTENSIONS -> */
+	//EXTENSIONS
+	"extensions.ignoreRecommendations": true,
+
+	//Bracket-Pair-Colorizer-2
 	"bracket-pair-colorizer-2.showBracketsInGutter": true,
 	"bracket-pair-colorizer-2.showBracketsInRuler": true,
 	"bracket-pair-colorizer-2.rulerPosition": "Center",
-	"bracket-pair-colorizer-2.colors": [
-		"Gold",
-		"Orchid",
-		"LightSkyBlue"
-	],
+	"bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
 	"bracket-pair-colorizer-2.scopeLineCSS": [
 		"borderStyle : solid",
 		"borderWidth : 1.5px",
 		"borderColor : {color}",
 		"opacity: 0.5"
 	],
+
 	//Material Icons
-	"material-icon-theme.folders.color": "#42a5f5",
+	"material-icon-theme.folders.color": "#4AF",
 	"material-icon-theme.opacity": 0.95,
 	"material-icon-theme.saturation": 0.95,
 	"material-icon-theme.folders.theme": "classic",
 	"material-icon-theme.activeIconPack": "react_redux",
 	"material-icon-theme.hidesExplorerArrows": false,
-	//other
-	"explorer.sortOrder": "type",
-	"git.autofetch": true,
+
+	//Prettier
+	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
-	"editor.semanticHighlighting.enabled": false,
-	"workbench.iconTheme": "material-icon-theme",
-	"git.confirmSync": false,
-	"prettier.tabWidth": 4,
-	"files.associations": {
-		"*.pck": "ccm-plsql",
-		"*.json": "jsonc",
-		"*.sql": "ccm-plsql"
-	},
+	"prettier.printWidth": 90,
+	"prettier.tabWidth": 2,
+	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+	//ORACLE
 	"oracledevtools.bookmarkFileFolder": "C:\\Users\\danil\\Oracle\\oracle.oracledevtools",
 	"oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
 	"oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
