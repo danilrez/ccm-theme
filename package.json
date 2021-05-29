@@ -61,9 +61,9 @@
 				"path": "./themes/dark/ccm-theme-github-dark.json"
 			},
 			{
-				"label": "CCM Theme: Github2",
+				"label": "CCM Theme: Bluetalic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-theme-github-dark2.json"
+				"path": "./themes/dark/ccm-theme-github-blueitalic.json"
 			},
 			{
 				"label": "CCM Theme: Halloween",
