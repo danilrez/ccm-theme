@@ -160,6 +160,14 @@
 		"gitDecoration.untrackedResourceForeground": "#7D7",
 		"gitDecoration.ignoredResourceForeground": "#777",
 		"gitDecoration.conflictingResourceForeground": "#F40",
+		// gitlens
+		"gitlens.gutterBackgroundColor": "#FFFFFF00",
+		"gitlens.gutterForegroundColor": "#CCC",
+		"gitlens.gutterUncommittedForegroundColor": "#B00",
+		"gitlens.lineHighlightBackgroundColor": "#0099CC50",
+		"gitlens.lineHighlightOverviewRulerColor": "#09C",
+		"gitlens.trailingLineBackgroundColor": "#111",
+		"gitlens.trailingLineForegroundColor": "#555",
 		// progressBar
 		"progressBar.background": "#FFBB00",
 		// Editor Groups & Tabs
@@ -236,6 +244,13 @@
 		"scrollbarSlider.activeBackground": "#FFFFFF50",
 		"scrollbarSlider.background": "#FFFFFF20",
 		"scrollbarSlider.hoverBackground": "#FFFFFF30",
+		//input
+		"inputValidation.errorBackground": "#600",
+		"inputValidation.errorBorder": "#FFFFFF00",
+		"inputValidation.infoBackground": "#062",
+		"inputValidation.infoBorder": "#FFFFFF00",
+		"inputValidation.warningBackground": "#640",
+		"inputValidation.warningBorder": "#FFFFFF00",
 		// Panel
 		"panel.border": "#FFFFFF00", //bottom line above terminal
 		"panel.background": "#171717",
