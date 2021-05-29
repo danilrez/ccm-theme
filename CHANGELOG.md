@@ -1,3 +1,15 @@
+### 1.0.27
+
+- New theme 'Bluetalic'
+
+- More dark bg color for:
+  - CCM Theme: DARK++,
+  - CCM Theme: Fresh,
+  - CCM Theme: GitHub,
+  - CCM Theme: Halloween,
+  - CCM Theme: Monokai,
+  - CCM Theme: Moon
+
 ### 1.0.23
 
 - Changed some colors
