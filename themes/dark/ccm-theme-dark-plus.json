@@ -627,7 +627,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"fontStyle": "bold italic underline",
+				"fontStyle": "bold italic",
 				"foreground": "#F44747"
 			}
 		},
