@@ -407,6 +407,14 @@
 			}
 		},
 		{
+			"name": "PL/SQL constants",
+			"scope": ["constant.language.oracleplsql"],
+			"settings": {
+				"foreground": "#50A0E9",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
 			"name": "Control flow / Special keywords",
 			"scope": [
 				"source.cpp keyword.operator.new",

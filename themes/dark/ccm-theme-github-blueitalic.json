@@ -563,6 +563,14 @@
 			}
 		},
 		{
+			"name": "PL/SQL constants",
+			"scope": ["constant.language.oracleplsql"],
+			"settings": {
+				"foreground": "#9f7efe",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
 			"name": "Tags",
 			"scope": ["entity.name.tag", "punctuation.definition.tag"],
 			"settings": {

@@ -362,6 +362,14 @@
 			}
 		},
 		{
+			"name": "PL/SQL constants",
+			"scope": ["constant.language.oracleplsql"],
+			"settings": {
+				"foreground": "#E35535",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
 			"scope": [
 				"source",
 				"support",
