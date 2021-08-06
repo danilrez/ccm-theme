@@ -16,11 +16,6 @@ For see how these themes are looks like, please click this <b>[PREVIEW](https://
 
 </div>
 
-<h2 style="font-weight: bold; color: white">Usage</h2>
-<div style="color: white;">
-	Select the theme and go!
-</div>
-
 <h2 style="font-weight: bold; color: white">Installation</h2>
 <div style="color: white;">
 
@@ -37,7 +32,7 @@ For see how these themes are looks like, please click this <b>[PREVIEW](https://
 <div style="color: white;">
 
 I'm using this fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace** .
-If you do not have these fonts, use your favorite font.
+If you don't have these fonts, use your favorite one.
 
 </div>
 <h2 style="font-weight: bold; color: white">Feedback</h2>
@@ -45,7 +40,7 @@ If you do not have these fonts, use your favorite font.
 
 If you have suggestions, please <b>[open an issue](https://github.com/CrappyCodeMaker/CCM-Theme/issues)</b> or better yet, a <b>[pull request](https://github.com/CrappyCodeMaker/CCM-Theme/pulls)</b>.
 
-Be nice.
+Be nice😉
 
 </div>
 <h2 style="font-weight: bold; color: white">Authors</h2>

@@ -1,7 +1,7 @@
 {
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
-	"description": "My first theme for Visual Studio Code",
+	"description": "Theme for Visual Studio Code",
 	"version": "1.0.29",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
