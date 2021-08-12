@@ -23,7 +23,6 @@ For see how these themes are looks like, please click this <b>[PREVIEW](https://
 1. Open the **`Extensions`** sidebar in ![Visual Studio Code Badge](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=flat)
 1. Search for **`CCM Theme`**
 1. Click **`Install`**
-1. Open the **`Command Palette`** with **`Ctrl+Shift+P`** or **`⇧⌘P`**
 1. File > Preferences > Color Theme > **Choose your one**
 1. Enjoy! 🎉
 
