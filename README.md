@@ -4,7 +4,7 @@
 
 <p style="color: white"><b><i>CCM Theme: DARK++</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
  block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
- And with improved color contrast for editing <i>**React/JSX(TSX), JS(TS), PL/SQL code**</i>.</p>
+ And with improved color contrast for editing <i><b>React/JSX(TSX), JS(TS), PL/SQL code</b></i>.</p>
 
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <div style="color: white;">
