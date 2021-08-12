@@ -1,6 +1,6 @@
 <div style="background: #1C1C1C; border-radius: 5px"><div style="padding: 10px; margin: 5px">
 
-# ![title_logo](https://github.com/CrappyCodeMaker/CCM-Theme/blob/master/images/title_logo.png?raw=true)
+# ![title_logo](https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/title_logo.png?raw=true)
 
 <p style="color: white"><b><i>CCM Theme: DARK++</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
  block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
