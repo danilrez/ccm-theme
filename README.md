@@ -2,6 +2,9 @@
 
 # ![title_logo](https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/title_logo.png?raw=true)
 
+![Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.crappycode-theme?color=117fc8&label=Installs&logo=docusign&logoColor=white)
+![Version](https://img.shields.io/visual-studio-marketplace/v/CrappyCodeMaker.crappycode-theme?color=117fc8&label=Visual%20Studio%20Marketplace&logo=wikidata&logoColor=fff)
+
 <p style="color: white"><b><i>CCM Theme: DARK++</i></b> is based on <b><i>Dark+ (default dark)</i></b> and adjusts colors for
  block comments, line comments, language constants, operator keywords, expression keywords, and hint diagnostic ellipses.
  And with improved color contrast for editing <i><b>React/JSX(TSX), JS(TS), PL/SQL code</b></i>.</p>
