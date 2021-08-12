@@ -24,9 +24,8 @@ For see how these themes are looks like, please click this <b>[PREVIEW](https://
 1. Search for **`CCM Theme`**
 1. Click **`Install`**
 1. Open the **`Command Palette`** with **`Ctrl+Shift+P`** or **`⇧⌘P`**
-1. File > Preferences > Color Theme > **`Choose your one`**
+1. File > Preferences > Color Theme > **Choose your one**
 1. Enjoy! 🎉
-1. Optional: Use the recommended settings below for best experience
 
 </div>
 <h2 style="font-weight: bold; color: white">Fonts</h2>
