@@ -1,7 +1,7 @@
 {
   "name": "CCM Theme: Sea Wave",
   "type": "dark",
-	//"semanticHighlighting": true,
+  //"semanticHighlighting": true,
   "colors": {
     "editor.background": "#0f1824",
     "editor.foreground": "#25a2a6",
@@ -28,6 +28,22 @@
 
     "breadcrumb.background": "#0f1824",
     "breadcrumb.foreground": "#25a2a6",
+
+    "editorBracketMatch.background": "#00FFEAAA",
+    "editorBracketMatch.border": "#00FFEA50",
+    // BracketsPair
+    "editorBracketHighlight.foreground1": "#fd0",
+    "editorBracketHighlight.foreground2": "#e6d",
+    "editorBracketHighlight.foreground3": "#6df",
+    "editorBracketHighlight.foreground4": "#fb0",
+    "editorBracketHighlight.foreground5": "#f0d",
+    "editorBracketHighlight.foreground6": "#3bf",
+    "editorBracketPairGuide.activeBackground1": "#fd0",
+    "editorBracketPairGuide.activeBackground2": "#e6d",
+    "editorBracketPairGuide.activeBackground3": "#6df",
+    "editorBracketPairGuide.activeBackground4": "#fb0",
+    "editorBracketPairGuide.activeBackground5": "#f0d",
+    "editorBracketPairGuide.activeBackground6": "#3bf",
 
     "tab.activeBackground": "#0f1824",
     "tab.border": "#ffffff00",
@@ -171,11 +187,7 @@
       }
     },
     {
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#64B1CE"
       }
@@ -376,9 +388,7 @@
       }
     },
     {
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
@@ -457,10 +467,7 @@
       }
     },
     {
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
       "settings": {
         "foreground": "#EEFFFF"
       }

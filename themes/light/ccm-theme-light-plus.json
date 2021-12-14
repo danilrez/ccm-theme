@@ -1,7 +1,7 @@
 {
   "name": "CCM Theme: Super Light",
   "type": "light",
-	//"semanticHighlighting": true,
+  //"semanticHighlighting": true,
   "colors": {
     "activityBar.activeBackground": "#EBEEF5",
     "activityBar.activeBorder": "#EBEEF5",
@@ -55,6 +55,20 @@
     "editor.wordHighlightStrongBorder": "#7C4DFF00",
     "editorBracketMatch.background": "#FC835762",
     "editorBracketMatch.border": "#FC835700",
+    // BracketsPair
+    "editorBracketHighlight.foreground1": "#fd0",
+    "editorBracketHighlight.foreground2": "#e6d",
+    "editorBracketHighlight.foreground3": "#6df",
+    "editorBracketHighlight.foreground4": "#fb0",
+    "editorBracketHighlight.foreground5": "#f0d",
+    "editorBracketHighlight.foreground6": "#3bf",
+    "editorBracketPairGuide.activeBackground1": "#fd0",
+    "editorBracketPairGuide.activeBackground2": "#e6d",
+    "editorBracketPairGuide.activeBackground3": "#6df",
+    "editorBracketPairGuide.activeBackground4": "#fb0",
+    "editorBracketPairGuide.activeBackground5": "#f0d",
+    "editorBracketPairGuide.activeBackground6": "#3bf",
+    //
     "editorCodeLens.foreground": "#BDBDBE",
     "editorCursor.background": "#FFFFFF",
     "editorCursor.foreground": "#FC8357",
