@@ -1,11 +1,7 @@
 {
-	/* <- DEFAULT -> */
-
 	"update.showReleaseNotes": false,
+	"workbench.tips.enabled": false,
 	"explorer.sortOrder": "type",
-
-	//WORKBENCH
-	"workbench.colorTheme": "CCM Theme: DARK++",
 	"workbench.statusBar.visible": true,
 	"workbench.activityBar.visible": true,
 	"workbench.editor.tabSizing": "shrink",
@@ -13,15 +9,14 @@
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.startupEditor": "none",
-
 	//EDITOR
 	"editor.cursorSmoothCaretAnimation": true,
-	"editor.fontFamily": "Fira Code,Consolas, Courier New, monospace",
+	"editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
 	"editor.fontSize": 14,
 	"editor.minimap.enabled": false,
 	"editor.smoothScrolling": true,
 	"editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
 	"editor.fontLigatures": true,
 	"editor.formatOnSave": true,
@@ -31,57 +26,49 @@
 	"editor.cursorBlinking": "expand",
 	"editor.detectIndentation": false,
 	"diffEditor.ignoreTrimWhitespace": false,
-
+	// Brackets
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairsHorizontal": "active",
+	"editor.guides.highlightActiveBracketPair": true,
 	//FILES
+	"files.insertFinalNewline": false,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
 	"files.associations": {
-		"*.pck": "ccm-plsql",
-		"*.sql": "ccm-plsql",
-		"*.json": "jsonc"
+		"*.pck": "plsql-ccm",
+		"*.sql": "plsql-ccm",
+		"*.json": "jsonc",
+		"*.js": "javascript",
+		"*.ts": "typescript",
+		"*.py": "python"
 	},
-
 	//TERMINAL
 	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.profiles.windows": {
-		"PowerShell": {
-			"source": "PowerShell",
-			"icon": "terminal-powershell"
-		},
-		"Bash": {
-			"source": "Git Bash",
-			"path": "C:\\Program Files\\Git\\bin\\bash.exe"
-		},
-		"Command Prompt": {
-			"path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
-			"args": [],
-			"icon": "terminal-cmd"
-		}
-	},
-	"terminal.integrated.defaultProfile.windows": "Bash",
-
+	//   "terminal.integrated.profiles.windows": {
+	//     "Bash": {
+	//       "source": "Git Bash",
+	//       "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+	//     },
+	//     "PowerShell": {
+	//       "source": "PowerShell",
+	//       "icon": "terminal-powershell"
+	//     },
+	//     "Command Prompt": {
+	//       "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+	//       "args": [],
+	//       "icon": "terminal-cmd"
+	//     }
+	//   },
+	"terminal.integrated.defaultProfile.windows": "Git Bash", // FOR WIN
 	//GIT
 	"git.autofetch": true,
 	"git.autorefresh": true,
 	"git.autofetchPeriod": 180,
 	"git.confirmSync": false,
-
 	/* <- EXTENSIONS -> */
 	//EXTENSIONS
 	"extensions.ignoreRecommendations": true,
-
-	//Bracket-Pair-Colorizer-2
-	"bracket-pair-colorizer-2.showBracketsInGutter": true,
-	"bracket-pair-colorizer-2.showBracketsInRuler": true,
-	"bracket-pair-colorizer-2.rulerPosition": "Center",
-	"bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
-	"bracket-pair-colorizer-2.scopeLineCSS": [
-		"borderStyle : solid",
-		"borderWidth : 1.5px",
-		"borderColor : {color}",
-		"opacity: 0.5"
-	],
-
 	//Material Icons
 	"material-icon-theme.folders.color": "#4AF",
 	"material-icon-theme.opacity": 0.95,
@@ -89,31 +76,47 @@
 	"material-icon-theme.folders.theme": "classic",
 	"material-icon-theme.activeIconPack": "react_redux",
 	"material-icon-theme.hidesExplorerArrows": false,
-
-	//Prettier
-	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
 	"prettier.printWidth": 90,
-	"prettier.tabWidth": 2,
-	"[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-	//ORACLE
-	"oracledevtools.bookmarkFileFolder": "C:\\Users\\danil\\Oracle\\oracle.oracledevtools",
-	"oracledevtools.connectionConfiguration.configFilesFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
-	"oracledevtools.connectionConfiguration.walletFileFolder": "C:\\Users\\danil\\Oracle\\network\\admin",
-	"oracledevtools.connections": [
+	"prettier.tabWidth": 4,
+	"prettier.jsxBracketSameLine": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.colorTheme": "CCM Theme: Night",
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.unexpectedBracket.foreground": "#88ff00",
+	},
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"jsannotations.enabled": true,
+	"workbench.editorAssociations": {
+		"*.dll": "default"
+	},
+	"yaml.schemas": {
+		"file:///Users/reznida/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"redhat.telemetry.enabled": true,
+	"atlascode.jira.jqlList": [
 		{
-			"authenticationType": 2,
-			"dBAPrivilege": "None",
-			"userID": "SYSTEM",
-			"passwordSaved": true,
-			"password": "1Gfhjkm2Gfhjkm",
-			"dataSource": "XE",
-			"connectionType": 1,
-			"tnsAdmin": "c:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\network\\ADMIN",
-			"name": "@XE",
-			"currentSchema": ""
+			"id": "8a096c56-d971-4d84-8d6d-23aaa997b05f",
+			"enabled": true,
+			"name": "My grapecity Issues",
+			"query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+			"siteId": "0bd40326-4b03-42de-b378-12fb5a077d72",
+			"monitor": true
 		}
-	]
+	],
+	"explorer.confirmDelete": false,
+	"window.zoomLevel": 0,
+	"atlascode.jira.lastCreateSiteAndProject": {
+		"siteId": "0bd40326-4b03-42de-b378-12fb5a077d72",
+		"projectKey": "AR"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
 }
