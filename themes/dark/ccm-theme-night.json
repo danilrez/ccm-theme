@@ -73,7 +73,7 @@
 		"editorCursor.background": "#FFFFFF",
 		"editorCursor.foreground": "#FF9070",
 		"editorError.foreground": "#E51400",
-		"editorGroup.border": "#FFFFFF00",
+		"editorGroup.border": "#21252B",
 		"editorGroup.dropBackground": "#598DEF4C",
 		"editorGroup.emptyBackground": "#282c34",
 		"editorGroup.focusedEmptyBorder": "#6495EE",
