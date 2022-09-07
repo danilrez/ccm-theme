@@ -271,8 +271,8 @@
 		"tab.unfocusedInactiveModifiedBorder": "#A78CFA7F",
 		// Terminal
 		"terminal.foreground": "#BEBEBE",
-		"terminalCursor.foreground": "#B44AD4",
-		"terminalCursor.background": "#B44AD4",
+		"terminalCursor.background": "#5FB",
+		"terminalCursor.foreground": "#E5F",
 		"terminal.ansiBlack": "#1C2029",
 		"terminal.ansiRed": "#F37F97",
 		"terminal.ansiGreen": "#5ADEA7",
