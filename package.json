@@ -86,6 +86,11 @@
 				"path": "./themes/dark/ccm-theme-night.json"
 			},
 			{
+				"label": "CCM Theme: Night Alt",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/ccm-theme-night-alt.json"
+			},
+			{
 				"label": "CCM Theme: Sea Wave",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark/ccm-theme-sea-wave.json"
