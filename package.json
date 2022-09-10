@@ -46,6 +46,11 @@
 	"contributes": {
 		"themes": [
 			{
+				"label": "CCM Dark: Bluetalic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/ccm-dark-blueitalic.json"
+			},
+			{
 				"label": "CCM Dark: DARK++",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark/ccm-dark-dark-plus.json"
@@ -56,29 +61,29 @@
 				"path": "./themes/dark/ccm-dark-fresh.json"
 			},
 			{
-				"label": "CCM Dark: Github",
+				"label": "CCM Dark: Night",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-dark-github.json"
+				"path": "./themes/dark/ccm-dark-night.json"
 			},
 			{
-				"label": "CCM Dark: Bluetalic",
+				"label": "CCM Night: Bluetalic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-dark-blueitalic.json"
+				"path": "./themes/dark/ccm-night-bluetalic.json"
 			},
 			{
-				"label": "CCM Night: Night",
+				"label": "CCM Night: DARK++",
 				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-night-night.json"
-			},
-			{
-				"label": "CCM Night: Github",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-night-github.json"
+				"path": "./themes/dark/ccm-night-dark-plus.json"
 			},
 			{
 				"label": "CCM Night: Fresh",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark/ccm-night-fresh.json"
+			},
+			{
+				"label": "CCM Night: Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/ccm-night-night.json"
 			},
 			{
 				"label": "CCM Light: Light (beta)",
