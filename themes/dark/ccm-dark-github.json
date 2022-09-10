@@ -1,7 +1,6 @@
 {
 	"name": "CCM Dark: Github",
 	"type": "dark",
-	//"semanticHighlighting": true,
 	"colors": {
 		//Main color
 		"foreground": "#CCC",
@@ -350,6 +349,7 @@
 				"constant",
 				"entity.name.constant",
 				"variable.other.constant",
+				"variable.other.enummember",
 				"variable.language",
 				"entity"
 			],
@@ -509,12 +509,6 @@
 			}
 		},
 		{
-			"scope": "string source",
-			"settings": {
-				"foreground": "#adbac7"
-			}
-		},
-		{
 			"scope": "string variable",
 			"settings": {
 				"foreground": "#6cb6ff"
@@ -560,6 +554,12 @@
 			}
 		},
 		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#8ddb8c"
+			}
+		},
+		{
 			"scope": "meta.module-reference",
 			"settings": {
 				"foreground": "#6cb6ff"
@@ -602,7 +602,23 @@
 			}
 		},
 		{
-			"scope": "markup.raw",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"markup.strikethrough"
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": "markup.inline.raw",
 			"settings": {
 				"foreground": "#6cb6ff"
 			}
@@ -614,8 +630,16 @@
 				"punctuation.definition.deleted"
 			],
 			"settings": {
-				"background": "#78191b",
+				"background": "#5d0f12",
 				"foreground": "#ff938a"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#f47067"
 			}
 		},
 		{

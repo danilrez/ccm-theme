@@ -1,7 +1,6 @@
 {
 	"name": "CCM Dark: DARK++",
 	"type": "dark",
-	//"semanticHighlighting": true,
 	"colors": {
 		//Main color
 		"foreground": "#CCC",
