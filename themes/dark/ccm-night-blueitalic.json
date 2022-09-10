@@ -429,7 +429,7 @@
 			"name": "Primitive Type",
 			"scope": "support.type.primitive",
 			"settings": {
-				"foreground": "#10b1fe"
+				"foreground": "#FF6480"
 			}
 		},
 		{
