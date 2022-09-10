@@ -351,14 +351,7 @@
 			"scope": [
 				"variable.other.readwrite.alias",
 				"entity.name.type.module",
-				"entity.name.package"
-			],
-			"settings": {
-				"foreground": "#CABCD0"
-			}
-		},
-		{
-			"scope": [
+				"entity.name.package",
 				"variable.other",
 				"support.variable",
 				"meta.definition.variable",
