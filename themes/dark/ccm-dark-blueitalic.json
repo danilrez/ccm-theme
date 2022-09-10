@@ -76,6 +76,7 @@
 		"editorError.border": "#333",
 		"editorWidget.border": "#333",
 		"editorCodeLens.foreground": "#777",
+		"editorUnnecessaryCode.opacity": "#FFFFFF90",
 		// Currently found item
 		"editor.findMatchBackground": "#8AFF6090",
 		"editor.findMatchBorder": "#66FF00CC",

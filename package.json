@@ -71,11 +71,6 @@
 				"path": "./themes/dark/ccm-night-night.json"
 			},
 			{
-				"label": "CCM Night: Night Alt",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark/ccm-night-night-alt.json"
-			},
-			{
 				"label": "CCM Night: Github",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark/ccm-night-github.json"
