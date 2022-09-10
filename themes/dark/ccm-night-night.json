@@ -307,7 +307,6 @@
 		"welcomePage.buttonBackground": "#21252B",
 		"welcomePage.buttonHoverBackground": "#608DF066"
 	},
-	// TODO: rewrite to new style
 	"tokenColors": [
 		{
 			"scope": [
