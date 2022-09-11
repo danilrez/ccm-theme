@@ -208,7 +208,8 @@
 				"comment.block"
 			],
 			"settings": {
-				"foreground": "#a0a1a7"
+				"foreground": "#a0a1a7",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -331,7 +332,8 @@
 				"variable.function"
 			],
 			"settings": {
-				"foreground": "#23974a"
+				"foreground": "#23974a",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -673,7 +675,8 @@
 				"variable.graphql"
 			],
 			"settings": {
-				"foreground": "#a05a48"
+				"foreground": "#a74c54",
+				"fontStyle": "italic"
 			}
 		},
 		{
