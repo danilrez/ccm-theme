@@ -86,12 +86,12 @@
 				"path": "./themes/dark/ccm-night-night.json"
 			},
 			{
-				"label": "CCM Light: Light (beta)",
+				"label": "CCM Light: Light",
 				"uiTheme": "vs",
 				"path": "./themes/light/ccm-theme-light.json"
 			},
 			{
-				"label": "CCM Light: Super Light",
+				"label": "CCM Light: Light Plus",
 				"uiTheme": "vs",
 				"path": "./themes/light/ccm-theme-light-plus.json"
 			}

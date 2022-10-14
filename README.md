@@ -12,7 +12,7 @@
   <img alt="preview1" width="100%" src="https://github.com/danilrez/CCM-Theme/blob/main_theme/images/Title.png?raw=true">
 </p>
 
-For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/danilrez/CCM-Theme/tree/main_theme/images/PREVIEW#readme)</b>.
+For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/danilrez/CCM-Theme/tree/main_theme/images/PREVIEW#preview)</b>.
 
 </div>
 
@@ -42,7 +42,7 @@ If you have suggestions, please open an <b>[issue](https://github.com/danilrez/C
 <h2 style="font-weight: bold; color: white">Authors</h2>
 <div style="color: white;">
 
-Authored by <b>© [CrappyCodeMaker](https://github.com/danilrez)</b>
+Authored by <b>© Danil Reznichenko aka [CrappyCodeMaker](https://github.com/danilrez)</b>
 
 </div>
 </div></div>
