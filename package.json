@@ -3,21 +3,21 @@
 	"displayName": "CCM Theme",
 	"description": "Theme for Visual Studio Code",
 	"version": "1.51.0",
-	"publisher": "CrappyCodeMaker",
+	"publisher": "danilrez",
 	"license": "MIT",
-	"author": "CrappyCodeMaker [@CrappyCodeMaker]",
+	"author": "Danil Reznichenko [@danilrez]",
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#1C1C1C",
 		"theme": "dark"
 	},
-	"homepage": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme",
+	"homepage": "https://github.com/danilrez/Crappy-Code-Maker-Theme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme.git"
+		"url": "https://github.com/danilrez/Crappy-Code-Maker-Theme.git"
 	},
 	"bugs": {
-		"url": "https://github.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/issues"
+		"url": "https://github.com/danilrez/Crappy-Code-Maker-Theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.41.0"
@@ -37,7 +37,9 @@
 		"ccm",
 		"CrappyCode",
 		"CrappyCodeMaker",
-		"CCM"
+		"CCM",
+		"danilrez",
+		"reznida"
 	],
 	"extensionKind": [
 		"ui",

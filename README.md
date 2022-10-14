@@ -12,7 +12,7 @@
   <img alt="preview1" width="100%" src="https://github.com/danilrez/CCM-Theme/blob/main_theme/images/Title.png?raw=true">
 </p>
 
-For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/danilrez/CCM-Theme/tree/main_theme/images/PREVIEW#preview)</b>.
+For see how these themes are looks like, please click this <b>[PREVIEW](https://github.com/danilrez/CCM-Theme/blob/main_theme/images/PREVIEW/Preview.md#preview)</b>.
 
 </div>
 
