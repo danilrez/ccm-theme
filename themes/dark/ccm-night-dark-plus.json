@@ -19,7 +19,7 @@
     "breadcrumb.focusForeground": "#d7dae0",
     "breadcrumbPicker.background": "#252830",
     "button.background": "#676E9599",
-"button.hoverBackground": "#9944FFE6",
+    "button.hoverBackground": "#9944FFE6",
     "debugExceptionWidget.background": "#a3151533",
     "debugExceptionWidget.border": "#a31515",
     "debugToolBar.background": "#21252B",
@@ -194,7 +194,7 @@
     "panelTitle.activeBorder": "#B44AD4",
     "panelTitle.activeForeground": "#5ADEA7",
     "panelTitle.inactiveForeground": "#676E95",
-	//peekView
+    //peekView
     "peekView.border": "#21252B",
     "peekViewEditor.background": "#2D3039",
     "peekViewEditor.matchHighlightBackground": "#21252B",
