@@ -291,7 +291,7 @@
     "terminal.ansiBrightWhite": "#FDFDFD",
     "terminal.background": "#282c34",
     "terminal.border": "#21252B",
-    "terminal.selectionBackground": "#32363E",
+    "terminal.selectionBackground": "#454963E0",
     "terminal.inactiveSelectionBackground": "#32363E",
     "terminal.tab.activeBorder": "#B44AD4",
     "textBlockQuote.background": "#31353c",
