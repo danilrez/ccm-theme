@@ -1,8 +1,8 @@
 {
-	"name": "ccm-theme",
+	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
 	"description": "Themes for the VS Code",
-	"version": "1.53.7",
+	"version": "1.53.6",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
