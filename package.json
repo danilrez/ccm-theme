@@ -3,9 +3,9 @@
 	"displayName": "CCM Theme",
 	"description": "Theme for Visual Studio Code",
 	"version": "1.53.2",
-	"publisher": "CrappyCodeMaker",
+	"publisher": "Danil Reznichenko",
 	"license": "MIT",
-	"author": "Danil Reznichenko [@CrappyCodeMaker]",
+	"author": "Danil Reznichenko [@danilrez]",
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#1C1C1C",
