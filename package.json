@@ -2,16 +2,23 @@
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
 	"description": "Themes for the VS Code",
-	"version": "1.53.9",
+	"version": "1.53.8",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
-	"icon": "icon.png",
+	"icon": "./src/images/icon.png",
 	"galleryBanner": {
 		"color": "#1C1C1C",
 		"theme": "dark"
 	},
 	"homepage": "https://github.com/danilrez/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danilrez/CCM-Theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/danilrez/CCM-Theme/issues"
+	},
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -91,5 +98,34 @@
 				"path": "./themes/light/ccm-theme-light-plus.json"
 			}
 		]
+	},
+	"scripts": {
+		"lint": "eslint --ext .tsx --ext .ts --quiet src/",
+		"lint:fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
+		"ci:prettier": "prettier . --write"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.92.0",
+		"@typescript-eslint/eslint-plugin": "^8.2.0",
+		"@typescript-eslint/parser": "^8.2.0",
+		"@vscode/vsce": "^3.0.0",
+		"eslint": "^9.9.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.4"
+	},
+	"prettier": {
+		"printWidth": 150,
+		"singleQuote": true,
+		"useTabs": true,
+		"tabWidth": 4,
+		"importOrder": [
+			"^[./]"
+		],
+		"importOrderCaseInsensitive": true,
+		"importOrderSeparation": true,
+		"importOrderSortSpecifiers": true,
+		"endOfLine": "lf"
 	}
 }
