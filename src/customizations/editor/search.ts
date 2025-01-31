@@ -16,6 +16,7 @@ export const searchEditor = {
 	// Search editor text input box border
 	'searchEditor.textInputBorder': undefined,
 };
+<<<<<<< HEAD
 
 // The range highlight is visible when selecting a search result
 export const rangeHighlight = {
@@ -26,3 +27,5 @@ export const rangeHighlight = {
 	// Search editor text input box border
 	'searchEditor.textInputBorder': undefined,
 };
+=======
+>>>>>>> af3043b (refactor)

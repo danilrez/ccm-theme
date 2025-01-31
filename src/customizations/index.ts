@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { NestedObject } from '../colors/types';
+=======
+>>>>>>> af3043b (refactor)
 import { actionBar } from './actionBar';
 import { activityBar } from './activityBar';
 import { badge } from './badge';
@@ -52,7 +55,11 @@ import { welcomePage } from './welcomePage';
 import { window } from './window';
 import { charts } from './сharts';
 
+<<<<<<< HEAD
 export const customizations: NestedObject = {
+=======
+export const customizations = {
+>>>>>>> af3043b (refactor)
 	actionBar,
 	editor,
 	activityBar,
