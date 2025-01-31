@@ -115,6 +115,18 @@ const orange = {
 	50: '#F9F0EC',
 };
 
+const opacityLevel = {
+	90: 'E6',
+	80: 'CC',
+	70: 'B3',
+	60: '99',
+	50: '80',
+	40: '66',
+	30: '4D',
+	20: '33',
+	10: '1A',
+};
+
 export const colorVariables = {
 	neutral,
 	red,
@@ -130,15 +142,20 @@ export const colorVariables = {
 type HexColor = `#${string}`;
 type Color = keyof typeof colorVariables;
 type Shade = keyof (typeof colorVariables)['neutral'];
+type OpacityLevel = keyof typeof opacityLevel;
+
+export const withOpacity = (color: string, opacity: OpacityLevel) => `${color}${opacityLevel[opacity]}`;
 
 // Проверка валидности HEX-кода и возврат строго типизированного HexColor
-export const getColor = (color: Color, shade: Shade): HexColor => {
-	const colorValue = colorVariables[color][shade];
+export const getColor = (color: Color, shade: Shade, opacity?: number): HexColor => {
+	const colorValue = colorVariables?.[color]?.[shade];
 
 	if (!isValidHexColor(colorValue)) throw new Error(`Invalid HEX color: ${colorValue}`);
+	if (!opacity) return colorValue as HexColor;
 
-	// Явное приведение типа после проверки
-	return colorValue as HexColor;
+	if (!isValidOpacity(opacity)) throw new Error(`Invalid Opacity value: ${opacity}`);
+
+	return withOpacity(colorValue, opacity) as HexColor;
 };
 
 // Проверка, является ли строка валидным HEX-кодом
@@ -146,3 +163,20 @@ export const isValidHexColor = (color: string): color is HexColor => {
 	const hexRegex = /^#([0-9A-F]{3}|[0-9A-F]{4}|[0-9A-F]{6}|[0-9A-F]{8})$/i;
 	return hexRegex.test(color);
 };
+
+export const isValidOpacity = (opacity: number): opacity is OpacityLevel => opacity in opacityLevel;
+
+export const optimizeTheme = (obj: Record<string, any>, prefix = ''): Record<string, any> =>
+	Object.entries(obj).reduce(
+		(acc, [key, value]) => {
+			// value !== undefined && value !== null
+			if (value != null) {
+				const newKey = prefix ? `${prefix}.${key}` : key;
+
+				if (typeof value === 'object' && !Array.isArray(value)) Object.assign(acc, optimizeTheme(value, newKey));
+				else acc[newKey] = value;
+			}
+			return acc;
+		},
+		{} as Record<string, any>,
+	);
