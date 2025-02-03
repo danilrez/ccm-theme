@@ -1,6 +1,8 @@
+import { isNestedObject } from '../validators/isNestedObject';
+import { isValidHexColor } from '../validators/isValidHexColor';
+import { isValidOpacity } from '../validators/isValidOpacity';
 import { colorsDark, opacityLevel } from './constants';
-import type { Color, HexColor, NestedObject, OpacityLevel, Shade } from './types';
-import { isNestedObject, isValidHexColor, isValidOpacity } from './validators';
+import type { Color, HexColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
 
 export const withOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${color}${opacityLevel[opacity]}`;
 
@@ -14,8 +16,11 @@ export const getColor = (color: Color, shade: Shade, opacity?: number): HexColor
 	return withOpacity(colorValue, opacity);
 };
 
-export const optimizeTheme = (obj: NestedObject): NestedObject =>
-	Object.entries(obj).reduce((acc, [key, value]) => {
-		isNestedObject(value) ? (acc[key] = optimizeTheme(value)) : (acc[key] = value);
-		return acc;
-	}, {});
+export const flattenOptimizedTheme = (obj: NestedObject, result: Theme = {}): Theme => {
+	Object.entries(obj).forEach(([key, value]) => {
+		if (isNestedObject(value)) flattenOptimizedTheme(value, result);
+		else if (value != undefined) result[key] = value as HexColor;
+	});
+
+	return result;
+};
