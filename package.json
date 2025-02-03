@@ -124,7 +124,7 @@
 		"@vscode/vsce": "^3.2.2",
 		"eslint": "^9.9.0",
 		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-import": "^2.31.0",
 		"prettier": "^3.3.3",
 		"typescript": "^5.5.4"
 	},
@@ -140,5 +140,6 @@
 		"importOrderSeparation": true,
 		"importOrderSortSpecifiers": true,
 		"endOfLine": "lf"
-	}
+	},
+	"packageManager": "pnpm@9.0.0"
 }
