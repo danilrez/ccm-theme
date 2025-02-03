@@ -100,15 +100,21 @@
 		]
 	},
 	"scripts": {
+		"build": "tsc",
+		"package": "vsce package",
+		"theme": "node ./public/index.js",
 		"lint": "eslint --ext .tsx --ext .ts --quiet src/",
 		"lint:fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
+		"test:theme": "pnpm build && node ./public/index.js > theme.json",
+		"test:colors": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
+		"test:256colors": "for i in {0..255}; do printf \"\\e[48;5;${i}m%3d \\e[0m\" \"$i\"; (( (i+1) % 16 == 0 )) && echo \"\"; done",
 		"ci:prettier": "prettier . --write"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.92.0",
+		"@types/vscode": "^1.96.0",
 		"@typescript-eslint/eslint-plugin": "^8.2.0",
 		"@typescript-eslint/parser": "^8.2.0",
-		"@vscode/vsce": "^3.0.0",
+		"@vscode/vsce": "^3.2.2",
 		"eslint": "^9.9.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
