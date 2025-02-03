@@ -11,7 +11,7 @@ export const buttonControl = {
 	// Button separator color
 	'button.separator': undefined,
 	// Button background color when hovering
-	'button.hoverBackground': getColor('violet', 500, 80),
+	'button.hoverBackground': getColor('violet', 500, 70),
 	// Secondary button foreground color
 	'button.secondaryForeground': undefined,
 	// Secondary button background color
