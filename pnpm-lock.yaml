@@ -9,15 +9,7 @@ importers:
   .:
     devDependencies:
       '@types/vscode':
-<<<<<<< HEAD
-<<<<<<< HEAD
         specifier: ^1.96.0
-=======
-        specifier: ^1.41.0
->>>>>>> 5edd62f (step2)
-=======
-        specifier: ^1.96.0
->>>>>>> a755765 (update deps)
         version: 1.96.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.2.0

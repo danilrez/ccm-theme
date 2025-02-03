@@ -10,8 +10,6 @@ export const terminal = {
 	'terminal.foreground': getColor('neutral', 200),
 
 	// 'Black' ANSI color in the terminal
-<<<<<<< HEAD
-<<<<<<< HEAD
 	'terminal.ansiBlack': getColor('neutral', 600),
 	// 'Blue' ANSI color in the terminal
 	'terminal.ansiBlue': getColor('blue', 400),
@@ -51,54 +49,6 @@ export const terminal = {
 	'terminal.selectionForeground': undefined,
 	// The selection background color of the terminal when it does not have focus
 	'terminal.inactiveSelectionBackground': getColor('neutral', 600, 40),
-=======
-	'terminal.ansiBlack': getColor('neutral', 800),
-=======
-	'terminal.ansiBlack': getColor('neutral', 600),
->>>>>>> 5edd62f (step2)
-	// 'Blue' ANSI color in the terminal
-	'terminal.ansiBlue': getColor('blue', 400),
-	// 'Cyan' ANSI color in the terminal
-	'terminal.ansiCyan': getColor('cyan', 400),
-	// 'Green' ANSI color in the terminal
-	'terminal.ansiGreen': getColor('green', 400),
-	// 'Magenta' ANSI color in the terminal
-	'terminal.ansiMagenta': getColor('mangenta', 400),
-	// 'Red' ANSI color in the terminal
-	'terminal.ansiRed': getColor('red', 400),
-	// 'White' ANSI color in the terminal
-	'terminal.ansiWhite': getColor('neutral', 300),
-	// 'Yellow' ANSI color in the terminal
-	'terminal.ansiYellow': getColor('yellow', 400),
-
-	// 'BrightBlack' ANSI color in the terminal
-	'terminal.ansiBrightBlack': getColor('neutral', 500),
-	// 'BrightBlue' ANSI color in the terminal
-	'terminal.ansiBrightBlue': getColor('blue', 300),
-	// 'BrightCyan' ANSI color in the terminal
-	'terminal.ansiBrightCyan': getColor('cyan', 300),
-	// 'BrightGreen' ANSI color in the terminal
-	'terminal.ansiBrightGreen': getColor('green', 300),
-	// 'BrightMagenta' ANSI color in the terminal
-	'terminal.ansiBrightMagenta': getColor('mangenta', 300),
-	// 'BrightRed' ANSI color in the terminal
-	'terminal.ansiBrightRed': getColor('red', 300),
-	// 'BrightWhite' ANSI color in the terminal
-	'terminal.ansiBrightWhite': getColor('neutral', 300),
-	// 'BrightYellow' ANSI color in the terminal
-	'terminal.ansiBrightYellow': getColor('yellow', 300),
-
-	// The selection background color of the terminal
-	'terminal.selectionBackground': getColor('neutral', 600),
-	// The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied
-	'terminal.selectionForeground': undefined,
-	// The selection background color of the terminal when it does not have focus
-<<<<<<< HEAD
-	'terminal.inactiveSelectionBackground': undefined,
->>>>>>> af3043b (refactor)
-=======
-	'terminal.inactiveSelectionBackground': getColor('neutral', 600, 40),
->>>>>>> 5edd62f (step2)
 
 	// Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content
 	'terminal.findMatchBackground': undefined,
@@ -114,15 +64,7 @@ export const terminal = {
 	// The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor
 	'terminalCursor.background': undefined,
 	// The foreground color of the terminal cursor
-<<<<<<< HEAD
-<<<<<<< HEAD
 	'terminalCursor.foreground': getColor('yellow', 400),
-=======
-	'terminalCursor.foreground': getColor('yellow', 500),
->>>>>>> af3043b (refactor)
-=======
-	'terminalCursor.foreground': getColor('yellow', 400),
->>>>>>> 5edd62f (step2)
 
 	// The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through
 	'terminal.dropBackground': undefined,
