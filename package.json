@@ -102,9 +102,13 @@
 	"scripts": {
 		"build": "tsc",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"package": "vsce package",
 =======
 >>>>>>> af3043b (refactor)
+=======
+		"package": "vsce package",
+>>>>>>> 5edd62f (step2)
 		"theme": "node ./public/index.js",
 		"lint": "eslint --ext .tsx --ext .ts --quiet src/",
 		"lint:fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
