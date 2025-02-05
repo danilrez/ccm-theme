@@ -1,13 +1,15 @@
+import { getColor } from '../colors';
+
 // Colors for input controls such as in the Search view or the Find/Replace dialog
 export const inputControl = {
 	// Input box background
-	'input.background': undefined,
+	'input.background': getColor('neutral', 600),
 	// Input box border
-	'input.border': undefined,
+	'input.border': getColor('neutral', 900),
 	// Input box foreground
-	'input.foreground': undefined,
+	'input.foreground': getColor('neutral', 300),
 	// Input box foreground color for placeholder text
-	'input.placeholderForeground': undefined,
+	'input.placeholderForeground': getColor('neutral', 500),
 	// Background color of activated options in input fields
 	'inputOption.activeBackground': undefined,
 	// Border color of activated options in input fields
