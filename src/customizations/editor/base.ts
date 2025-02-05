@@ -5,7 +5,7 @@
  */
 
 import { getColor } from '../../colors';
-import { colorsDark } from '../../colors/constants';
+import { defaultColor, transparent } from '../../colors/constants';
 
 // All other editor colors are listed here
 export const editorBase = {
@@ -20,17 +20,17 @@ export const editorBase = {
 	// Color of the final editor line when editor.renderFinalNewline is set to dimmed
 	'editorLineNumber.dimmedForeground': undefined,
 	// The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor
-	'editorCursor.background': undefined,
+	'editorCursor.background': defaultColor,
 	// Color of the editor cursor
 	'editorCursor.foreground': getColor('yellow', 400),
 	// Color of the primary editor cursor when multiple cursors are present
 	'editorMultiCursor.primary.foreground': getColor('yellow', 400),
 	// The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor
-	'editorMultiCursor.primary.background': undefined,
+	'editorMultiCursor.primary.background': defaultColor,
 	// Color of secondary editor cursors when multiple cursors are present
 	'editorMultiCursor.secondary.foreground': getColor('yellow', 300),
 	// The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor
-	'editorMultiCursor.secondary.background': undefined,
+	'editorMultiCursor.secondary.background': defaultColor,
 	// Foreground color of the placeholder text in the editor
 	'editor.placeholder.foreground': undefined,
 
@@ -41,7 +41,7 @@ export const editorBase = {
 	// Background color for the highlight of line at the cursor position
 	'editor.lineHighlightBackground': getColor('neutral', 500, 20),
 	// Background color for the border around the line at the cursor position
-	'editor.lineHighlightBorder': undefined,
+	'editor.lineHighlightBorder': transparent,
 
 	// Foreground color for the labels in the editor watermark
 	'editorWatermark.foreground': undefined,
@@ -55,5 +55,5 @@ export const editorBase = {
 	// The link color is visible when clicking on a link
 	'editorLink.activeForeground': getColor('blue', 400),
 
-	"editorOverviewRuler.border": colorsDark.transparent,
+	'editorOverviewRuler.border': transparent,
 };

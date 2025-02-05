@@ -127,7 +127,8 @@ export const opacityLevel = {
 	10: '1A',
 };
 
-const transparent = '0000';
+export const transparent = '0000';
+export const defaultColor = 'default';
 
 export const colorsDark = {
 	neutral,
@@ -139,7 +140,6 @@ export const colorsDark = {
 	cyan,
 	violet,
 	orange,
-	transparent,
 };
 
 export const colorsLight = {
@@ -152,5 +152,4 @@ export const colorsLight = {
 	cyan,
 	violet,
 	orange,
-	transparent,
 };

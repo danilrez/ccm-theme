@@ -9,7 +9,7 @@ export const sideBar = {
 	// Side Bar border color on the side separating the editor
 	'sideBar.border': getColor('neutral', 900),
 	// Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through
-	'sideBar.dropBackground': getColor('neutral', 600, 60),
+	'sideBar.dropBackground': getColor('neutral', 500, 40),
 	// Side Bar title foreground color
 	'sideBarTitle.foreground': getColor('neutral', 300),
 	// Side Bar section header background color

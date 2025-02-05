@@ -1,7 +1,8 @@
 // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover
 // The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception
 
-import { getColor } from "../colors";
+import { getColor } from '../colors';
+import { transparent } from '../colors/constants';
 
 export const editorWidget = {
 	// Foreground color of editor widgets, such as find/replace
@@ -47,13 +48,13 @@ export const editorWidget = {
 	// Foreground color of the ghost text shown by inline completion providers and the suggest preview
 	'editorGhostText.foreground': undefined,
 	// Editor sticky scroll background color
-	'editorStickyScroll.background': getColor('neutral',700),
+	'editorStickyScroll.background': getColor('neutral', 700),
 	// Border color of sticky scroll in the editor
-	'editorStickyScroll.border': undefined,
+	'editorStickyScroll.border': transparent,
 	// Shadow color of sticky scroll in the editor
-	'editorStickyScroll.shadow': getColor('neutral',900,60),
+	'editorStickyScroll.shadow': getColor('neutral', 900, 60),
 	// Editor sticky scroll on hover background color
-	'editorStickyScrollHover.background': getColor('neutral',600),
+	'editorStickyScrollHover.background': getColor('neutral', 600),
 	// Exception widget background color
 	'debugExceptionWidget.background': undefined,
 	// Exception widget border color

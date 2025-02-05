@@ -29,7 +29,7 @@ export const flattenOptimizedTheme = (obj: NestedObject, result: Theme = {}): Th
 export const flattenOptimizedTestTheme = (obj: NestedObject, result: Theme = {}): Theme => {
 	Object.entries(obj).forEach(([key, value]) => {
 		if (isNestedObject(value)) flattenOptimizedTestTheme(value, result);
-		else if (value == undefined) result[key] = '#f00';
+		else if (value == undefined) result[key] = '#f007';
 	});
 
 	return result;

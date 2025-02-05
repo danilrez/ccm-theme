@@ -1,17 +1,18 @@
 import { getColor } from '../colors';
+import { transparent } from '../colors/constants';
 
 // The Activity Bar is usually displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar
 export const activityBar = {
 	// Activity Bar background color
 	'activityBar.background': getColor('neutral', 800),
 	// Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar
-	'activityBar.dropBorder': undefined,
+	'activityBar.dropBorder': getColor('green', 400),
 	// Activity Bar foreground color (for example used for the icons)
 	'activityBar.foreground': getColor('neutral', 200),
 	// Activity Bar item foreground color when it is inactive
 	'activityBar.inactiveForeground': getColor('neutral', 500),
 	// Activity Bar border color with the Side Bar
-	'activityBar.border': undefined, // getColor('neutral', 900),
+	'activityBar.border': transparent,
 	// Activity notification badge background color
 	'activityBarBadge.background': getColor('violet', 500),
 	// Activity notification badge foreground color

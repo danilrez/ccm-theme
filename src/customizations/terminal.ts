@@ -1,4 +1,5 @@
 import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
 
 // TODO: fix some colors
 export const terminal = {
@@ -62,12 +63,12 @@ export const terminal = {
 	'terminal.hoverHighlightBackground': undefined,
 
 	// The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor
-	'terminalCursor.background': undefined,
+	'terminalCursor.background': defaultColor,
 	// The foreground color of the terminal cursor
 	'terminalCursor.foreground': getColor('yellow', 400),
 
 	// The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through
-	'terminal.dropBackground': undefined,
+	'terminal.dropBackground': getColor('neutral', 500, 40),
 	// Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder
 	'terminal.tab.activeBorder': getColor('green', 400),
 
