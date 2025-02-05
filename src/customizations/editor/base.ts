@@ -13,6 +13,8 @@ export const editorBase = {
 	'editor.background': getColor('neutral', 700),
 	// Editor default foreground color
 	'editor.foreground': getColor('neutral', 300),
+	// The background color of the editor line numbers
+	'editorGutter.background': getColor('neutral', 700),
 	// Color of editor line numbers
 	'editorLineNumber.foreground': getColor('neutral', 500),
 	// Color of the active editor line number
