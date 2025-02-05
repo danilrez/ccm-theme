@@ -3,7 +3,7 @@
 // Multiple Tabs can be opened in one editor group
 
 import { getColor } from '../colors';
-import { defaultColor, transparent } from '../colors/constants';
+import { transparent } from '../colors/constants';
 
 export const editorGroupsTabs = {
 	// Color to separate multiple editor groups from each other
