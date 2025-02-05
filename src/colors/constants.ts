@@ -127,7 +127,7 @@ export const opacityLevel = {
 	10: '1A',
 };
 
-export const transparent = '0000';
+export const transparent = '#0000';
 export const defaultColor = 'default';
 
 export const colorsDark = {
