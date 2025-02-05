@@ -63,7 +63,7 @@ const blue = {
 	50: '#ECF3F9',
 };
 
-const mangenta = {
+const magenta = {
 	900: '#33002F',
 	800: '#4D0046',
 	700: '#85007A',
@@ -135,7 +135,7 @@ export const colorsDark = {
 	green,
 	yellow,
 	blue,
-	mangenta,
+	magenta,
 	cyan,
 	violet,
 	orange,
@@ -148,7 +148,7 @@ export const colorsLight = {
 	green,
 	yellow,
 	blue,
-	mangenta,
+	magenta,
 	cyan,
 	violet,
 	orange,

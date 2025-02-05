@@ -18,7 +18,7 @@ export const terminal = {
 	// 'Green' ANSI color in the terminal
 	'terminal.ansiGreen': getColor('green', 400),
 	// 'Magenta' ANSI color in the terminal
-	'terminal.ansiMagenta': getColor('mangenta', 400),
+	'terminal.ansiMagenta': getColor('magenta', 400),
 	// 'Red' ANSI color in the terminal
 	'terminal.ansiRed': getColor('red', 400),
 	// 'White' ANSI color in the terminal
@@ -35,7 +35,7 @@ export const terminal = {
 	// 'BrightGreen' ANSI color in the terminal
 	'terminal.ansiBrightGreen': getColor('green', 300),
 	// 'BrightMagenta' ANSI color in the terminal
-	'terminal.ansiBrightMagenta': getColor('mangenta', 300),
+	'terminal.ansiBrightMagenta': getColor('magenta', 300),
 	// 'BrightRed' ANSI color in the terminal
 	'terminal.ansiBrightRed': getColor('red', 300),
 	// 'BrightWhite' ANSI color in the terminal

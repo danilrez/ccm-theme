@@ -5,6 +5,7 @@
  */
 
 import { getColor } from '../../colors';
+import { colorsDark } from '../../colors/constants';
 
 // All other editor colors are listed here
 export const editorBase = {
@@ -21,9 +22,9 @@ export const editorBase = {
 	// The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor
 	'editorCursor.background': undefined,
 	// Color of the editor cursor
-	'editorCursor.foreground': getColor('yellow', 500),
+	'editorCursor.foreground': getColor('yellow', 400),
 	// Color of the primary editor cursor when multiple cursors are present
-	'editorMultiCursor.primary.foreground': getColor('yellow', 500),
+	'editorMultiCursor.primary.foreground': getColor('yellow', 400),
 	// The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor
 	'editorMultiCursor.primary.background': undefined,
 	// Color of secondary editor cursors when multiple cursors are present
@@ -53,4 +54,6 @@ export const editorBase = {
 
 	// The link color is visible when clicking on a link
 	'editorLink.activeForeground': getColor('blue', 400),
+
+	"editorOverviewRuler.border": colorsDark.transparent,
 };

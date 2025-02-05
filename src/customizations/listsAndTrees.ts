@@ -1,7 +1,9 @@
+import { getColor } from "../colors";
+
 // Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not
 export const listsAndTrees = {
 	// List/Tree background color for the selected item when the list/tree is active
-	'list.activeSelectionBackground': undefined,
+	'list.activeSelectionBackground': getColor('violet',500, 40),
 	// List/Tree foreground color for the selected item when the list/tree is active
 	'list.activeSelectionForeground': undefined,
 	// List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
@@ -17,15 +19,15 @@ export const listsAndTrees = {
 	// List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 	'list.focusOutline': undefined,
 	// List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not
-	'list.focusAndSelectionOutline': undefined,
+	'list.focusAndSelectionOutline': getColor('violet',500),
 	// List/Tree foreground color of the match highlights when searching inside the list/tree
 	'list.highlightForeground': undefined,
 	// List/Tree background when hovering over items using the mouse
-	'list.hoverBackground': undefined,
+	'list.hoverBackground': getColor('neutral',600,60),
 	// List/Tree foreground when hovering over items using the mouse
 	'list.hoverForeground': undefined,
 	// List/Tree background color for the selected item when the list/tree is inactive
-	'list.inactiveSelectionBackground': undefined,
+	'list.inactiveSelectionBackground': getColor('neutral',600,60),
 	// List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
 	'list.inactiveSelectionForeground': undefined,
 	// List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
