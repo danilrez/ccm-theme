@@ -13,4 +13,6 @@ export const temporaryUnknowns = {
 	'editorIndentGuide.background1': getColor('neutral', 500),
 	// Color of spaces and tabs
 	'editorWhitespace.foreground': getColor('neutral', 500),
+	// Color of the text with author of changes
+	'editorCodeLens.foreground': getColor('neutral', 500),
 };

@@ -1,45 +1,48 @@
+import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
+
 // Note: These colors are for the GUI settings editor which can be opened with the Preferences: Open Settings (UI) command
 export const settings = {
 	// The foreground color for a section header or active title
-	'settings.headerForeground': undefined,
+	'settings.headerForeground': defaultColor,
 	// The line that indicates a modified setting
-	'settings.modifiedItemIndicator': undefined,
+	'settings.modifiedItemIndicator': getColor('violet', 400),
 	// Dropdown background
-	'settings.dropdownBackground': undefined,
+	'settings.dropdownBackground': getColor('neutral', 800),
 	// Dropdown foreground
-	'settings.dropdownForeground': undefined,
+	'settings.dropdownForeground': defaultColor,
 	// Dropdown border
-	'settings.dropdownBorder': undefined,
+	'settings.dropdownBorder': getColor('neutral', 900),
 	// Dropdown list border
-	'settings.dropdownListBorder': undefined,
+	'settings.dropdownListBorder': getColor('neutral', 900),
 	// Checkbox background
-	'settings.checkboxBackground': undefined,
+	'settings.checkboxBackground': defaultColor,
 	// Checkbox foreground
-	'settings.checkboxForeground': undefined,
+	'settings.checkboxForeground': defaultColor,
 	// Checkbox border
-	'settings.checkboxBorder': undefined,
+	'settings.checkboxBorder': defaultColor,
 	// The background color of a settings row when hovered
-	'settings.rowHoverBackground': undefined,
+	'settings.rowHoverBackground': getColor('neutral', 600),
 	// Text input box background
-	'settings.textInputBackground': undefined,
+	'settings.textInputBackground': getColor('neutral', 800),
 	// Text input box foreground
-	'settings.textInputForeground': undefined,
+	'settings.textInputForeground': defaultColor,
 	// Text input box border
-	'settings.textInputBorder': undefined,
+	'settings.textInputBorder': defaultColor,
 	// Number input box background
-	'settings.numberInputBackground': undefined,
+	'settings.numberInputBackground': getColor('neutral', 800),
 	// Number input box foreground
-	'settings.numberInputForeground': undefined,
+	'settings.numberInputForeground': defaultColor,
 	// Number input box border
-	'settings.numberInputBorder': undefined,
+	'settings.numberInputBorder': defaultColor,
 	// Background color of a focused setting row
-	'settings.focusedRowBackground': undefined,
+	'settings.focusedRowBackground': getColor('neutral', 600),
 	// The color of the row's top and bottom border when the row is focused
-	'settings.focusedRowBorder': undefined,
+	'settings.focusedRowBorder': getColor('violet', 400),
 	// The color of the header container border
-	'settings.headerBorder': undefined,
+	'settings.headerBorder': defaultColor,
 	// The color of the Settings editor splitview sash border
-	'settings.sashBorder': undefined,
+	'settings.sashBorder': defaultColor,
 	// The foreground color for a section header or hovered title
-	'settings.settingsHeaderHoverForeground': undefined,
+	'settings.settingsHeaderHoverForeground': getColor('neutral', 50),
 };

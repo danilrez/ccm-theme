@@ -10,15 +10,15 @@ export const buttonControl = {
 	// Button border color
 	'button.border': transparent,
 	// Button separator color
-	'button.separator': getColor('neutral', 100),
+	'button.separator': getColor('neutral', 50),
 	// Button background color when hovering
-	'button.hoverBackground': getColor('violet', 400),
+	'button.hoverBackground': getColor('violet', 500),
 	// Secondary button foreground color
-	'button.secondaryForeground': getColor('neutral', 800),
+	'button.secondaryForeground': getColor('neutral', 50),
 	// Secondary button background color
-	'button.secondaryBackground': getColor('green', 400, 70),
+	'button.secondaryBackground': getColor('neutral', 500),
 	// Secondary button background color when hovering
-	'button.secondaryHoverBackground': getColor('green', 400, 70),
+	'button.secondaryHoverBackground': getColor('neutral', 400),
 	// Background color of checkbox widget
 	'checkbox.background': getColor('neutral', 800),
 	// Foreground color of checkbox widget
