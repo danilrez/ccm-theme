@@ -1,43 +1,46 @@
+import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
+
 // Debug Icons colors
 export const debugIcons = {
 	// Icon color for breakpoints
-	'debugIcon.breakpointForeground': undefined,
+	'debugIcon.breakpointForeground': getColor('red', 500),
 	// Icon color for disabled breakpoints
-	'debugIcon.breakpointDisabledForeground': undefined,
+	'debugIcon.breakpointDisabledForeground': defaultColor,
 	// Icon color for unverified breakpoints
-	'debugIcon.breakpointUnverifiedForeground': undefined,
+	'debugIcon.breakpointUnverifiedForeground': getColor('red', 500),
 	// Icon color for the current breakpoint stack frame
-	'debugIcon.breakpointCurrentStackframeForeground': undefined,
+	'debugIcon.breakpointCurrentStackframeForeground': defaultColor,
 	// Icon color for all breakpoint stack frames
-	'debugIcon.breakpointStackframeForeground': undefined,
+	'debugIcon.breakpointStackframeForeground': defaultColor,
 	// Debug toolbar icon for start debugging
-	'debugIcon.startForeground': undefined,
+	'debugIcon.startForeground': getColor('green', 400),
 	// Debug toolbar icon for pause
-	'debugIcon.pauseForeground': undefined,
+	'debugIcon.pauseForeground': getColor('blue', 400),
 	// Debug toolbar icon for stop
-	'debugIcon.stopForeground': undefined,
+	'debugIcon.stopForeground': getColor('orange', 400),
 	// Debug toolbar icon for disconnect
-	'debugIcon.disconnectForeground': undefined,
+	'debugIcon.disconnectForeground': getColor('red', 400),
 	// Debug toolbar icon for restart
-	'debugIcon.restartForeground': undefined,
+	'debugIcon.restartForeground': getColor('green', 400),
 	// Debug toolbar icon for step over
-	'debugIcon.stepOverForeground': undefined,
+	'debugIcon.stepOverForeground': getColor('blue', 400),
 	// Debug toolbar icon for step into
-	'debugIcon.stepIntoForeground': undefined,
+	'debugIcon.stepIntoForeground': getColor('cyan', 400),
 	// Debug toolbar icon for step over
-	'debugIcon.stepOutForeground': undefined,
+	'debugIcon.stepOutForeground': getColor('cyan', 400),
 	// Debug toolbar icon for continue
-	'debugIcon.continueForeground': undefined,
+	'debugIcon.continueForeground': getColor('blue', 400),
 	// Debug toolbar icon for step back
-	'debugIcon.stepBackForeground': undefined,
+	'debugIcon.stepBackForeground': getColor('blue', 400),
 	// Foreground color for info messages in debug REPL console
-	'debugConsole.infoForeground': undefined,
+	'debugConsole.infoForeground': getColor('blue', 500),
 	// Foreground color for warning messages in debug REPL console
-	'debugConsole.warningForeground': undefined,
+	'debugConsole.warningForeground': getColor('yellow', 500),
 	// Foreground color for error messages in debug REPL console
-	'debugConsole.errorForeground': undefined,
+	'debugConsole.errorForeground': getColor('red', 500),
 	// Foreground color for source filenames in debug REPL console
-	'debugConsole.sourceForeground': undefined,
+	'debugConsole.sourceForeground': defaultColor,
 	// Foreground color for debug console input marker icon
-	'debugConsoleInputIcon.foreground': undefined,
+	'debugConsoleInputIcon.foreground': getColor('neutral', 500),
 };
