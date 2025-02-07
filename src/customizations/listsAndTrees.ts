@@ -22,7 +22,7 @@ export const listsAndTrees = {
 	// List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not
 	'list.focusAndSelectionOutline': getColor('violet', 400),
 	// List/Tree foreground color of the match highlights when searching inside the list/tree
-	'list.highlightForeground': undefined,
+	'list.highlightForeground': getColor('violet', 300),
 	// List/Tree background when hovering over items using the mouse
 	'list.hoverBackground': getColor('neutral', 600),
 	// List/Tree foreground when hovering over items using the mouse
@@ -42,7 +42,7 @@ export const listsAndTrees = {
 	// Foreground color of list items containing errors
 	'list.errorForeground': getColor('red', 500),
 	// Foreground color of list items containing warnings
-	'list.warningForeground': getColor('yellow', 500),
+	'list.warningForeground': getColor('yellow', 400),
 	// List/Tree Filter background color of typed text when searching inside the list/tree
 	'listFilterWidget.background': undefined,
 	// List/Tree Filter Widget's outline color of typed text when searching inside the list/tree

@@ -2,11 +2,11 @@ import { getColor } from '../../colors';
 
 export const temporaryUnknowns = {
 	// Wavy underline for errors in the code
-	'editorError.foreground': getColor('red', 500),
+	'editorError.foreground': getColor('red', 400),
 	// Wavy underline for info messages or non-English text (e.g., Russian)
-	'editorInfo.foreground': getColor('blue', 500),
+	'editorInfo.foreground': getColor('blue', 400),
 	// Wavy underline for warnings in the code
-	'editorWarning.foreground': getColor('yellow', 500),
+	'editorWarning.foreground': getColor('yellow', 400),
 	// Color of active indentation guides (overridden by bracket colors)
 	'editorIndentGuide.activeBackground1': getColor('neutral', 400),
 	// Color of indentation guides

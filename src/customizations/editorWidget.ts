@@ -14,9 +14,9 @@ export const editorWidget = {
 	// Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget
 	'editorWidget.resizeBorder': getColor('violet', 400),
 	// Background color of the suggestion widget
-	'editorSuggestWidget.background': getColor('neutral', 600),
+	'editorSuggestWidget.background': getColor('neutral', 800),
 	// Border color of the suggestion widget
-	'editorSuggestWidget.border': getColor('neutral', 800),
+	'editorSuggestWidget.border': getColor('neutral', 900),
 	// Foreground color of the suggestion widget
 	'editorSuggestWidget.foreground': getColor('neutral', 300),
 	// Color of the match highlights in the suggest widget when an item is focused
@@ -24,7 +24,7 @@ export const editorWidget = {
 	// Color of the match highlights in the suggestion widget
 	'editorSuggestWidget.highlightForeground': getColor('violet', 200),
 	// Background color of the selected entry in the suggestion widget
-	'editorSuggestWidget.selectedBackground': getColor('neutral', 700),
+	'editorSuggestWidget.selectedBackground': getColor('neutral', 600),
 	// Foreground color of the selected entry in the suggest widget
 	'editorSuggestWidget.selectedForeground': getColor('neutral', 100),
 	// Icon foreground color of the selected entry in the suggest widget
@@ -34,9 +34,9 @@ export const editorWidget = {
 	// Foreground color of the editor hover
 	'editorHoverWidget.foreground': undefined,
 	// Background color of the editor hover
-	'editorHoverWidget.background': undefined,
+	'editorHoverWidget.background': getColor('neutral', 800),
 	// Border color of the editor hover
-	'editorHoverWidget.border': undefined,
+	'editorHoverWidget.border': getColor('neutral', 900),
 	// Foreground color of the active item in the parameter hint
 	'editorHoverWidget.highlightForeground': undefined,
 	// Background color of the editor hover status bar
