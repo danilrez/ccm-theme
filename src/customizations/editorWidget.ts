@@ -2,7 +2,7 @@
 // The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception
 
 import { getColor } from '../colors';
-import { transparent } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 export const editorWidget = {
 	// Foreground color of editor widgets, such as find/replace
@@ -52,13 +52,13 @@ export const editorWidget = {
 	// Border color of sticky scroll in the editor
 	'editorStickyScroll.border': transparent,
 	// Shadow color of sticky scroll in the editor
-	'editorStickyScroll.shadow': getColor('neutral', 900, 60),
+	'editorStickyScroll.shadow': getColor('neutral', 900, 30),
 	// Editor sticky scroll on hover background color
 	'editorStickyScrollHover.background': getColor('neutral', 600),
 	// Exception widget background color
-	'debugExceptionWidget.background': undefined,
+	'debugExceptionWidget.background': defaultColor,
 	// Exception widget border color
-	'debugExceptionWidget.border': undefined,
+	'debugExceptionWidget.border': defaultColor,
 	// Editor marker navigation widget background
 	'editorMarkerNavigation.background': undefined,
 	// Editor marker navigation widget error color
