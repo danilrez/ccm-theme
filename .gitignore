@@ -10,9 +10,6 @@ public/
 # JetBrains IDE
 .idea/
 
-# Unit test reports
-tests/
-
 # Library documentation
 docs/
 
@@ -24,3 +21,4 @@ Thumbs.db
 
 diff.json
 theme.json
+testColors.json

@@ -1,7 +1,4 @@
-import {
-	flattenOptimizedTheme,
-	// flattenOptimizedTestTheme
-} from './colors';
+import { flattenOptimizedTheme } from './colors';
 // import { tokenColors } from './colors/tokenColors';
 import { customizations } from './customizations';
 
@@ -17,6 +14,3 @@ import { customizations } from './customizations';
 
 // Ready colors
 console.log(JSON.stringify(flattenOptimizedTheme(customizations), null, 2));
-
-// Testing colors
-// console.log(JSON.stringify(flattenOptimizedTestTheme(customizations), null, 2));

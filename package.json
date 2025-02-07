@@ -106,8 +106,8 @@
 		"lint": "eslint --ext .tsx --ext .ts --quiet src/",
 		"lint:fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
 		"test:theme": "pnpm build && node ./public/index.js > theme.json",
-		"test:colors": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
-		"test:256colors": "for i in {0..255}; do printf \"\\e[48;5;${i}m%3d \\e[0m\" \"$i\"; (( (i+1) % 16 == 0 )) && echo \"\"; done",
+		"test:flatten": "pnpm build && node ./public/testColors.js > testColors.json",
+		"test:terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
 		"ci:prettier": "prettier . --write"
 	},
 	"devDependencies": {
