@@ -6,7 +6,7 @@ export const welcomePage = {
 	// Foreground color for the Welcome page progress bars
 	'welcomePage.progress.background': getColor('neutral', 500),
 	// Background color for the Welcome page progress bars
-	'welcomePage.progress.foreground': getColor('violet', 500),
+	'welcomePage.progress.foreground': getColor('violet', 400),
 	// Background color for the tiles on the Welcome page
 	'welcomePage.tileBackground': getColor('neutral', 600),
 	// Hover background color for the tiles on the Welcome page

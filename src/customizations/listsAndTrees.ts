@@ -4,9 +4,9 @@ import { defaultColor, transparent } from '../colors/constants';
 // Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not
 export const listsAndTrees = {
 	// List/Tree background color for the selected item when the list/tree is active
-	'list.activeSelectionBackground': getColor('violet', 500, 40),
+	'list.activeSelectionBackground': getColor('violet', 400, 40),
 	// List/Tree foreground color for the selected item when the list/tree is active
-	'list.activeSelectionForeground': getColor('neutral', 100),
+	'list.activeSelectionForeground': getColor('neutral', 50),
 	// List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 	'list.activeSelectionIconForeground': getColor('neutral', 100),
 	// List/Tree drag and drop background when moving items around using the mouse
@@ -20,7 +20,7 @@ export const listsAndTrees = {
 	// List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 	'list.focusOutline': defaultColor,
 	// List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not
-	'list.focusAndSelectionOutline': getColor('violet', 500),
+	'list.focusAndSelectionOutline': getColor('violet', 400),
 	// List/Tree foreground color of the match highlights when searching inside the list/tree
 	'list.highlightForeground': undefined,
 	// List/Tree background when hovering over items using the mouse

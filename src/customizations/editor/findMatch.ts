@@ -9,13 +9,13 @@ export const findMatch = {
 	// Border color of the current search match
 	'editor.findMatchBorder': getColor('yellow', 500),
 	// Color of the other search matches. The color must not be opaque so as not to hide underlying decorations
-	'editor.findMatchHighlightBackground': getColor('violet', 500, 40),
+	'editor.findMatchHighlightBackground': getColor('violet', 400, 40),
 	// Foreground color of the other search matches
 	'editor.findMatchHighlightForeground': undefined,
 	// Border color of the other search matches
-	'editor.findMatchHighlightBorder': getColor('violet', 500),
+	'editor.findMatchHighlightBorder': getColor('violet', 400),
 	// Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations
-	'editor.findRangeHighlightBackground': getColor('violet', 500, 20),
+	'editor.findRangeHighlightBackground': getColor('violet', 400, 20),
 	// Border color the range limiting the search (Enable 'Find in Selection' in the find widget)
 	'editor.findRangeHighlightBorder': undefined,
 };

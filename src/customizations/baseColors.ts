@@ -2,7 +2,7 @@ import { getColor } from '../colors';
 
 export const baseColors = {
 	// Overall border color for focused elements. This color is only used if not overridden by a component
-	focusBorder: getColor('violet', 500),
+	focusBorder: getColor('violet', 400),
 	// Overall foreground color. This color is only used if not overridden by a component
 	foreground: getColor('neutral', 200),
 	// Overall foreground for disabled elements. This color is only used if not overridden by a component

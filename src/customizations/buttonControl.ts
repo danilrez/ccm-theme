@@ -4,15 +4,15 @@ import { transparent } from '../colors/constants';
 // A set of colors for button widgets such as Open Folder button in the Explorer of a new window
 export const buttonControl = {
 	// Button background color
-	'button.background': getColor('violet', 500),
+	'button.background': getColor('violet', 400),
 	// Button foreground color
-	'button.foreground': getColor('neutral', 100),
+	'button.foreground': getColor('neutral', 50),
 	// Button border color
 	'button.border': transparent,
 	// Button separator color
 	'button.separator': getColor('neutral', 100),
 	// Button background color when hovering
-	'button.hoverBackground': getColor('violet', 500, 70),
+	'button.hoverBackground': getColor('violet', 400, 70),
 	// Secondary button foreground color
 	'button.secondaryForeground': getColor('neutral', 800),
 	// Secondary button background color

@@ -15,5 +15,5 @@ export const selectionHighlight = {
 	// Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations
 	'editor.selectionHighlightBackground': getColor('violet', 400, 30),
 	// Border color for regions with the same content as the selection
-	'editor.selectionHighlightBorder': getColor('violet', 500),
+	'editor.selectionHighlightBorder': getColor('violet', 400),
 };

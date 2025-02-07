@@ -12,9 +12,9 @@ export const inputControl = {
 	// Input box foreground color for placeholder text
 	'input.placeholderForeground': getColor('neutral', 500),
 	// Background color of activated options in input fields
-	'inputOption.activeBackground': getColor('violet', 500, 40),
+	'inputOption.activeBackground': getColor('violet', 400, 40),
 	// Border color of activated options in input fields
-	'inputOption.activeBorder': getColor('violet', 500),
+	'inputOption.activeBorder': getColor('violet', 400),
 	// Foreground color of activated options in input fields
 	'inputOption.activeForeground': defaultColor,
 	// Background color of activated options in input fields

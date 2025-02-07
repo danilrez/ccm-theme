@@ -14,9 +14,9 @@ export const activityBar = {
 	// Activity Bar border color with the Side Bar
 	'activityBar.border': transparent,
 	// Activity notification badge background color
-	'activityBarBadge.background': getColor('violet', 500),
+	'activityBarBadge.background': getColor('violet', 400),
 	// Activity notification badge foreground color
-	'activityBarBadge.foreground': getColor('neutral', 100),
+	'activityBarBadge.foreground': getColor('neutral', 50),
 	// Activity Bar active indicator border color
 	'activityBar.activeBorder': getColor('green', 400),
 	// Activity Bar optional background color for the active element
