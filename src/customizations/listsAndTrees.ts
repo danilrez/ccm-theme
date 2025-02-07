@@ -24,7 +24,7 @@ export const listsAndTrees = {
 	// List/Tree foreground color of the match highlights when searching inside the list/tree
 	'list.highlightForeground': undefined,
 	// List/Tree background when hovering over items using the mouse
-	'list.hoverBackground': getColor('neutral', 600, 60),
+	'list.hoverBackground': getColor('neutral', 600),
 	// List/Tree foreground when hovering over items using the mouse
 	'list.hoverForeground': getColor('neutral', 100),
 	// List/Tree background color for the selected item when the list/tree is inactive

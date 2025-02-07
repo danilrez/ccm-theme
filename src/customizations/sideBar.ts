@@ -20,9 +20,9 @@ export const sideBar = {
 	// Side bar section header border color
 	'sideBarSectionHeader.border': transparent,
 	// Border color between the activity bar at the top/bottom and the views
-	'sideBarActivityBarTop.border': undefined,
+	'sideBarActivityBarTop.border': transparent,
 	// Side bar title background color. The side bar is the container for views like explorer and search
-	'sideBarTitle.background': undefined,
+	'sideBarTitle.background': transparent,
 	// Background color of sticky scroll in the side bar
 	'sideBarStickyScroll.background': getColor('neutral', 800, 80),
 	// Border color of sticky scroll in the side bar

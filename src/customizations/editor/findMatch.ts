@@ -1,4 +1,5 @@
 import { getColor } from '../../colors';
+import { defaultColor } from '../../colors/constants';
 
 // Find colors depend on the current find string in the Find/Replace dialog
 export const findMatch = {
@@ -18,4 +19,6 @@ export const findMatch = {
 	'editor.findRangeHighlightBackground': getColor('violet', 400, 20),
 	// Border color the range limiting the search (Enable 'Find in Selection' in the find widget)
 	'editor.findRangeHighlightBorder': undefined,
+	// Background color for highlighting the line at the findMatch position (`default` is equal to the color of `editor.lineHighlightBackground`)
+	'editor.rangeHighlightBackground': defaultColor,
 };

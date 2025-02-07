@@ -6,29 +6,29 @@ import { defaultColor, transparent } from '../colors/constants';
 
 export const editorWidget = {
 	// Foreground color of editor widgets, such as find/replace
-	'editorWidget.foreground': undefined,
+	'editorWidget.foreground': getColor('neutral', 300),
 	// Background color of editor widgets, such as Find/Replace
-	'editorWidget.background': undefined,
+	'editorWidget.background': getColor('neutral', 700),
 	// Border color of the editor widget unless the widget does not contain a border or defines its own border color
-	'editorWidget.border': undefined,
+	'editorWidget.border': getColor('neutral', 900),
 	// Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget
-	'editorWidget.resizeBorder': undefined,
+	'editorWidget.resizeBorder': getColor('violet', 400),
 	// Background color of the suggestion widget
-	'editorSuggestWidget.background': undefined,
+	'editorSuggestWidget.background': getColor('neutral', 600),
 	// Border color of the suggestion widget
-	'editorSuggestWidget.border': undefined,
+	'editorSuggestWidget.border': getColor('neutral', 800),
 	// Foreground color of the suggestion widget
-	'editorSuggestWidget.foreground': undefined,
+	'editorSuggestWidget.foreground': getColor('neutral', 300),
 	// Color of the match highlights in the suggest widget when an item is focused
-	'editorSuggestWidget.focusHighlightForeground': undefined,
+	'editorSuggestWidget.focusHighlightForeground': getColor('violet', 400),
 	// Color of the match highlights in the suggestion widget
-	'editorSuggestWidget.highlightForeground': undefined,
+	'editorSuggestWidget.highlightForeground': getColor('violet', 200),
 	// Background color of the selected entry in the suggestion widget
-	'editorSuggestWidget.selectedBackground': undefined,
+	'editorSuggestWidget.selectedBackground': getColor('neutral', 700),
 	// Foreground color of the selected entry in the suggest widget
-	'editorSuggestWidget.selectedForeground': undefined,
+	'editorSuggestWidget.selectedForeground': getColor('neutral', 100),
 	// Icon foreground color of the selected entry in the suggest widget
-	'editorSuggestWidget.selectedIconForeground': undefined,
+	'editorSuggestWidget.selectedIconForeground': getColor('neutral', 100),
 	// Foreground color of the suggest widget status
 	'editorSuggestWidgetStatus.foreground': undefined,
 	// Foreground color of the editor hover

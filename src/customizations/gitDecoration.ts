@@ -21,4 +21,12 @@ export const gitDecoration = {
 	'gitDecoration.conflictingResourceForeground': getColor('yellow', 300),
 	// Color for submodule resources
 	'gitDecoration.submoduleResourceForeground': undefined,
+
+	// Gutter Decoration
+	// Color for modified line of code
+	'editorGutter.modifiedBackground': getColor('violet', 400),
+	// Color for new added line of code
+	'editorGutter.addedBackground': getColor('green', 400),
+	// Color for deleted line of code
+	'editorGutter.deletedBackground': getColor('red', 400),
 };

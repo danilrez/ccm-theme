@@ -58,4 +58,7 @@ export const editorBase = {
 	'editorLink.activeForeground': getColor('blue', 400),
 
 	'editorOverviewRuler.border': transparent,
+
+	// Background color used to highlight collapsed line of code
+	'editor.foldBackground': getColor('neutral', 500, 40),
 };

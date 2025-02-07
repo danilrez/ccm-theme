@@ -10,7 +10,7 @@ export const panel = {
 	// Drag and drop feedback color for the panel titles. Panels are shown below the editor area and contain views like output and integrated terminal
 	'panel.dropBorder': undefined,
 	// Border color for the active panel title
-	'panelTitle.activeBorder': undefined,
+	'panelTitle.activeBorder': getColor('violet', 400),
 	// Title color for the active panel
 	'panelTitle.activeForeground': getColor('green', 400),
 	// Title color for the inactive panel

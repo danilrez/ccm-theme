@@ -38,11 +38,11 @@ export const statusBar = {
 	// Background color for the remote indicator on the status bar
 	'statusBarItem.remoteBackground': getColor('violet', 400),
 	// Foreground color for the remote indicator on the status bar
-	'statusBarItem.remoteForeground': getColor('violet', 800),
+	'statusBarItem.remoteForeground': getColor('neutral', 100),
 	// Background color for the remote indicator on the status bar when hovering
 	'statusBarItem.remoteHoverBackground': getColor('violet', 500),
 	// Foreground color for the remote indicator on the status bar when hovering
-	'statusBarItem.remoteHoverForeground': getColor('violet', 800),
+	'statusBarItem.remoteHoverForeground': getColor('neutral', 100),
 	// Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions
 	'statusBarItem.errorBackground': getColor('red', 500),
 	// Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions
