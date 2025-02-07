@@ -1,25 +1,28 @@
+import { getColor } from '../colors';
+import { transparent } from '../colors/constants';
+
 // For coloring inserted and removed text, use either a background or a border color but not both
 export const diffEditor = {
 	// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.insertedTextBackground': undefined,
+	'diffEditor.insertedTextBackground': getColor('green', 500, 20),
 	// Outline color for the text that got inserted
-	'diffEditor.insertedTextBorder': undefined,
+	'diffEditor.insertedTextBorder': transparent,
 	// Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.removedTextBackground': undefined,
+	'diffEditor.removedTextBackground': getColor('red', 500, 20),
 	// Outline color for text that got removed
-	'diffEditor.removedTextBorder': undefined,
+	'diffEditor.removedTextBorder': transparent,
 	// Border color between the two text editors
-	'diffEditor.border': undefined,
+	'diffEditor.border': transparent,
 	// Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views
 	'diffEditor.diagonalFill': undefined,
 	// Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.insertedLineBackground': undefined,
+	'diffEditor.insertedLineBackground': getColor('green', 500, 20),
 	// Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.removedLineBackground': undefined,
+	'diffEditor.removedLineBackground': getColor('red', 500, 20),
 	// Background color for the margin where lines got inserted
-	'diffEditorGutter.insertedLineBackground': undefined,
+	'diffEditorGutter.insertedLineBackground': transparent,
 	// Background color for the margin where lines got removed
-	'diffEditorGutter.removedLineBackground': undefined,
+	'diffEditorGutter.removedLineBackground': transparent,
 	// Diff overview ruler foreground for inserted content
 	'diffEditorOverview.insertedForeground': undefined,
 	// Diff overview ruler foreground for removed content

@@ -1,29 +1,32 @@
+import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
+
 // The Status Bar is shown in the bottom of the workbench
 export const statusBar = {
 	// Standard Status Bar background color
-	'statusBar.background': undefined,
+	'statusBar.background': getColor('neutral', 900),
 	// Status Bar foreground color
-	'statusBar.foreground': undefined,
+	'statusBar.foreground': getColor('neutral', 300),
 	// Status Bar border color separating the Status Bar and editor
-	'statusBar.border': undefined,
+	'statusBar.border': getColor('violet', 400),
 	// Status Bar background color when a program is being debugged
-	'statusBar.debuggingBackground': undefined,
+	'statusBar.debuggingBackground': getColor('orange', 500),
 	// Status Bar foreground color when a program is being debugged
-	'statusBar.debuggingForeground': undefined,
+	'statusBar.debuggingForeground': getColor('neutral', 50),
 	// Status Bar border color separating the Status Bar and editor when a program is being debugged
-	'statusBar.debuggingBorder': undefined,
+	'statusBar.debuggingBorder': getColor('neutral', 900),
 	// Status Bar foreground color when no folder is opened
-	'statusBar.noFolderForeground': undefined,
+	'statusBar.noFolderForeground': getColor('neutral', 50),
 	// Status Bar background color when no folder is opened
-	'statusBar.noFolderBackground': undefined,
+	'statusBar.noFolderBackground': getColor('red', 400),
 	// Status Bar border color separating the Status Bar and editor when no folder is opened
-	'statusBar.noFolderBorder': undefined,
+	'statusBar.noFolderBorder': getColor('neutral', 900),
 	// Status Bar item background color when clicking
 	'statusBarItem.activeBackground': undefined,
 	// Status bar item foreground color when hovering. The status bar is shown in the bottom of the window
-	'statusBarItem.hoverForeground': undefined,
+	'statusBarItem.hoverForeground': getColor('neutral', 50),
 	// Status Bar item background color when hovering
-	'statusBarItem.hoverBackground': undefined,
+	'statusBarItem.hoverBackground': getColor('neutral', 50, 20),
 	// Status Bar prominent items foreground color
 	'statusBarItem.prominentForeground': undefined,
 	// Status Bar prominent items background color
@@ -33,35 +36,35 @@ export const statusBar = {
 	// Status Bar prominent items background color when hovering
 	'statusBarItem.prominentHoverBackground': undefined,
 	// Background color for the remote indicator on the status bar
-	'statusBarItem.remoteBackground': undefined,
+	'statusBarItem.remoteBackground': getColor('violet', 500),
 	// Foreground color for the remote indicator on the status bar
-	'statusBarItem.remoteForeground': undefined,
+	'statusBarItem.remoteForeground': getColor('violet', 900),
 	// Background color for the remote indicator on the status bar when hovering
-	'statusBarItem.remoteHoverBackground': undefined,
+	'statusBarItem.remoteHoverBackground': getColor('violet', 400),
 	// Foreground color for the remote indicator on the status bar when hovering
-	'statusBarItem.remoteHoverForeground': undefined,
+	'statusBarItem.remoteHoverForeground': getColor('violet', 700),
 	// Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions
-	'statusBarItem.errorBackground': undefined,
+	'statusBarItem.errorBackground': getColor('red', 500),
 	// Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions
-	'statusBarItem.errorForeground': undefined,
+	'statusBarItem.errorForeground': getColor('neutral', 50),
 	// Status bar error items background color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.errorHoverBackground': undefined,
+	'statusBarItem.errorHoverBackground': getColor('neutral', 50, 20),
 	// Status bar error items foreground color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.errorHoverForeground': undefined,
+	'statusBarItem.errorHoverForeground': getColor('neutral', 50),
 	// Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.warningBackground': undefined,
+	'statusBarItem.warningBackground': getColor('yellow', 500),
 	// Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.warningForeground': undefined,
+	'statusBarItem.warningForeground': getColor('neutral', 50),
 	// Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.warningHoverBackground': undefined,
+	'statusBarItem.warningHoverBackground': getColor('neutral', 50, 20),
 	// Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window
-	'statusBarItem.warningHoverForeground': undefined,
+	'statusBarItem.warningHoverForeground': getColor('neutral', 50),
 	// Status bar item background color when hovering an item that contains two hovers. The status bar is shown in the bottom of the window
 	'statusBarItem.compactHoverBackground': undefined,
 	// Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window
 	'statusBarItem.focusBorder': undefined,
 	// Status bar border color when focused on keyboard navigation. The status bar is shown in the bottom of the window
-	'statusBar.focusBorder': undefined,
+	'statusBar.focusBorder': defaultColor,
 	// Status bar item background color when the workbench is offline
 	'statusBarItem.offlineBackground': undefined,
 	// Status bar item foreground color when the workbench is offline
