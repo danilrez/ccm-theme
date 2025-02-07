@@ -8,7 +8,7 @@ export const baseColors = {
 	// Overall foreground for disabled elements. This color is only used if not overridden by a component
 	disabledForeground: getColor('neutral', 500),
 	// Border color of widgets such as Find/Replace inside the editor
-	'widget.border': undefined,
+	'widget.border': getColor('neutral', 900),
 	// Shadow color of widgets such as Find/Replace inside the editor
 	'widget.shadow': getColor('neutral', 800),
 	// Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal)
