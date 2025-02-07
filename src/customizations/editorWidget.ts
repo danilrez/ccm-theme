@@ -30,23 +30,23 @@ export const editorWidget = {
 	// Icon foreground color of the selected entry in the suggest widget
 	'editorSuggestWidget.selectedIconForeground': getColor('neutral', 100),
 	// Foreground color of the suggest widget status
-	'editorSuggestWidgetStatus.foreground': undefined,
+	'editorSuggestWidgetStatus.foreground': defaultColor,
 	// Foreground color of the editor hover
-	'editorHoverWidget.foreground': undefined,
+	'editorHoverWidget.foreground': defaultColor,
 	// Background color of the editor hover
 	'editorHoverWidget.background': getColor('neutral', 800),
 	// Border color of the editor hover
 	'editorHoverWidget.border': getColor('neutral', 900),
 	// Foreground color of the active item in the parameter hint
-	'editorHoverWidget.highlightForeground': undefined,
+	'editorHoverWidget.highlightForeground': defaultColor,
 	// Background color of the editor hover status bar
-	'editorHoverWidget.statusBarBackground': undefined,
+	'editorHoverWidget.statusBarBackground': defaultColor,
 	// Border color of the ghost text shown by inline completion providers and the suggest preview
-	'editorGhostText.border': undefined,
+	'editorGhostText.border': defaultColor,
 	// Background color of the ghost text in the editor
-	'editorGhostText.background': undefined,
+	'editorGhostText.background': defaultColor,
 	// Foreground color of the ghost text shown by inline completion providers and the suggest preview
-	'editorGhostText.foreground': undefined,
+	'editorGhostText.foreground': defaultColor,
 	// Editor sticky scroll background color
 	'editorStickyScroll.background': getColor('neutral', 700),
 	// Border color of sticky scroll in the editor

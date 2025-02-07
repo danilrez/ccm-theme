@@ -1,62 +1,64 @@
+import { defaultColor } from '../colors/constants';
+
 export const testing = {
 	// Color for 'run' icons in the editor
-	'testing.runAction': undefined,
+	'testing.runAction': defaultColor,
 	// Color for the 'Errored' icon in the test explorer
-	'testing.iconErrored': undefined,
+	'testing.iconErrored': defaultColor,
 	// Color for the 'failed' icon in the test explorer
-	'testing.iconFailed': undefined,
+	'testing.iconFailed': defaultColor,
 	// Color for the 'passed' icon in the test explorer
-	'testing.iconPassed': undefined,
+	'testing.iconPassed': defaultColor,
 	// Color for the 'Queued' icon in the test explorer
-	'testing.iconQueued': undefined,
+	'testing.iconQueued': defaultColor,
 	// Color for the 'Unset' icon in the test explorer
-	'testing.iconUnset': undefined,
+	'testing.iconUnset': defaultColor,
 	// Color for the 'Skipped' icon in the test explorer
-	'testing.iconSkipped': undefined,
+	'testing.iconSkipped': defaultColor,
 	// Retired color for the 'Errored' icon in the test explorer
-	'testing.iconErrored.retired': undefined,
+	'testing.iconErrored.retired': defaultColor,
 	// Retired color for the 'failed' icon in the test explorer
-	'testing.iconFailed.retired': undefined,
+	'testing.iconFailed.retired': defaultColor,
 	// Retired color for the 'passed' icon in the test explorer
-	'testing.iconPassed.retired': undefined,
+	'testing.iconPassed.retired': defaultColor,
 	// Retired color for the 'Queued' icon in the test explorer
-	'testing.iconQueued.retired': undefined,
+	'testing.iconQueued.retired': defaultColor,
 	// Retired color for the 'Unset' icon in the test explorer
-	'testing.iconUnset.retired': undefined,
+	'testing.iconUnset.retired': defaultColor,
 	// Retired color for the 'Skipped' icon in the test explorer
-	'testing.iconSkipped.retired': undefined,
+	'testing.iconSkipped.retired': defaultColor,
 	// Color of the peek view borders and arrow
-	'testing.peekBorder': undefined,
+	'testing.peekBorder': defaultColor,
 	// Color of the peek view borders and arrow
-	'testing.peekHeaderBackground': undefined,
+	'testing.peekHeaderBackground': defaultColor,
 	// Text color of test error messages shown inline in the editor
-	'testing.message.error.decorationForeground': undefined,
+	'testing.message.error.decorationForeground': defaultColor,
 	// Margin color beside error messages shown inline in the editor
-	'testing.message.error.lineBackground': undefined,
+	'testing.message.error.lineBackground': defaultColor,
 	// Text color of test info messages shown inline in the editor
-	'testing.message.info.decorationForeground': undefined,
+	'testing.message.info.decorationForeground': defaultColor,
 	// Margin color beside info messages shown inline in the editor
-	'testing.message.info.lineBackground': undefined,
+	'testing.message.info.lineBackground': defaultColor,
 	// Color of the peek view borders and arrow when peeking a logged message
-	'testing.messagePeekBorder': undefined,
+	'testing.messagePeekBorder': defaultColor,
 	// Color of the peek view borders and arrow when peeking a logged message
-	'testing.messagePeekHeaderBackground': undefined,
+	'testing.messagePeekHeaderBackground': defaultColor,
 	// Background color of text that was covered
-	'testing.coveredBackground': undefined,
+	'testing.coveredBackground': defaultColor,
 	// Border color of text that was covered
-	'testing.coveredBorder': undefined,
+	'testing.coveredBorder': defaultColor,
 	// Gutter color of regions where code was covered
-	'testing.coveredGutterBackground': undefined,
+	'testing.coveredGutterBackground': defaultColor,
 	// Background of the widget shown for an uncovered branch
-	'testing.uncoveredBranchBackground': undefined,
+	'testing.uncoveredBranchBackground': defaultColor,
 	// Background color of text that was not covered
-	'testing.uncoveredBackground': undefined,
+	'testing.uncoveredBackground': defaultColor,
 	// Border color of text that was not covered
-	'testing.uncoveredBorder': undefined,
+	'testing.uncoveredBorder': defaultColor,
 	// Gutter color of regions where code not covered
-	'testing.uncoveredGutterBackground': undefined,
+	'testing.uncoveredGutterBackground': defaultColor,
 	// Background for the badge indicating execution coun
-	'testing.coverCountBadgeBackground': undefined,
+	'testing.coverCountBadgeBackground': defaultColor,
 	// Foreground for the badge indicating execution coun
-	'testing.coverCountBadgeForeground': undefined,
+	'testing.coverCountBadgeForeground': defaultColor,
 };

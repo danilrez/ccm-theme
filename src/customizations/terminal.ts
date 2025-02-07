@@ -6,7 +6,7 @@ export const terminal = {
 	// The background of the Integrated Terminal's viewport
 	'terminal.background': getColor('neutral', 700),
 	// The color of the border that separates split panes within the terminal. This defaults to panel.border
-	'terminal.border': undefined,
+	'terminal.border': defaultColor,
 	// The default foreground color of the Integrated Terminal
 	'terminal.foreground': getColor('neutral', 200),
 

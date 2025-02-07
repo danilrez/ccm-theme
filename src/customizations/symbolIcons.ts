@@ -1,69 +1,72 @@
+import { defaultColor } from '../colors/constants';
+
+// TODO: change colors after tokenColorCustomizations
 // The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget
 export const symbolIcons = {
 	// The foreground color for array symbols
-	'symbolIcon.arrayForeground': undefined,
+	'symbolIcon.arrayForeground': defaultColor,
 	// The foreground color for boolean symbols
-	'symbolIcon.booleanForeground': undefined,
+	'symbolIcon.booleanForeground': defaultColor,
 	// The foreground color for class symbols
-	'symbolIcon.classForeground': undefined,
+	'symbolIcon.classForeground': defaultColor,
 	// The foreground color for color symbols
-	'symbolIcon.colorForeground': undefined,
+	'symbolIcon.colorForeground': defaultColor,
 	// The foreground color for constant symbols
-	'symbolIcon.constantForeground': undefined,
+	'symbolIcon.constantForeground': defaultColor,
 	// The foreground color for constructor symbols
-	'symbolIcon.constructorForeground': undefined,
+	'symbolIcon.constructorForeground': defaultColor,
 	// The foreground color for enumerator symbols
-	'symbolIcon.enumeratorForeground': undefined,
+	'symbolIcon.enumeratorForeground': defaultColor,
 	// The foreground color for enumerator member symbols
-	'symbolIcon.enumeratorMemberForeground': undefined,
+	'symbolIcon.enumeratorMemberForeground': defaultColor,
 	// The foreground color for event symbols
-	'symbolIcon.eventForeground': undefined,
+	'symbolIcon.eventForeground': defaultColor,
 	// The foreground color for field symbols
-	'symbolIcon.fieldForeground': undefined,
+	'symbolIcon.fieldForeground': defaultColor,
 	// The foreground color for file symbols
-	'symbolIcon.fileForeground': undefined,
+	'symbolIcon.fileForeground': defaultColor,
 	// The foreground color for folder symbols
-	'symbolIcon.folderForeground': undefined,
+	'symbolIcon.folderForeground': defaultColor,
 	// The foreground color for function symbols
-	'symbolIcon.functionForeground': undefined,
+	'symbolIcon.functionForeground': defaultColor,
 	// The foreground color for interface symbols
-	'symbolIcon.interfaceForeground': undefined,
+	'symbolIcon.interfaceForeground': defaultColor,
 	// The foreground color for key symbols
-	'symbolIcon.keyForeground': undefined,
+	'symbolIcon.keyForeground': defaultColor,
 	// The foreground color for keyword symbols
-	'symbolIcon.keywordForeground': undefined,
+	'symbolIcon.keywordForeground': defaultColor,
 	// The foreground color for method symbols
-	'symbolIcon.methodForeground': undefined,
+	'symbolIcon.methodForeground': defaultColor,
 	// The foreground color for module symbols
-	'symbolIcon.moduleForeground': undefined,
+	'symbolIcon.moduleForeground': defaultColor,
 	// The foreground color for namespace symbols
-	'symbolIcon.namespaceForeground': undefined,
+	'symbolIcon.namespaceForeground': defaultColor,
 	// The foreground color for null symbols
-	'symbolIcon.nullForeground': undefined,
+	'symbolIcon.nullForeground': defaultColor,
 	// The foreground color for number symbols
-	'symbolIcon.numberForeground': undefined,
+	'symbolIcon.numberForeground': defaultColor,
 	// The foreground color for object symbols
-	'symbolIcon.objectForeground': undefined,
+	'symbolIcon.objectForeground': defaultColor,
 	// The foreground color for operator symbols
-	'symbolIcon.operatorForeground': undefined,
+	'symbolIcon.operatorForeground': defaultColor,
 	// The foreground color for package symbols
-	'symbolIcon.packageForeground': undefined,
+	'symbolIcon.packageForeground': defaultColor,
 	// The foreground color for property symbols
-	'symbolIcon.propertyForeground': undefined,
+	'symbolIcon.propertyForeground': defaultColor,
 	// The foreground color for reference symbols
-	'symbolIcon.referenceForeground': undefined,
+	'symbolIcon.referenceForeground': defaultColor,
 	// The foreground color for snippet symbols
-	'symbolIcon.snippetForeground': undefined,
+	'symbolIcon.snippetForeground': defaultColor,
 	// The foreground color for string symbols
-	'symbolIcon.stringForeground': undefined,
+	'symbolIcon.stringForeground': defaultColor,
 	// The foreground color for struct symbols
-	'symbolIcon.structForeground': undefined,
+	'symbolIcon.structForeground': defaultColor,
 	// The foreground color for text symbols
-	'symbolIcon.textForeground': undefined,
+	'symbolIcon.textForeground': defaultColor,
 	// The foreground color for type parameter symbols
-	'symbolIcon.typeParameterForeground': undefined,
+	'symbolIcon.typeParameterForeground': defaultColor,
 	// The foreground color for unit symbols
-	'symbolIcon.unitForeground': undefined,
+	'symbolIcon.unitForeground': defaultColor,
 	// The foreground color for variable symbols
-	'symbolIcon.variableForeground': undefined,
+	'symbolIcon.variableForeground': defaultColor,
 };

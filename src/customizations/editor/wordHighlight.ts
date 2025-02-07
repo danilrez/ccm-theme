@@ -1,4 +1,5 @@
-import { getColor } from "../../colors";
+import { getColor } from '../../colors';
+import { defaultColor } from '../../colors/constants';
 
 /**
  * Word highlight colors are visible when the cursor is inside a symbol or a word
@@ -15,7 +16,7 @@ export const wordHighlight = {
 	// Border color of a symbol during write-access, for example when writing to a variable
 	'editor.wordHighlightStrongBorder': getColor('violet', 400),
 	// Background color of a textual occurrence for a symbol. The color must not be opaque so as not to hide underlying decorations
-	'editor.wordHighlightTextBackground': undefined,
+	'editor.wordHighlightTextBackground': defaultColor,
 	// Border color of a textual occurrence for a symbol
-	'editor.wordHighlightTextBorder': getColor('violet', 400),
+	'editor.wordHighlightTextBorder': defaultColor,
 };

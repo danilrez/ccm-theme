@@ -1,4 +1,5 @@
 import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
 
 // Extensions colors
 export const extension = {
@@ -9,17 +10,17 @@ export const extension = {
 	// Extension view button background hover color
 	'extensionButton.prominentHoverBackground': getColor('yellow', 500, 80),
 	// Button background color for extension actions
-	'extensionButton.background': undefined,
+	'extensionButton.background': defaultColor,
 	// Button foreground color for extension actions
-	'extensionButton.foreground': undefined,
+	'extensionButton.foreground': defaultColor,
 	// Button background hover color for extension actions
-	'extensionButton.hoverBackground': undefined,
+	'extensionButton.hoverBackground': defaultColor,
 	// Button separator color for extension actions
-	'extensionButton.separator': undefined,
+	'extensionButton.separator': defaultColor,
 	// Background color for the remote badge in the extensions view
-	'extensionBadge.remoteBackground': undefined,
+	'extensionBadge.remoteBackground': defaultColor,
 	// Foreground color for the remote badge in the extensions view
-	'extensionBadge.remoteForeground': undefined,
+	'extensionBadge.remoteForeground': defaultColor,
 	// The icon color for extension ratings
 	'extensionIcon.starForeground': getColor('yellow', 500),
 	// The icon color for extension verified publisher

@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { transparent } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 // The Side Bar contains views like the Explorer and Search
 export const sideBar = {
@@ -26,7 +26,7 @@ export const sideBar = {
 	// Background color of sticky scroll in the side bar
 	'sideBarStickyScroll.background': getColor('neutral', 800, 80),
 	// Border color of sticky scroll in the side bar
-	'sideBarStickyScroll.border': undefined,
+	'sideBarStickyScroll.border': defaultColor,
 	// Shadow color of sticky scroll in the side bar
 	'sideBarStickyScroll.shadow': getColor('neutral', 900, 60),
 };

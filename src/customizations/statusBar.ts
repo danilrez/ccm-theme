@@ -6,7 +6,7 @@ export const statusBar = {
 	// Standard Status Bar background color
 	'statusBar.background': getColor('neutral', 900),
 	// Status Bar foreground color
-	'statusBar.foreground': getColor('neutral', 300),
+	'statusBar.foreground': getColor('neutral', 400),
 	// Status Bar border color separating the Status Bar and editor
 	'statusBar.border': getColor('neutral', 900),
 	// Status Bar background color when a program is being debugged
@@ -16,7 +16,7 @@ export const statusBar = {
 	// Status Bar border color separating the Status Bar and editor when a program is being debugged
 	'statusBar.debuggingBorder': getColor('neutral', 900),
 	// Status Bar foreground color when no folder is opened
-	'statusBar.noFolderForeground': getColor('neutral', 300),
+	'statusBar.noFolderForeground': getColor('neutral', 400),
 	// Status Bar background color when no folder is opened
 	'statusBar.noFolderBackground': getColor('neutral', 700),
 	// Status Bar border color separating the Status Bar and editor when no folder is opened
@@ -26,7 +26,7 @@ export const statusBar = {
 	// Status bar item foreground color when hovering. The status bar is shown in the bottom of the window
 	'statusBarItem.hoverForeground': getColor('neutral', 50),
 	// Status Bar item background color when hovering
-	'statusBarItem.hoverBackground': getColor('neutral', 100, 30),
+	'statusBarItem.hoverBackground': getColor('neutral', 200, 30),
 	// Status Bar prominent items foreground color
 	'statusBarItem.prominentForeground': undefined,
 	// Status Bar prominent items background color
