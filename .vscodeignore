@@ -1,10 +1,10 @@
-.vscode/**
-.gitignore
-.prettierignore
-.eslintrc.cjs
-tsconfig.json
-pnpm-lock.yaml
-vsc settings
-src/
-.DS_Store
-build/
+# Ignore everything
+*
+
+# Include these folders & files back
+!build/
+!public/
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE
