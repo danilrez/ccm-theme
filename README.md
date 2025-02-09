@@ -1,11 +1,9 @@
 # CrappyCodeMaker's VS Code themes
 
-> Authored by © **[Danil Reznichenko](https://github.com/danilrez)**
-
 [![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
 [![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
 
-![Preview](https://github.com/danilrez/CCM-Theme/blob/feature/ccm-theme-v2/public/images/Title.png?raw=true)
+![Preview](https://github.com/danilrez/CCM-Theme/blob/feature/ccm-theme-v2/public/images/Title.png)
 
 ## Install
 
@@ -13,11 +11,12 @@
 2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button.
 3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
     - `CCM Night` ✨ new ✨
-    - `CCM Daylight` ✨ new ✨
+    - `CCM Daylight` (soon)
 4. Enjoy! 🎉
 
 Additionally, there are also several older themes.
-_**Note**: They don’t get updated often and are only kept for legacy reasons. They’ll be removed soon:_
+
+> _**Note**: They don’t get updated often and are only kept for legacy reasons. They’ll be removed soon:_
 
 - `CCM Dark: Bluetalic` (legacy)
 - `CCM Dark: DARK++` (legacy)
@@ -32,7 +31,7 @@ _**Note**: They don’t get updated often and are only kept for legacy reasons. 
 
 ## Fonts
 
-I'm using this fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace** .
+Feel free to use these fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace**, for a better experience.
 If you don't have these fonts, use your favorite one.
 
 ## Override this theme
@@ -42,3 +41,5 @@ To override this _(or any other)_ theme in your personal config file, please fol
 ## Feedback
 
 If you have suggestions, please open an **[![Issue Badge](https://img.shields.io/badge/Issue-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://github.com/danilrez/CCM-Theme/issues)**. Be nice 😉
+
+> Authored by © **[Danil Reznichenko](https://github.com/danilrez)**

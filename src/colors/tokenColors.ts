@@ -1,14 +1,44 @@
-export const baseTokenColors = {
-	comments: '#545B69',
-	keywords: '#A468F8',
-	functions: '#68B0F8',
-	numbers: '#F89868',
-	strings: '#5AF6B5',
-	types: '#F79CEF',
-	variables: '#959AA3',
-};
+import { getColor } from '.';
+
+const baseTokenColors = [
+	{
+		scope: 'comment',
+		settings: { foreground: getColor('neutral', 400) },
+	},
+	{
+		scope: 'keyword',
+		settings: { foreground: getColor('violet', 400) },
+	},
+	{
+		scope: 'entity.name.function',
+		settings: { foreground: getColor('blue', 400) },
+	},
+	{
+		scope: 'constant.numeric',
+		settings: { foreground: getColor('orange', 400) },
+	},
+	{
+		scope: 'string',
+		settings: { foreground: getColor('green', 400) },
+	},
+	{
+		scope: 'support.type',
+		settings: { foreground: getColor('red', 400) },
+	},
+	{
+		scope: 'entity.name.type',
+		settings: { foreground: getColor('magenta', 300) },
+	},
+	{
+		scope: 'variable',
+		settings: { foreground: getColor('neutral', 200) },
+	},
+];
 
 export const tokenColors = [
+	...baseTokenColors,
+
+	// #region Old
 	{
 		scope: [
 			'variable.parameter',
@@ -24,19 +54,19 @@ export const tokenColors = [
 			'entity.name.type.template',
 		],
 		settings: {
-			foreground: '#F7D39C',
+			foreground: getColor('yellow', 300),
 		},
 	},
 	{
 		scope: ['variable.parameter.url.css'],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['variable.other.less', 'variable.other.sass', 'variable.scss', 'meta.function.calc.css', 'source.sass variable.other'],
 		settings: {
-			foreground: '#F7D39C',
+			foreground: getColor('yellow', 300),
 		},
 	},
 	{
@@ -70,37 +100,33 @@ export const tokenColors = [
 			'variable',
 		],
 		settings: {
-			foreground: '#BBBEC3',
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
 		scope: ['comment', 'comment.markup.link', 'punctuation.definition.comment', 'markup.quote.markdown'],
 		settings: {
 			fontStyle: 'italic',
-
-			/*
-					BLOCK
-					*/
-			foreground: '#545B69',
+			foreground: getColor('neutral', 400), // 400
 		},
 	},
 	{
 		scope: ['invalid'],
 		settings: {
 			fontStyle: 'underline',
-			foreground: '#545B69',
+			foreground: getColor('neutral', 500),
 		},
 	},
 	{
 		scope: ['variable.other.property'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['variable.other.object.property', 'variable.other.constant.property'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -121,13 +147,13 @@ export const tokenColors = [
 			'punctuation.separator.initializers',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
 		scope: ['keyword.operator.key.php'],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -148,7 +174,7 @@ export const tokenColors = [
 			'meta.delimiter.object.comma',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -163,7 +189,7 @@ export const tokenColors = [
 			'constant.character.end',
 		],
 		settings: {
-			foreground: '#545B69',
+			foreground: getColor('neutral', 500),
 		},
 	},
 	{
@@ -178,31 +204,31 @@ export const tokenColors = [
 		],
 		settings: {
 			fontStyle: 'bold',
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
 		scope: ['meta.parameters.js'],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
 		scope: ['support.constant.font-name'],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['support.constant.property-value.scss', 'support.constant.property-value.css', 'support.constant.vendored.property-value.css'],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
 		scope: ['punctuation.definition.template-expression.begin', 'punctuation.definition.template-expression.end'],
 		settings: {
-			foreground: '#68B0F8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
@@ -217,7 +243,7 @@ export const tokenColors = [
 		],
 		settings: {
 			fontStyle: 'italic',
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -228,7 +254,7 @@ export const tokenColors = [
 			'keyword.operator.quantifier.regexp',
 		],
 		settings: {
-			foreground: '#F7D39C',
+			foreground: getColor('yellow', 300),
 		},
 	},
 	{
@@ -247,25 +273,25 @@ export const tokenColors = [
 			'entity.name.namespace.cpp',
 		],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['punctuation.definition.comment'],
 		settings: {
-			foreground: '#545B69',
+			foreground: getColor('neutral', 400),
 		},
 	},
 	{
 		scope: ['keyword.operator.expression.typeof', 'keyword.other.typeof'],
 		settings: {
-			foreground: '#59EAF7',
+			foreground: getColor('cyan', 400),
 		},
 	},
 	{
 		scope: ['keyword.operator.assignment', 'meta.property-value.css keyword.operator.less'],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -288,7 +314,7 @@ export const tokenColors = [
 			'punctuation.definition.tag.end source.js',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -316,7 +342,7 @@ export const tokenColors = [
 			'storage.modifier.pointer',
 		],
 		settings: {
-			foreground: '#BBBEC3',
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -338,13 +364,13 @@ export const tokenColors = [
 			'keyword.operator.dart',
 		],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
 		scope: ['keyword.operator.expression.instanceof', 'keyword.operator.instanceof'],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
@@ -358,13 +384,13 @@ export const tokenColors = [
 			'support.function.dom',
 		],
 		settings: {
-			foreground: '#59EAF7',
+			foreground: getColor('cyan', 400),
 		},
 	},
 	{
 		scope: ['variable.other.global.safer.php', 'variable.other.global.php'],
 		settings: {
-			foreground: '#F7D39C',
+			foreground: getColor('yellow', 300),
 		},
 	},
 	{
@@ -393,49 +419,49 @@ export const tokenColors = [
 			'support.function.math',
 		],
 		settings: {
-			foreground: '#68B0F8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['entity.name.type.class'],
 		settings: {
-			foreground: '#FF6AB3',
+			foreground: getColor('magenta', 300), // '#FF6AB3',
 		},
 	},
 	{
 		scope: 'support.class',
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['support.class.console', 'support.class.component'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['support.class.builtin'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['entity.name.class'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['meta.method.declaration'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['storage.type.function.arrow'],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
@@ -453,13 +479,13 @@ export const tokenColors = [
 			'meta.preprocessor.cs punctuation.separator.hash.cs',
 		],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
 		scope: ['keyword.operator.expression.in', 'keyword.operator.expression.of'],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
@@ -491,14 +517,14 @@ export const tokenColors = [
 			'keyword.cmake',
 		],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 			fontStyle: 'italic',
 		},
 	},
 	{
 		scope: ['keyword.control.from', 'entity.other.keyframe-offset'],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
@@ -509,7 +535,7 @@ export const tokenColors = [
 			'meta.block.class.cpp meta.body.class.cpp meta.block.class.cpp entity.name.function.definition.special.constructor.cpp',
 		],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
@@ -533,13 +559,13 @@ export const tokenColors = [
 			'support.type.built-in.posix-reserved.pthread',
 		],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
 		scope: ['keyword.control.default'],
 		settings: {
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
@@ -582,26 +608,26 @@ export const tokenColors = [
 			'storage.type.template.argument',
 		],
 		settings: {
-			foreground: '#F79CEF',
+			foreground: getColor('magenta', 300),
 		},
 	},
 	{
 		scope: ['entity.name.type.js', 'new.expr.ts'],
 		settings: {
-			foreground: '#68B0F8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['string', 'punctuation.definition.string.begin.html', 'punctuation.definition.string.end.html'],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['constant.language', 'constant.language.boolean', 'keyword.operator.expression.void'],
 		settings: {
 			fontStyle: 'italic',
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
@@ -626,37 +652,37 @@ export const tokenColors = [
 			'constant.other.js',
 		],
 		settings: {
-			foreground: '#FF9070',
+			foreground: getColor('orange', 400),
 		},
 	},
 	{
 		scope: ['markup.bold.markdown', 'punctuation.definition.bold.markdown'],
 		settings: {
-			foreground: '#F7D39C',
+			foreground: getColor('yellow', 300),
 		},
 	},
 	{
 		scope: ['punctuation.definition.markdown'],
 		settings: {
-			foreground: '#545B69',
+			foreground: getColor('neutral', 500),
 		},
 	},
 	{
 		scope: ['beginning.punctuation.definition.quote.markdown'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['fenced_code.block.language'],
 		settings: {
-			foreground: '#FF6AB3',
+			foreground: getColor('magenta', 300), // '#FF6AB3',
 		},
 	},
 	{
 		scope: ['entity.name.tag', 'punctuation.section.embedded.begin.php', 'punctuation.section.embedded.end.php'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -675,13 +701,13 @@ export const tokenColors = [
 			'text',
 		],
 		settings: {
-			foreground: '#BBBEC3',
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
 		scope: ['meta.jsx.children'],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -766,7 +792,7 @@ export const tokenColors = [
 			'keyword.operator.delete.array.bracket',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -784,7 +810,7 @@ export const tokenColors = [
 			'punctuation.section.keyframes.end.bracket.curly.css',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
@@ -795,7 +821,7 @@ export const tokenColors = [
 			'support.constant.color.w3c-extended-color-name.css',
 		],
 		settings: {
-			foreground: '#BBBEC3',
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -806,25 +832,25 @@ export const tokenColors = [
 			'source.css.scss',
 		],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
 		scope: ['meta.property-name.css'],
 		settings: {
-			foreground: '#545B69',
+			foreground: getColor('neutral', 500),
 		},
 	},
 	{
 		scope: ['entity.other.attribute-name', 'invalid.deprecated.entity.other.attribute-name'],
 		settings: {
-			foreground: '#59EAF7',
+			foreground: getColor('cyan', 400),
 		},
 	},
 	{
 		scope: ['entity.other.attribute-name.class.mixin'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
@@ -835,56 +861,56 @@ export const tokenColors = [
 			'meta.at-rule.extend.scss',
 		],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['entity.other.attribute-name.pseudo-class.css', 'support.type.property-name.media.css', 'support.constant.media.css'],
 		settings: {
-			foreground: '#59EAF7',
+			foreground: getColor('cyan', 400),
 		},
 	},
 	{
 		scope: ['entity.other.attribute-name.pseudo-element.css'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['entity.name.section.markdown', 'markup.heading', 'punctuation.definition.heading.markdown'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['markup.italic', 'punctuation.definition.italic'],
 		settings: {
 			fontStyle: 'italic',
-			foreground: '#F868EC',
+			foreground: getColor('magenta', 400),
 		},
 	},
 	{
 		scope: ['beginning.punctuation.definition.list.markdown', 'beginning.punctuation.definition.quote.markdown'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['markup.inline.raw.markdown'],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['markup.quote.markdown'],
 		settings: {
-			foreground: '#545B69',
+			foreground: getColor('neutral', 500),
 		},
 	},
 	{
 		scope: ['markup.underline.link.markdown', 'markup.underline.link.image.markdown', 'punctuation.definition.metadata.markdown'],
 		settings: {
-			foreground: '#68B0F8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
@@ -895,37 +921,37 @@ export const tokenColors = [
 			'punctuation.definition.string.end.markdown',
 		],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['string.regexp'],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['keyword.other'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
 		scope: ['constant.character.escape'],
 		settings: {
-			foreground: '#59EAF7',
+			foreground: getColor('cyan', 400),
 		},
 	},
 	{
 		scope: ['invalid.illegal', 'invalid.illegal.expected-dictionary-separator.json', 'invalid.broken', 'invalid.deprecated'],
 		settings: {
-			foreground: '#959AA3',
+			foreground: getColor('neutral', 300),
 		},
 	},
 	{
 		scope: ['source.json meta.structure.dictionary.json > string.quoted.json'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -936,13 +962,13 @@ export const tokenColors = [
 			'source.json meta.structure.array.json > value.json > string.quoted.json > punctuation',
 		],
 		settings: {
-			foreground: '#5AF6B5',
+			foreground: getColor('green', 400),
 		},
 	},
 	{
 		scope: ['support.type.property-name.json'],
 		settings: {
-			foreground: '#F86887',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -956,32 +982,32 @@ export const tokenColors = [
 			' keyword.operator.expression.delete',
 		],
 		settings: {
-			foreground: '#F79CB0',
+			foreground: getColor('red', 300),
 			fontStyle: 'italic',
 		},
 	},
 	{
 		scope: ['token.info-token'],
 		settings: {
-			foreground: '#68b0f8',
+			foreground: getColor('blue', 400),
 		},
 	},
 	{
 		scope: ['token.warn-token'],
 		settings: {
-			foreground: '#FCA92C',
+			foreground: getColor('yellow', 500),
 		},
 	},
 	{
 		scope: ['token.error-token'],
 		settings: {
-			foreground: '#FC2C5A',
+			foreground: getColor('red', 500),
 		},
 	},
 	{
 		scope: ['token.debug-token'],
 		settings: {
-			foreground: '#FC2CEA',
+			foreground: getColor('magenta', 500),
 		},
 	},
 	{
@@ -1010,7 +1036,7 @@ export const tokenColors = [
 			'storage.type.const',
 		],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
@@ -1021,13 +1047,13 @@ export const tokenColors = [
 			'keyword.control.at-rule.keyframes.css',
 		],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
 		scope: ['support.module.node.js', 'support.type.object.module.js', 'support.type.object.module.ts', 'support.module.node.ts'],
 		settings: {
-			foreground: '#A468F8',
+			foreground: getColor('violet', 400),
 		},
 	},
 	{
@@ -1039,7 +1065,7 @@ export const tokenColors = [
 			'markup.raw.block.markdown',
 		],
 		settings: {
-			foreground: '#B78AFF',
+			foreground: getColor('violet', 300),
 		},
 	},
 	{
@@ -1054,4 +1080,5 @@ export const tokenColors = [
 			fontStyle: 'strikethrough',
 		},
 	},
+	// #endregion
 ];

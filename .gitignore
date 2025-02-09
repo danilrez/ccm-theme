@@ -21,7 +21,5 @@ build
 Thumbs.db
 
 # Test files
-outDir/
-testThemeColors.json
-testUnusedColors.json
-origin-night.json
+test.js
+test.json
