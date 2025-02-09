@@ -141,15 +141,3 @@ export const colorsDark = {
 	violet,
 	orange,
 };
-
-export const colorsLight = {
-	neutral,
-	red,
-	green,
-	yellow,
-	blue,
-	magenta,
-	cyan,
-	violet,
-	orange,
-};
