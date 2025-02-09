@@ -39,14 +39,64 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "CCM Night",
+				"label": "✨NEW✨ CCM Night",
 				"uiTheme": "vs-dark",
 				"path": "./public/themes/ccm-night-theme.json"
 			},
 			{
-				"label": "CCM Daylight",
+				"label": "✨NEW✨ CCM Daylight",
 				"uiTheme": "vs",
 				"path": "./public/themes/ccm-daylight-theme.json"
+			},
+			{
+				"label": "CCM Dark: Bluetalic",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-dark-blueitalic.json"
+			},
+			{
+				"label": "CCM Dark: DARK++",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-dark-dark-plus.json"
+			},
+			{
+				"label": "CCM Dark: Fresh",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-dark-fresh.json"
+			},
+			{
+				"label": "CCM Dark: Night",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-dark-night.json"
+			},
+			{
+				"label": "CCM Night: Bluetalic",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-night-blueitalic.json"
+			},
+			{
+				"label": "CCM Night: DARK++",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-night-dark-plus.json"
+			},
+			{
+				"label": "CCM Night: Fresh",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-night-fresh.json"
+			},
+			{
+				"label": "CCM Night: Night",
+				"uiTheme": "vs-dark",
+				"path": "./public/themes/deprecated/ccm-night-night.json"
+			},
+			{
+				"label": "CCM Light: Light",
+				"uiTheme": "vs",
+				"path": "./public/themes/deprecated/light/ccm-theme-light.json"
+			},
+			{
+				"label": "CCM Light: Light Plus",
+				"uiTheme": "vs",
+				"path": "./public/themes/deprecated/light/ccm-theme-light-plus.json"
 			}
 		]
 	},
