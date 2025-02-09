@@ -109,6 +109,7 @@
 	},
 	"scripts": {
 		"prebuild": "rm -rf ./build",
+		"build": "tsc",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
 		"theme": "pnpm tsx ./src/index.ts",
 		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts",
