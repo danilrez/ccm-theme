@@ -60,9 +60,8 @@
 	},
 	"scripts": {
 		"prebuild": "rm -rf ./build",
-		"build": "tsc",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
-		"theme": "node ./src/index.js",
+		"theme": "pnpm tsx ./src/index.ts",
 		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts",
 		"test:colors-unset": "pnpm tsx ./src/tests/testUnsetThemeColors.ts",
 		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",

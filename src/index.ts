@@ -1,7 +1,7 @@
-const fs = require('fs').promises;
-const { flattenOptimizedTheme } = require('../build/colors');
-const { customizations } = require('../build/customizations');
-const tokenColors = require('../build/colors/tokenColors');
+import { promises as fs } from 'fs';
+import { flattenOptimizedTheme } from './colors';
+import { customizations } from './customizations';
+import { tokenColors } from './colors/tokenColors';
 
 const nightTheme = {
 	name: 'CCM Night',
@@ -27,4 +27,7 @@ fs.mkdir('./public/themes', { recursive: true })
 			fs.writeFile('./public/themes/ccm-daylight-theme.json', JSON.stringify(daylightTheme, null, 2)),
 		]),
 	)
-	.catch((error) => process.exit(1));
+	.catch((error: Error) => {
+		console.warn('ERROR:', error);
+		process.exit(1);
+	});
