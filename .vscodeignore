@@ -1,10 +1,9 @@
-# Ignore everything
-*
-
-# Include these folders & files back
-!build/
-!public/
-!package.json
-!README.md
-!CHANGELOG.md
-!LICENSE
+.vscode/**
+.vscode-test/**
+.changeset/
+/node_modules/
+/pnpm-lock.yaml
+/src/
+/build/
+/.eslintrc.json
+/.prettierignore

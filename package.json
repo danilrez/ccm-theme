@@ -2,7 +2,7 @@
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
 	"description": "CCM Theme for the VS Code",
-	"version": "1.53.8",
+	"version": "1.53.10",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -19,7 +19,7 @@
 		"url": "https://github.com/danilrez/CCM-Theme/issues"
 	},
 	"engines": {
-		"vscode": "^1.96.0"
+		"vscode": "^1.85.0"
 	},
 	"categories": [
 		"Themes"
@@ -51,29 +51,21 @@
 		]
 	},
 	"devDependencies": {
-		"@types/node": "^22.13.1",
-		"@types/vscode": "^1.96.0",
-		"@typescript-eslint/eslint-plugin": "^8.2.0",
-		"@typescript-eslint/parser": "^8.2.0",
+		"@types/node": "22.x",
+		"@types/vscode": "^1.85.0",
 		"@vscode/vsce": "^3.2.2",
-		"eslint": "^9.9.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.31.0",
 		"prettier": "^3.3.3",
 		"tsx": "^4.19.2",
-		"typescript": "^5.5.4"
+		"typescript": "5.3.3"
 	},
 	"scripts": {
 		"prebuild": "rm -rf ./build",
 		"build": "tsc",
-		"prepublishOnly": "pnpm build && vsce publish",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
 		"theme": "node ./src/index.js",
 		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts",
 		"test:colors-unset": "pnpm tsx ./src/tests/testUnsetThemeColors.ts",
 		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
-		"ci:lint": "eslint --ext .tsx --ext .ts --quiet src/",
-		"ci:lint-fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
 		"ci:prettier": "prettier . --write"
 	},
 	"prettier": {
