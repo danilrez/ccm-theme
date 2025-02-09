@@ -7,9 +7,9 @@ export const dropdown = {
 	// Dropdown background
 	'dropdown.background': getColor('neutral', 700),
 	// Dropdown list background
-	'dropdown.listBackground': undefined,
+	'dropdown.listBackground': getColor('neutral', 700),
 	// Dropdown border
-	'dropdown.border': undefined,
+	'dropdown.border': getColor('neutral', 900),
 	// Dropdown foreground
 	'dropdown.foreground': getColor('neutral', 300),
 };

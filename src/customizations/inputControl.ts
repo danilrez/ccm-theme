@@ -20,21 +20,21 @@ export const inputControl = {
 	// Background color of activated options in input fields
 	'inputOption.hoverBackground': defaultColor,
 	// Input validation background color for error severity
-	'inputValidation.errorBackground': undefined,
+	'inputValidation.errorBackground': getColor('red', 800),
 	// Input validation foreground color for error severity
-	'inputValidation.errorForeground': undefined,
+	'inputValidation.errorForeground': getColor('neutral', 100),
 	// Input validation border color for error severity
-	'inputValidation.errorBorder': undefined,
+	'inputValidation.errorBorder': getColor('red', 500),
 	// Input validation background color for information severity
-	'inputValidation.infoBackground': undefined,
+	'inputValidation.infoBackground': getColor('blue', 800),
 	// Input validation foreground color for information severity
-	'inputValidation.infoForeground': undefined,
+	'inputValidation.infoForeground': getColor('neutral', 100),
 	// Input validation border color for information severity
-	'inputValidation.infoBorder': undefined,
+	'inputValidation.infoBorder': getColor('blue', 500),
 	// Input validation background color for information warning
-	'inputValidation.warningBackground': undefined,
+	'inputValidation.warningBackground': getColor('yellow', 800),
 	// Input validation foreground color for warning severity
-	'inputValidation.warningForeground': undefined,
+	'inputValidation.warningForeground': getColor('neutral', 100),
 	// Input validation border color for warning severity
-	'inputValidation.warningBorder': undefined,
+	'inputValidation.warningBorder': getColor('yellow', 500),
 };

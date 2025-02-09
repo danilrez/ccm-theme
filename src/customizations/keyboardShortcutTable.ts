@@ -1,6 +1,8 @@
+import { defaultColor } from '../colors/constants';
+
 export const keyboardShortcutTable = {
 	// Background color for the keyboard shortcuts table header
-	'keybindingTable.headerBackground': undefined,
+	'keybindingTable.headerBackground': defaultColor,
 	// Background color for the keyboard shortcuts table alternating rows
-	'keybindingTable.rowsBackground': undefined,
+	'keybindingTable.rowsBackground': defaultColor,
 };

@@ -1,10 +1,12 @@
+import { defaultColor } from '../colors/constants';
+
 export const scm = {
 	// History item additions foreground color
-	'scm.historyItemAdditionsForeground': undefined,
+	'scm.historyItemAdditionsForeground': defaultColor,
 	// History item deletions foreground color
-	'scm.historyItemDeletionsForeground': undefined,
+	'scm.historyItemDeletionsForeground': defaultColor,
 	// History item statistics border color
-	'scm.historyItemStatisticsBorder': undefined,
+	'scm.historyItemStatisticsBorder': defaultColor,
 	// History item selected statistics border color
-	'scm.historyItemSelectedStatisticsBorder': undefined,
+	'scm.historyItemSelectedStatisticsBorder': defaultColor,
 };

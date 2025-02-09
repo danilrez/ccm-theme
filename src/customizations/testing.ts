@@ -57,8 +57,8 @@ export const testing = {
 	'testing.uncoveredBorder': defaultColor,
 	// Gutter color of regions where code not covered
 	'testing.uncoveredGutterBackground': defaultColor,
-	// Background for the badge indicating execution coun
+	// Background for the badge indicating execution count
 	'testing.coverCountBadgeBackground': defaultColor,
-	// Foreground for the badge indicating execution coun
+	// Foreground for the badge indicating execution count
 	'testing.coverCountBadgeForeground': defaultColor,
 };

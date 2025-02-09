@@ -1,20 +1,22 @@
+import { defaultColor } from '../colors/constants';
+
 export const commandCenter = {
 	// Foreground color of the Command Center
-	'commandCenter.foreground': undefined,
+	'commandCenter.foreground': defaultColor,
 	// Active foreground color of the Command Center
-	'commandCenter.activeForeground': undefined,
+	'commandCenter.activeForeground': defaultColor,
 	// Background color of the Command Center
-	'commandCenter.background': undefined,
+	'commandCenter.background': defaultColor,
 	// Active background color of the Command Center
-	'commandCenter.activeBackground': undefined,
+	'commandCenter.activeBackground': defaultColor,
 	// Border color of the Command Center
-	'commandCenter.border': undefined,
+	'commandCenter.border': defaultColor,
 	// Foreground color of the Command Center when the window is inactive
-	'commandCenter.inactiveForeground': undefined,
+	'commandCenter.inactiveForeground': defaultColor,
 	// Border color of the Command Center when the window is inactive
-	'commandCenter.inactiveBorder': undefined,
+	'commandCenter.inactiveBorder': defaultColor,
 	// Active border color of the Command Center
-	'commandCenter.activeBorder': undefined,
+	'commandCenter.activeBorder': defaultColor,
 	// Command Center background color when a program is being debugged
-	'commandCenter.debuggingBackground': undefined,
+	'commandCenter.debuggingBackground': defaultColor,
 };

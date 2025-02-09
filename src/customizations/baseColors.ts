@@ -1,4 +1,5 @@
 import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
 
 export const baseColors = {
 	// Overall border color for focused elements. This color is only used if not overridden by a component
@@ -20,5 +21,5 @@ export const baseColors = {
 	// The default color for icons in the workbench
 	'icon.foreground': getColor('neutral', 200),
 	// The hover border color for draggable sashes
-	'sash.hoverBorder': undefined,
+	'sash.hoverBorder': defaultColor,
 };

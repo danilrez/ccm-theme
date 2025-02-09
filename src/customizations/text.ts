@@ -1,4 +1,5 @@
 import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
 
 // Colors inside a text document, such as the welcome page
 export const text = {
@@ -15,7 +16,7 @@ export const text = {
 	// Foreground color for preformatted text segments
 	'textPreformat.foreground': getColor('yellow', 300),
 	// Background color for preformatted text segments
-	'textPreformat.background': undefined,
+	'textPreformat.background': getColor('neutral', 600),
 	// Color for text separators
-	'textSeparator.foreground': undefined,
+	'textSeparator.foreground': defaultColor,
 };

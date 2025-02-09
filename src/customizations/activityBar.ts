@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { transparent } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 // The Activity Bar is usually displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar
 export const activityBar = {
@@ -22,17 +22,17 @@ export const activityBar = {
 	// Activity Bar optional background color for the active element
 	'activityBar.activeBackground': getColor('neutral', 800),
 	// Activity bar focus border color for the active item
-	'activityBar.activeFocusBorder': undefined,
+	'activityBar.activeFocusBorder': defaultColor,
 	// Active foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar
-	'activityBarTop.foreground': undefined,
+	'activityBarTop.foreground': getColor('neutral', 200),
 	// Focus border color for the active item in the Activity bar when it is on top. The activity allows to switch between views of the side bar
-	'activityBarTop.activeBorder': undefined,
+	'activityBarTop.activeBorder': getColor('green', 400),
 	// Inactive foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar
-	'activityBarTop.inactiveForeground': undefined,
+	'activityBarTop.inactiveForeground': getColor('neutral', 500),
 	// Drag and drop feedback color for the items in the Activity bar when it is on top. The activity allows to switch between views of the side bar
-	'activityBarTop.dropBorder': undefined,
+	'activityBarTop.dropBorder': getColor('green', 400),
 	// Background color of the activity bar when set to top / bottom
-	'activityBarTop.background': undefined,
+	'activityBarTop.background': defaultColor,
 	// Background color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar
-	'activityBarTop.activeBackground': undefined,
+	'activityBarTop.activeBackground': defaultColor,
 };

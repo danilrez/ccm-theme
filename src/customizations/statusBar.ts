@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { defaultColor } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 // The Status Bar is shown in the bottom of the workbench
 export const statusBar = {
@@ -22,19 +22,19 @@ export const statusBar = {
 	// Status Bar border color separating the Status Bar and editor when no folder is opened
 	'statusBar.noFolderBorder': getColor('red', 400),
 	// Status Bar item background color when clicking
-	'statusBarItem.activeBackground': undefined,
+	'statusBarItem.activeBackground': defaultColor,
 	// Status bar item foreground color when hovering. The status bar is shown in the bottom of the window
 	'statusBarItem.hoverForeground': getColor('neutral', 50),
 	// Status Bar item background color when hovering
 	'statusBarItem.hoverBackground': getColor('neutral', 200, 30),
 	// Status Bar prominent items foreground color
-	'statusBarItem.prominentForeground': undefined,
+	'statusBarItem.prominentForeground': defaultColor,
 	// Status Bar prominent items background color
-	'statusBarItem.prominentBackground': undefined,
+	'statusBarItem.prominentBackground': defaultColor,
 	// Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window
-	'statusBarItem.prominentHoverForeground': undefined,
+	'statusBarItem.prominentHoverForeground': defaultColor,
 	// Status Bar prominent items background color when hovering
-	'statusBarItem.prominentHoverBackground': undefined,
+	'statusBarItem.prominentHoverBackground': defaultColor,
 	// Background color for the remote indicator on the status bar
 	'statusBarItem.remoteBackground': getColor('violet', 400),
 	// Foreground color for the remote indicator on the status bar
@@ -62,16 +62,16 @@ export const statusBar = {
 	// Status bar item background color when hovering an item that contains two hovers. The status bar is shown in the bottom of the window
 	'statusBarItem.compactHoverBackground': getColor('neutral', 100, 30),
 	// Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window
-	'statusBarItem.focusBorder': undefined,
+	'statusBarItem.focusBorder': transparent,
 	// Status bar border color when focused on keyboard navigation. The status bar is shown in the bottom of the window
-	'statusBar.focusBorder': defaultColor,
+	'statusBar.focusBorder': transparent,
 	// Status bar item background color when the workbench is offline
-	'statusBarItem.offlineBackground': undefined,
+	'statusBarItem.offlineBackground': defaultColor,
 	// Status bar item foreground color when the workbench is offline
-	'statusBarItem.offlineForeground': undefined,
+	'statusBarItem.offlineForeground': defaultColor,
 	// Status bar item foreground hover color when the workbench is offline
-	'statusBarItem.offlineHoverForeground': undefined,
+	'statusBarItem.offlineHoverForeground': defaultColor,
 	// Status bar item background hover color when the workbench is offline
-	'statusBarItem.offlineHoverBackground': undefined,
+	'statusBarItem.offlineHoverBackground': defaultColor,
 	// Prominent items stand out from other Status Bar entries to indicate importance. One example is the Toggle Tab Key Moves Focus command change mode indicator.
 };

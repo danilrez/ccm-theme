@@ -46,7 +46,7 @@ export const editorWidget = {
 	// Background color of the ghost text in the editor
 	'editorGhostText.background': defaultColor,
 	// Foreground color of the ghost text shown by inline completion providers and the suggest preview
-	'editorGhostText.foreground': defaultColor,
+	'editorGhostText.foreground': getColor('neutral', 500),
 	// Editor sticky scroll background color
 	'editorStickyScroll.background': getColor('neutral', 700),
 	// Border color of sticky scroll in the editor

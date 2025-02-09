@@ -38,33 +38,33 @@ export const listsAndTrees = {
 	// List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
 	'list.inactiveFocusOutline': transparent,
 	// List/Tree foreground color for invalid items, for example an unresolved root in explorer
-	'list.invalidItemForeground': undefined,
+	'list.invalidItemForeground': defaultColor,
 	// Foreground color of list items containing errors
 	'list.errorForeground': getColor('red', 500),
 	// Foreground color of list items containing warnings
 	'list.warningForeground': getColor('yellow', 400),
 	// List/Tree Filter background color of typed text when searching inside the list/tree
-	'listFilterWidget.background': undefined,
+	'listFilterWidget.background': defaultColor,
 	// List/Tree Filter Widget's outline color of typed text when searching inside the list/tree
-	'listFilterWidget.outline': undefined,
+	'listFilterWidget.outline': defaultColor,
 	// List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree
-	'listFilterWidget.noMatchesOutline': undefined,
+	'listFilterWidget.noMatchesOutline': defaultColor,
 	// Shadow color of the type filter widget in lists and tree
-	'listFilterWidget.shadow': undefined,
+	'listFilterWidget.shadow': defaultColor,
 	// Background color of the filtered matches in lists and trees
-	'list.filterMatchBackground': undefined,
+	'list.filterMatchBackground': defaultColor,
 	// Border color of the filtered matches in lists and trees
-	'list.filterMatchBorder': undefined,
+	'list.filterMatchBorder': defaultColor,
 	// List/Tree foreground color for items that are deemphasized
-	'list.deemphasizedForeground': undefined,
+	'list.deemphasizedForeground': defaultColor,
 	// List/Tree drag and drop border color when moving items between items when using the mouse
-	'list.dropBetweenBackground': undefined,
+	'list.dropBetweenBackground': defaultColor,
 	// Tree Widget's stroke color for indent guides
 	'tree.indentGuidesStroke': getColor('neutral', 400),
 	// Tree stroke color for the indentation guides that are not active
 	'tree.inactiveIndentGuidesStroke': getColor('neutral', 600),
 	// Tree stroke color for the indentation guides
-	'tree.tableColumnsBorder': undefined,
+	'tree.tableColumnsBorder': defaultColor,
 	// Background color for odd table rows
-	'tree.tableOddRowsBackground': undefined,
+	'tree.tableOddRowsBackground': defaultColor,
 };

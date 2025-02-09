@@ -5,7 +5,7 @@ export const quickPicker = {
 	// Quick picker (Quick Open) color for grouping borders
 	'pickerGroup.border': defaultColor,
 	// Quick picker (Quick Open) color for grouping labels
-	'pickerGroup.foreground': defaultColor,
+	'pickerGroup.foreground': getColor('neutral', 600),
 	// Quick input background color. The quick input widget is the container for views like the color theme picker
 	'quickInput.background': getColor('neutral', 800),
 	// Quick input foreground color. The quick input widget is the container for views like the color theme picker

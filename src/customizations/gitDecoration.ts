@@ -1,4 +1,5 @@
 import { getColor } from '../colors';
+import { defaultColor } from '../colors/constants';
 
 export const gitDecoration = {
 	// Color for added Git resources. Used for file labels and the SCM viewlet
@@ -8,7 +9,7 @@ export const gitDecoration = {
 	// Color for deleted Git resources. Used for file labels and the SCM viewlet
 	'gitDecoration.deletedResourceForeground': getColor('red', 400),
 	// Color for renamed or copied Git resources. Used for file labels and the SCM viewlet
-	'gitDecoration.renamedResourceForeground': undefined,
+	'gitDecoration.renamedResourceForeground': getColor('green', 400),
 	// Color for staged modifications git decorations. Used for file labels and the SCM viewlet
 	'gitDecoration.stageModifiedResourceForeground': getColor('violet', 500),
 	// Color for staged deletions git decorations. Used for file labels and the SCM viewlet
@@ -20,7 +21,7 @@ export const gitDecoration = {
 	// Color for conflicting Git resources. Used for file labels and the SCM viewlet
 	'gitDecoration.conflictingResourceForeground': getColor('yellow', 300),
 	// Color for submodule resources
-	'gitDecoration.submoduleResourceForeground': undefined,
+	'gitDecoration.submoduleResourceForeground': defaultColor,
 
 	// Gutter Decoration
 	// Color for modified line of code

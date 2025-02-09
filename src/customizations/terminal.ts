@@ -40,27 +40,27 @@ export const terminal = {
 	// 'BrightRed' ANSI color in the terminal
 	'terminal.ansiBrightRed': getColor('red', 300),
 	// 'BrightWhite' ANSI color in the terminal
-	'terminal.ansiBrightWhite': getColor('neutral', 300),
+	'terminal.ansiBrightWhite': getColor('neutral', 200),
 	// 'BrightYellow' ANSI color in the terminal
 	'terminal.ansiBrightYellow': getColor('yellow', 300),
 
 	// The selection background color of the terminal
 	'terminal.selectionBackground': getColor('neutral', 600),
 	// The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied
-	'terminal.selectionForeground': undefined,
+	'terminal.selectionForeground': defaultColor,
 	// The selection background color of the terminal when it does not have focus
 	'terminal.inactiveSelectionBackground': getColor('neutral', 600, 40),
 
 	// Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content
-	'terminal.findMatchBackground': undefined,
+	'terminal.findMatchBackground': defaultColor,
 	// Border color of the current search match in the terminal
-	'terminal.findMatchBorder': undefined,
+	'terminal.findMatchBorder': defaultColor,
 	// Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content
-	'terminal.findMatchHighlightBackground': undefined,
+	'terminal.findMatchHighlightBackground': defaultColor,
 	// Border color of the other search matches in the terminal
-	'terminal.findMatchHighlightBorder': undefined,
+	'terminal.findMatchHighlightBorder': defaultColor,
 	// Color of the highlight when hovering a link in the terminal
-	'terminal.hoverHighlightBackground': undefined,
+	'terminal.hoverHighlightBackground': defaultColor,
 
 	// The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor
 	'terminalCursor.background': defaultColor,
@@ -73,21 +73,21 @@ export const terminal = {
 	'terminal.tab.activeBorder': getColor('green', 400),
 
 	// The default terminal command decoration background color
-	'terminalCommandDecoration.defaultBackground': undefined,
+	'terminalCommandDecoration.defaultBackground': defaultColor,
 	// The terminal command decoration background color for successful commands
-	'terminalCommandDecoration.successBackground': undefined,
+	'terminalCommandDecoration.successBackground': defaultColor,
 	// The terminal command decoration background color for error commands
-	'terminalCommandDecoration.errorBackground': undefined,
+	'terminalCommandDecoration.errorBackground': defaultColor,
 	// The overview ruler cursor color
-	'terminalOverviewRuler.cursorForeground': undefined,
+	'terminalOverviewRuler.cursorForeground': defaultColor,
 	// Overview ruler marker color for find matches in the terminal
-	'terminalOverviewRuler.findMatchForeground': undefined,
+	'terminalOverviewRuler.findMatchForeground': defaultColor,
 	// The background color of the sticky scroll overlay in the terminal
-	'terminalStickyScroll.background': undefined,
+	'terminalStickyScroll.background': defaultColor,
 	// The border of the sticky scroll overlay in the terminal
-	'terminalStickyScroll.border': undefined,
+	'terminalStickyScroll.border': defaultColor,
 	// The background color of the sticky scroll overlay in the terminal when hovered
-	'terminalStickyScrollHover.background': undefined,
+	'terminalStickyScrollHover.background': defaultColor,
 	// Foreground color of the terminal initial hint
-	'terminal.initialHintForeground': undefined,
+	'terminal.initialHintForeground': defaultColor,
 };

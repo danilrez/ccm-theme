@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { transparent } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 // A set of colors for button widgets such as Open Folder button in the Explorer of a new window
 export const buttonControl = {
@@ -26,7 +26,7 @@ export const buttonControl = {
 	// Border color of checkbox widget
 	'checkbox.border': getColor('neutral', 900),
 	// Background color of checkbox widget when the element it's in is selected
-	'checkbox.selectBackground': undefined,
+	'checkbox.selectBackground': defaultColor,
 	// Border color of checkbox widget when the element it's in is selected
-	'checkbox.selectBorder': undefined,
+	'checkbox.selectBorder': defaultColor,
 };

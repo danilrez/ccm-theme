@@ -20,7 +20,7 @@ export const editorBase = {
 	// Color of the active editor line number
 	'editorLineNumber.activeForeground': getColor('neutral', 300),
 	// Color of the final editor line when editor.renderFinalNewline is set to dimmed
-	'editorLineNumber.dimmedForeground': undefined,
+	'editorLineNumber.dimmedForeground': defaultColor,
 	// The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor
 	'editorCursor.background': defaultColor,
 	// Color of the editor cursor
@@ -34,7 +34,7 @@ export const editorBase = {
 	// The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor
 	'editorMultiCursor.secondary.background': defaultColor,
 	// Foreground color of the placeholder text in the editor
-	'editor.placeholder.foreground': undefined,
+	'editor.placeholder.foreground': defaultColor,
 
 	// Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations
 	'editor.hoverHighlightBackground': getColor('violet', 400, 20),
@@ -46,13 +46,13 @@ export const editorBase = {
 	'editor.lineHighlightBorder': transparent,
 
 	// Foreground color for the labels in the editor watermark
-	'editorWatermark.foreground': undefined,
+	'editorWatermark.foreground': defaultColor,
 
 	// The color for unicode highlights
 	// Border color used to highlight unicode characters
-	'editorUnicodeHighlight.border': undefined,
+	'editorUnicodeHighlight.border': defaultColor,
 	// Background color used to highlight unicode characters
-	'editorUnicodeHighlight.background': undefined,
+	'editorUnicodeHighlight.background': defaultColor,
 
 	// The link color is visible when clicking on a link
 	'editorLink.activeForeground': getColor('blue', 400),

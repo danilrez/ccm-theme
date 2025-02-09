@@ -1,14 +1,16 @@
+import { defaultColor } from '../colors/constants';
+
 export const chat = {
 	// The border color of a chat request
-	'chat.requestBorder': undefined,
+	'chat.requestBorder': defaultColor,
 	// The background color of a chat request
-	'chat.requestBackground': undefined,
+	'chat.requestBackground': defaultColor,
 	// The background color of a chat slash command
-	'chat.slashCommandBackground': undefined,
+	'chat.slashCommandBackground': defaultColor,
 	// The foreground color of a chat slash command
-	'chat.slashCommandForeground': undefined,
+	'chat.slashCommandForeground': defaultColor,
 	// The background color of a chat avatar
-	'chat.avatarBackground': undefined,
+	'chat.avatarBackground': defaultColor,
 	// The foreground color of a chat avatar
-	'chat.avatarForeground': undefined,
+	'chat.avatarForeground': defaultColor,
 };

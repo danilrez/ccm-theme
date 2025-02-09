@@ -1,12 +1,15 @@
 // TODO: find this
+
+import { getColor } from '../colors';
+
 // The theme colors for snippets
 export const snippets = {
 	// Highlight background color of a snippet tabstop
-	'editor.snippetTabstopHighlightBackground': undefined, // '#45B7463F',
+	'editor.snippetTabstopHighlightBackground': getColor('neutral', 500, 40),
 	// Highlight border color of a snippet tabstop
-	'editor.snippetTabstopHighlightBorder': undefined,
+	'editor.snippetTabstopHighlightBorder': getColor('neutral', 300),
 	// Highlight background color of the final tabstop of a snippet
-	'editor.snippetFinalTabstopHighlightBackground': undefined, // '#45B7463F',
+	'editor.snippetFinalTabstopHighlightBackground': getColor('neutral', 500, 40),
 	// Highlight border color of the final tabstop of a snippet
-	'editor.snippetFinalTabstopHighlightBorder': undefined, // '#535773',
+	'editor.snippetFinalTabstopHighlightBorder': getColor('neutral', 300),
 };
