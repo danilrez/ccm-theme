@@ -2,7 +2,7 @@
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
 	"description": "CCM Theme for the VS Code",
-	"version": "1.53.17",
+	"version": "1.53.18",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -33,8 +33,7 @@
 		"dark",
 		"night",
 		"light",
-		"daylight",
-		"colorblind"
+		"daylight"
 	],
 	"contributes": {
 		"themes": [
