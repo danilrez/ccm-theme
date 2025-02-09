@@ -5,7 +5,7 @@
 [![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
 [![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
 
-**HERE SHOULD BE PREVIEW**
+![Preview](https://img.shields.io/visual-studio-marketplace/d/CrappyCodeMaker.crappycode-theme)
 
 ## Install
 
