@@ -1,8 +1,8 @@
-import { colorsDark, colorsLight, opacityLevel } from './constants';
+import { colorsDark, opacityLevel } from './constants';
 
 export type HexColor = `#${string}`;
 type ColorsDark = keyof typeof colorsDark;
-type ColorsLight = keyof typeof colorsLight;
+type ColorsLight = keyof typeof colorsDark; // keyof typeof colorsLight;
 export type Color = ColorsDark | ColorsLight;
 export type Shade = keyof (typeof colorsDark)['neutral'];
 export type OpacityLevel = keyof typeof opacityLevel;

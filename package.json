@@ -1,76 +1,54 @@
 {
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
-	"description": "Themes for the VS Code",
+	"description": "CCM Theme for the VS Code",
 	"version": "1.53.8",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
-	"icon": "./public/icon.png",
+	"icon": "./public/images/icon.png",
 	"galleryBanner": {
 		"color": "#232934",
 		"theme": "dark"
 	},
-	"homepage": "https://github.com/danilrez/",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/danilrez/CCM-Theme.git"
+		"url": "https://github.com/danilrez/CCM-Theme"
 	},
 	"bugs": {
 		"url": "https://github.com/danilrez/CCM-Theme/issues"
 	},
 	"engines": {
-		"vscode": "^1.41.0"
+		"vscode": "^1.96.0"
 	},
 	"categories": [
 		"Themes"
 	],
 	"keywords": [
-		"color-theme",
 		"theme",
-		"Themes",
-		"VSCode",
+		"ccm",
+		"crappycodemaker",
+		"danilrez",
+		"reznida",
 		"dark",
 		"night",
 		"light",
 		"daylight",
-		"colors",
-		"ccm",
-		"CrappyCode",
-		"CrappyCodeMaker",
-		"CCM",
-		"danilrez",
-		"reznida"
-	],
-	"extensionKind": [
-		"ui",
-		"workspace"
+		"colorblind"
 	],
 	"contributes": {
 		"themes": [
 			{
 				"label": "CCM Night",
 				"uiTheme": "vs-dark",
-				"path": "./public/ccm-night.json"
+				"path": "./public/themes/ccm-night-theme.json"
 			},
 			{
 				"label": "CCM Daylight",
 				"uiTheme": "vs",
-				"path": "./public/ccm-daylight.json"
+				"path": "./public/themes/ccm-daylight-theme.json"
 			}
 		]
-	},
-	"scripts": {
-		"prebuild": "rm -rf ./lib",
-		"build": "tsc",
-		"package": "vsce package",
-		"theme": "pnpm tsx ./src/index.ts > ./public/ccm-night.json",
-		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts > testThemeColors.json",
-		"test:colors-unset": "pnpm tsx ./src/tests/testUnusedColors.ts > testUnusedColors.json",
-		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
-		"ci:lint": "eslint --ext .tsx --ext .ts --quiet src/",
-		"ci:lint-fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
-		"ci:prettier": "prettier . --write"
 	},
 	"devDependencies": {
 		"@types/node": "^22.13.1",
@@ -84,6 +62,19 @@
 		"prettier": "^3.3.3",
 		"tsx": "^4.19.2",
 		"typescript": "^5.5.4"
+	},
+	"scripts": {
+		"prebuild": "rm -rf ./build",
+		"build": "tsc",
+		"prepublishOnly": "pnpm build && vsce publish",
+		"package": "vsce package -o ./ccm-vscode-theme.vsix",
+		"theme": "node ./src/index.js",
+		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts",
+		"test:colors-unset": "pnpm tsx ./src/tests/testUnsetThemeColors.ts",
+		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
+		"ci:lint": "eslint --ext .tsx --ext .ts --quiet src/",
+		"ci:lint-fix": "eslint --ext .tsx --ext .ts --fix --quiet src/",
+		"ci:prettier": "prettier . --write"
 	},
 	"prettier": {
 		"printWidth": 150,

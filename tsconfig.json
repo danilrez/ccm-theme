@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
 		"rootDir": "./src",
-		"outDir": "./lib",
-		"declarationDir": "lib/types",
+		"outDir": "./build",
+		"declarationDir": "build/types",
 		"declaration": true,
 		"target": "ES2020",
 		"module": "NodeNext",
