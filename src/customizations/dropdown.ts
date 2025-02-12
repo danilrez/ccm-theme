@@ -11,5 +11,5 @@ export const dropdown = {
 	// Dropdown border
 	'dropdown.border': getColor('neutral', 900),
 	// Dropdown foreground
-	'dropdown.foreground': getColor('neutral', 300),
+	'dropdown.foreground': getColor('neutral', 200),
 };

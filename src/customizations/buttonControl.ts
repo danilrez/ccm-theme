@@ -22,7 +22,7 @@ export const buttonControl = {
 	// Background color of checkbox widget
 	'checkbox.background': getColor('neutral', 800),
 	// Foreground color of checkbox widget
-	'checkbox.foreground': getColor('neutral', 300),
+	'checkbox.foreground': getColor('neutral', 200),
 	// Border color of checkbox widget
 	'checkbox.border': getColor('neutral', 900),
 	// Background color of checkbox widget when the element it's in is selected

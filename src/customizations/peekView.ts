@@ -16,8 +16,8 @@ export const peekView = {
 	'peekViewEditorStickyScroll.background': getColor('neutral', 800, 80),
 	// Background color of the peek view result list
 	'peekViewResult.background': getColor('neutral', 800),
-	// Foreground color for file nodes in the peek view result list
-	'peekViewResult.fileForeground': getColor('neutral', 300),
+	// // Foreground color for file nodes in the peek view result list
+	'peekViewResult.fileForeground': getColor('neutral', 200),
 	// Foreground color for line nodes in the peek view result list
 	'peekViewResult.lineForeground': getColor('neutral', 300),
 	// Match highlight color in the peek view result list
@@ -31,5 +31,5 @@ export const peekView = {
 	// Color of the peek view title info
 	'peekViewTitleDescription.foreground': getColor('neutral', 500),
 	// Color of the peek view title
-	'peekViewTitleLabel.foreground': getColor('neutral', 300),
+	'peekViewTitleLabel.foreground': getColor('neutral', 200),
 };

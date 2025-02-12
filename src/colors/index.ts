@@ -19,7 +19,8 @@ export const getColor = (color: Color, shade: Shade, opacity?: number): HexColor
 export const flattenOptimizedTheme = (obj: NestedObject, result: Theme = {}): Theme => {
 	Object.entries(obj).forEach(([key, value]) => {
 		if (isNestedObject(value)) flattenOptimizedTheme(value, result);
-		else if (value !== undefined && value !== defaultColor) result[key] = value as HexColor;
+		// else if (value !== undefined && value !== defaultColor) result[key] = value as HexColor;
+		else if (value !== undefined) result[key] = value as HexColor;
 	});
 
 	return result;

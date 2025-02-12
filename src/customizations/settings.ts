@@ -44,5 +44,5 @@ export const settings = {
 	// The color of the Settings editor splitview sash border
 	'settings.sashBorder': defaultColor,
 	// The foreground color for a section header or hovered title
-	'settings.settingsHeaderHoverForeground': getColor('neutral', 50),
+	'settings.settingsHeaderHoverForeground': getColor('neutral', 100),
 };

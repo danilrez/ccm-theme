@@ -4,7 +4,7 @@ import { transparent } from '../colors/constants';
 // TODO: test on Windows OS
 export const menuBar = {
 	// Foreground color of the selected menu item in the menubar
-	'menubar.selectionForeground': getColor('neutral', 50),
+	'menubar.selectionForeground': getColor('neutral', 100),
 	// Background color of the selected menu item in the menubar
 	'menubar.selectionBackground': getColor('neutral', 500, 40),
 	// Border color of the selected menu item in the menubar
@@ -14,7 +14,7 @@ export const menuBar = {
 	// Background color of menu items
 	'menu.background': getColor('neutral', 800),
 	// Foreground color of the selected menu item in menus
-	'menu.selectionForeground': getColor('neutral', 50),
+	'menu.selectionForeground': getColor('neutral', 100),
 	// Background color of the selected menu item in menus
 	'menu.selectionBackground': getColor('violet', 400, 40),
 	// Border color of the selected menu item in menus

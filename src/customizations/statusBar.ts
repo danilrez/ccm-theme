@@ -12,7 +12,7 @@ export const statusBar = {
 	// Status Bar background color when a program is being debugged
 	'statusBar.debuggingBackground': getColor('orange', 600),
 	// Status Bar foreground color when a program is being debugged
-	'statusBar.debuggingForeground': getColor('neutral', 50),
+	'statusBar.debuggingForeground': getColor('neutral', 100),
 	// Status Bar border color separating the Status Bar and editor when a program is being debugged
 	'statusBar.debuggingBorder': getColor('neutral', 900),
 	// Status Bar foreground color when no folder is opened
@@ -24,7 +24,7 @@ export const statusBar = {
 	// Status Bar item background color when clicking
 	'statusBarItem.activeBackground': transparent,
 	// Status bar item foreground color when hovering. The status bar is shown in the bottom of the window
-	'statusBarItem.hoverForeground': getColor('neutral', 50),
+	'statusBarItem.hoverForeground': getColor('neutral', 100),
 	// Status Bar item background color when hovering
 	'statusBarItem.hoverBackground': getColor('neutral', 50, 20),
 	// Status Bar prominent items foreground color
@@ -38,11 +38,11 @@ export const statusBar = {
 	// Background color for the remote indicator on the status bar
 	'statusBarItem.remoteBackground': getColor('violet', 400),
 	// Foreground color for the remote indicator on the status bar
-	'statusBarItem.remoteForeground': getColor('neutral', 100),
+	'statusBarItem.remoteForeground': getColor('neutral', 50),
 	// Background color for the remote indicator on the status bar when hovering
 	'statusBarItem.remoteHoverBackground': getColor('violet', 500),
 	// Foreground color for the remote indicator on the status bar when hovering
-	'statusBarItem.remoteHoverForeground': getColor('neutral', 100),
+	'statusBarItem.remoteHoverForeground': getColor('neutral', 50),
 	// Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions
 	'statusBarItem.errorBackground': getColor('red', 500),
 	// Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions

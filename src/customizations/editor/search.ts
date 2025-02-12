@@ -4,7 +4,7 @@ import { defaultColor, transparent } from '../../colors/constants';
 // Search colors are used in the search viewlet's global search results
 export const search = {
 	// Color of the text in the search viewlet's completion message. For example, this color is used in the text that says "{x} results in {y} files"
-	'search.resultsInfoForeground': defaultColor,
+	'search.resultsInfoForeground': getColor('neutral', 500),
 };
 
 /**

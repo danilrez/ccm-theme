@@ -8,7 +8,7 @@ export const activityBar = {
 	// Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar
 	'activityBar.dropBorder': getColor('green', 400),
 	// Activity Bar foreground color (for example used for the icons)
-	'activityBar.foreground': getColor('neutral', 200),
+	'activityBar.foreground': getColor('neutral', 100),
 	// Activity Bar item foreground color when it is inactive
 	'activityBar.inactiveForeground': getColor('neutral', 500),
 	// Activity Bar border color with the Side Bar
@@ -24,7 +24,7 @@ export const activityBar = {
 	// Activity bar focus border color for the active item
 	'activityBar.activeFocusBorder': defaultColor,
 	// Active foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar
-	'activityBarTop.foreground': getColor('neutral', 200),
+	'activityBarTop.foreground': getColor('neutral', 100),
 	// Focus border color for the active item in the Activity bar when it is on top. The activity allows to switch between views of the side bar
 	'activityBarTop.activeBorder': getColor('green', 400),
 	// Inactive foreground color of the item in the Activity bar when it is on top. The activity allows to switch between views of the side bar

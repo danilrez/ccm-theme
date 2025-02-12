@@ -37,7 +37,7 @@ export const editorBase = {
 	'editor.placeholder.foreground': defaultColor,
 
 	// Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations
-	'editor.hoverHighlightBackground': getColor('violet', 400, 20),
+	'editor.hoverHighlightBackground': getColor('neutral', 500, 80),
 
 	// NOTE: The current line is typically shown as either background highlight or a border (not both)
 	// Background color for the highlight of line at the cursor position
