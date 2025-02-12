@@ -1,23 +1,26 @@
+import { getColor } from '../colors';
+import { transparent } from '../colors/constants';
+
 // TODO: test on Windows OS
 export const menuBar = {
 	// Foreground color of the selected menu item in the menubar
-	'menubar.selectionForeground': undefined,
+	'menubar.selectionForeground': getColor('neutral', 50),
 	// Background color of the selected menu item in the menubar
-	'menubar.selectionBackground': undefined,
+	'menubar.selectionBackground': getColor('neutral', 500, 40),
 	// Border color of the selected menu item in the menubar
-	'menubar.selectionBorder': undefined,
+	'menubar.selectionBorder': transparent,
 	// Foreground color of menu items
-	'menu.foreground': undefined,
+	'menu.foreground': getColor('neutral', 300),
 	// Background color of menu items
-	'menu.background': undefined,
+	'menu.background': getColor('neutral', 800),
 	// Foreground color of the selected menu item in menus
-	'menu.selectionForeground': undefined,
+	'menu.selectionForeground': getColor('neutral', 50),
 	// Background color of the selected menu item in menus
-	'menu.selectionBackground': undefined,
+	'menu.selectionBackground': getColor('violet', 400, 40),
 	// Border color of the selected menu item in menus
-	'menu.selectionBorder': undefined,
+	'menu.selectionBorder': getColor('violet', 400),
 	// Color of a separator menu item in menus
-	'menu.separatorBackground': undefined,
+	'menu.separatorBackground': getColor('neutral', 600),
 	// Border color of menus
-	'menu.border': undefined,
+	'menu.border': getColor('neutral', 900),
 };

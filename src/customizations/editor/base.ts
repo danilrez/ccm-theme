@@ -18,7 +18,7 @@ export const editorBase = {
 	// Color of editor line numbers
 	'editorLineNumber.foreground': getColor('neutral', 500),
 	// Color of the active editor line number
-	'editorLineNumber.activeForeground': getColor('neutral', 300),
+	'editorLineNumber.activeForeground': getColor('neutral', 100),
 	// Color of the final editor line when editor.renderFinalNewline is set to dimmed
 	'editorLineNumber.dimmedForeground': defaultColor,
 	// The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor

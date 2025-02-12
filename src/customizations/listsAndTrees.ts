@@ -8,17 +8,17 @@ export const listsAndTrees = {
 	// List/Tree foreground color for the selected item when the list/tree is active
 	'list.activeSelectionForeground': getColor('neutral', 50),
 	// List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
-	'list.activeSelectionIconForeground': getColor('neutral', 100),
+	'list.activeSelectionIconForeground': getColor('neutral', 50),
 	// List/Tree drag and drop background when moving items around using the mouse
 	'list.dropBackground': getColor('neutral', 500, 40),
 	// List/Tree background color for the focused item when the list/tree is active
-	'list.focusBackground': defaultColor,
+	'list.focusBackground': getColor('violet', 400, 40),
 	// List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
-	'list.focusForeground': defaultColor,
+	'list.focusForeground': getColor('neutral', 50),
 	// List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree
 	'list.focusHighlightForeground': defaultColor,
 	// List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
-	'list.focusOutline': defaultColor,
+	'list.focusOutline': getColor('violet', 400),
 	// List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not
 	'list.focusAndSelectionOutline': getColor('violet', 400),
 	// List/Tree foreground color of the match highlights when searching inside the list/tree
@@ -26,15 +26,15 @@ export const listsAndTrees = {
 	// List/Tree background when hovering over items using the mouse
 	'list.hoverBackground': getColor('neutral', 600),
 	// List/Tree foreground when hovering over items using the mouse
-	'list.hoverForeground': getColor('neutral', 100),
+	'list.hoverForeground': getColor('neutral', 50),
 	// List/Tree background color for the selected item when the list/tree is inactive
-	'list.inactiveSelectionBackground': getColor('neutral', 600, 60),
+	'list.inactiveSelectionBackground': getColor('neutral', 600),
 	// List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
 	'list.inactiveSelectionForeground': defaultColor,
 	// List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
 	'list.inactiveSelectionIconForeground': defaultColor,
 	// List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists
-	'list.inactiveFocusBackground': getColor('neutral', 600, 60),
+	'list.inactiveFocusBackground': getColor('neutral', 600),
 	// List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
 	'list.inactiveFocusOutline': transparent,
 	// List/Tree foreground color for invalid items, for example an unresolved root in explorer

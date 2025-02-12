@@ -37,8 +37,6 @@ const baseTokenColors = [
 
 export const tokenColors = [
 	...baseTokenColors,
-
-	// #region Old
 	{
 		scope: [
 			'variable.parameter',
@@ -1080,5 +1078,4 @@ export const tokenColors = [
 			fontStyle: 'strikethrough',
 		},
 	},
-	// #endregion
 ];
