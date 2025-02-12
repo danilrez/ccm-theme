@@ -60,7 +60,7 @@ export const terminal = {
 	// Border color of the other search matches in the terminal
 	'terminal.findMatchHighlightBorder': defaultColor,
 	// Color of the highlight when hovering a link in the terminal
-	'terminal.hoverHighlightBackground': getColor('neutral', 500, 80),
+	'terminal.hoverHighlightBackground': getColor('neutral', 600, 90),
 
 	// The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor
 	'terminalCursor.background': defaultColor,

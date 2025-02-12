@@ -37,11 +37,11 @@ export const editorBase = {
 	'editor.placeholder.foreground': defaultColor,
 
 	// Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations
-	'editor.hoverHighlightBackground': getColor('neutral', 500, 80),
+	'editor.hoverHighlightBackground': getColor('neutral', 600, 90),
 
 	// NOTE: The current line is typically shown as either background highlight or a border (not both)
 	// Background color for the highlight of line at the cursor position
-	'editor.lineHighlightBackground': getColor('neutral', 500, 20),
+	'editor.lineHighlightBackground': getColor('neutral', 600),
 	// Background color for the border around the line at the cursor position
 	'editor.lineHighlightBorder': transparent,
 
@@ -61,4 +61,19 @@ export const editorBase = {
 
 	// Background color used to highlight collapsed line of code
 	'editor.foldBackground': getColor('neutral', 500, 40),
+
+	// Wavy underline for errors in the code
+	'editorError.foreground': getColor('red', 400),
+	// Wavy underline for info messages or non-English text (e.g., Russian)
+	'editorInfo.foreground': getColor('blue', 400),
+	// Wavy underline for warnings in the code
+	'editorWarning.foreground': getColor('yellow', 400),
+	// Color of active indentation guides (overridden by bracket colors)
+	'editorIndentGuide.activeBackground1': getColor('neutral', 400),
+	// Color of indentation guides
+	'editorIndentGuide.background1': getColor('neutral', 500),
+	// Color of spaces and tabs
+	'editorWhitespace.foreground': getColor('neutral', 500),
+	// Color of the text with author of changes
+	'editorCodeLens.foreground': getColor('neutral', 500),
 };
