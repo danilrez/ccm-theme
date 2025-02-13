@@ -14,16 +14,6 @@ export const mergeConflicts = {
 	'merge.commonContentBackground': undefined,
 	// Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations
 	'merge.commonHeaderBackground': undefined,
-	// Current overview ruler foreground for inline merge conflicts
-	'editorOverviewRuler.currentContentForeground': undefined,
-	// Incoming overview ruler foreground for inline merge conflicts
-	'editorOverviewRuler.incomingContentForeground': undefined,
-	// Common ancestor overview ruler foreground for inline merge conflicts
-	'editorOverviewRuler.commonContentForeground': undefined,
-	// Editor overview ruler decoration color for resolved comments. This color should be opaque
-	'editorOverviewRuler.commentForeground': undefined,
-	// Editor overview ruler decoration color for unresolved comments. This color should be opaque
-	'editorOverviewRuler.commentUnresolvedForeground': undefined,
 	// The background color for changes
 	'mergeEditor.change.background': undefined,
 	// The background color for word changes

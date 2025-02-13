@@ -14,7 +14,7 @@ export const diffEditor = {
 	// Border color between the two text editors
 	'diffEditor.border': transparent,
 	// Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views
-	'diffEditor.diagonalFill': undefined,
+	'diffEditor.diagonalFill': getColor('neutral', 500),
 	// Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations
 	'diffEditor.insertedLineBackground': getColor('green', 500, 20),
 	// Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations
