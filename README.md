@@ -1,22 +1,28 @@
 # CrappyCodeMaker's VS Code themes
 
-[![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
-[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.crappycode-theme)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
+Welcome to **CrappyCodeMaker's Themes** for Visual Studio Code!
+This collection includes the `CCM Night` theme and, very soon, the `CCM Daylight` theme.
 
 ![Preview](https://github.com/danilrez/CCM-Theme/blob/feature/ccm-theme-v2/public/images/Title.png)
 
-## Install
+## 🚀 Install
 
 1. Go to [![VS Marketplace Badge](https://img.shields.io/badge/VS%20Marketplace-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme).
 2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button.
 3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
     - `CCM Night` ✨ new ✨
-    - `CCM Daylight` (soon)
+    - `CCM Daylight` ⏳ coming soon ⏳
 4. Enjoy! 🎉
 
-Additionally, there are also several older themes.
+#### ⏳ Coming Soon
 
-> _**Note**: They don’t get updated often and are only kept for legacy reasons. They’ll be removed soon:_
+In the upcoming minor update, we’ll release the `CCM Daylight` theme. Stay tuned for more exciting updates!
+
+#### ⚠️ Deprecated
+
+The following older themes are maintained only for legacy reasons and will be removed in the next minor version.
+
+> _**Note**: These themes are not updated and are kept solely for backward compatibility. They will be removed soon!_
 
 - `CCM Dark: Bluetalic` (legacy)
 - `CCM Dark: DARK++` (legacy)
@@ -29,17 +35,23 @@ Additionally, there are also several older themes.
 - `CCM Light: Light` (legacy)
 - `CCM Light: Light Plus` (legacy)
 
-## Fonts
+We highly recommend using the updated themes for the best experience.
 
-Feel free to use these fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace**, for a better experience.
-If you don't have these fonts, use your favorite one.
+## 🔠 Fonts
 
-## Override this theme
+For the optimal look, we suggest using these fonts: **Fira Code**, **Consolas**, **Courier New**, **Monospace**, or any other monospaced font that you love.
+If you don’t have them, feel free to use your favorite!
 
-To override this _(or any other)_ theme in your personal config file, please follow the guide in the [![Color theme Badge](https://img.shields.io/badge/Color%20Theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/api/extension-guides/color-theme) documentation. This is handy for small tweaks to the theme without having to fork and maintain your own theme.
+## 🎨 Override This Theme
 
-## Feedback
+Want to tweak the theme to suit your taste? You can override this _(or any other)_ theme in your personal settings.
+Please check out the [![Color theme Badge](https://img.shields.io/badge/Color%20Theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/api/extension-guides/color-theme) documentation for details on making small tweaks without forking the theme.
 
-If you have suggestions, please open an **[![Issue Badge](https://img.shields.io/badge/Issue-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://github.com/danilrez/CCM-Theme/issues)**. Be nice 😉
+## 💬 Feedback
+
+We’d love to hear your thoughts! If you have suggestions or encounter issues, please open an **[![Issue Badge](https://img.shields.io/badge/Issue-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://github.com/danilrez/CCM-Theme/issues)**.
+Be nice and happy coding! 😉
+
+---
 
 > Authored by © **[Danil Reznichenko](https://github.com/danilrez)**

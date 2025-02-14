@@ -60,17 +60,17 @@ export const editorWidget = {
 	// Exception widget border color
 	'debugExceptionWidget.border': defaultColor,
 	// Editor marker navigation widget background
-	'editorMarkerNavigation.background': undefined,
+	'editorMarkerNavigation.background': defaultColor,
 	// Editor marker navigation widget error color
-	'editorMarkerNavigationError.background': undefined,
+	'editorMarkerNavigationError.background': defaultColor,
 	// Editor marker navigation widget warning color
-	'editorMarkerNavigationWarning.background': undefined,
+	'editorMarkerNavigationWarning.background': defaultColor,
 	// Editor marker navigation widget info color
-	'editorMarkerNavigationInfo.background': undefined,
+	'editorMarkerNavigationInfo.background': defaultColor,
 	// Editor marker navigation widget error heading background
-	'editorMarkerNavigationError.headerBackground': undefined,
+	'editorMarkerNavigationError.headerBackground': defaultColor,
 	// Editor marker navigation widget warning heading background
-	'editorMarkerNavigationWarning.headerBackground': undefined,
+	'editorMarkerNavigationWarning.headerBackground': defaultColor,
 	// Editor marker navigation widget info heading background
-	'editorMarkerNavigationInfo.headerBackground': undefined,
+	'editorMarkerNavigationInfo.headerBackground': defaultColor,
 };

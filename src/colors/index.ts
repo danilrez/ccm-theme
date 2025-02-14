@@ -1,7 +1,7 @@
 import { isNestedObject } from '../validators/isNestedObject';
 import { isValidHexColor } from '../validators/isValidHexColor';
 import { isValidOpacity } from '../validators/isValidOpacity';
-import { colorsDark, defaultColor, opacityLevel } from './constants';
+import { colorsDark, opacityLevel } from './constants';
 import type { Color, HexColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
 
 export const withOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${color}${opacityLevel[opacity]}`;

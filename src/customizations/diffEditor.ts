@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { transparent } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 // For coloring inserted and removed text, use either a background or a border color but not both
 export const diffEditor = {
@@ -24,25 +24,25 @@ export const diffEditor = {
 	// Background color for the margin where lines got removed
 	'diffEditorGutter.removedLineBackground': transparent,
 	// Diff overview ruler foreground for inserted content
-	'diffEditorOverview.insertedForeground': undefined,
+	'diffEditorOverview.insertedForeground': defaultColor,
 	// Diff overview ruler foreground for removed content
-	'diffEditorOverview.removedForeground': undefined,
+	'diffEditorOverview.removedForeground': defaultColor,
 	// The color of unchanged blocks in diff editor
-	'diffEditor.unchangedRegionBackground': undefined,
+	'diffEditor.unchangedRegionBackground': defaultColor,
 	// The foreground color of unchanged blocks in the diff editor
-	'diffEditor.unchangedRegionForeground': undefined,
+	'diffEditor.unchangedRegionForeground': defaultColor,
 	// The color of the shadow around unchanged region widgets
-	'diffEditor.unchangedRegionShadow': undefined,
+	'diffEditor.unchangedRegionShadow': defaultColor,
 	// The background color of unchanged code in the diff editor
-	'diffEditor.unchangedCodeBackground': undefined,
+	'diffEditor.unchangedCodeBackground': defaultColor,
 	// The border color for text that got moved in the diff editor
-	'diffEditor.move.border': undefined,
+	'diffEditor.move.border': defaultColor,
 	// The active border color for text that got moved in the diff editor
-	'diffEditor.moveActive.border': undefined,
+	'diffEditor.moveActive.border': defaultColor,
 	// The background color of the diff editor's header
-	'multiDiffEditor.headerBackground': undefined,
+	'multiDiffEditor.headerBackground': defaultColor,
 	// The background color of the multi file diff editor
-	'multiDiffEditor.background': undefined,
+	'multiDiffEditor.background': defaultColor,
 	// The border color of the multi file diff editor
-	'multiDiffEditor.border': undefined,
+	'multiDiffEditor.border': defaultColor,
 };
