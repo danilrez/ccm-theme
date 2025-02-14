@@ -415,7 +415,7 @@ export const tokenColors = [
 	{
 		scope: ['support.class.console', 'support.class.component'],
 		settings: {
-			foreground: getColor('red', 400),
+			foreground: getColor('red', 300),
 		},
 	},
 	{

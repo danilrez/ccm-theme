@@ -111,7 +111,7 @@
     "activityBarTop.activeBackground": "default",
     "badge.foreground": "#F1F2F3",
     "badge.background": "#A468F8",
-    "focusBorder": "#A468F8",
+    "focusBorder": "#0000",
     "foreground": "#BBBEC3",
     "disabledForeground": "#545B69",
     "widget.border": "#0D1017",
@@ -235,7 +235,7 @@
     "tab.activeBackground": "#232934",
     "tab.unfocusedActiveBackground": "#232934",
     "tab.activeForeground": "#E4E5E7",
-    "tab.border": "#232934",
+    "tab.border": "#0D1017",
     "tab.activeBorder": "#232934",
     "tab.selectedBorderTop": "#5AF6B5",
     "tab.selectedBackground": "default",
@@ -290,6 +290,13 @@
     "editorStickyScrollHover.background": "#333A47",
     "debugExceptionWidget.background": "default",
     "debugExceptionWidget.border": "default",
+    "editorMarkerNavigation.background": "default",
+    "editorMarkerNavigationError.background": "default",
+    "editorMarkerNavigationWarning.background": "default",
+    "editorMarkerNavigationInfo.background": "default",
+    "editorMarkerNavigationError.headerBackground": "default",
+    "editorMarkerNavigationWarning.headerBackground": "default",
+    "editorMarkerNavigationInfo.headerBackground": "default",
     "extensionButton.prominentForeground": "#F1F2F3",
     "extensionButton.prominentBackground": "#FCA92C",
     "extensionButton.prominentHoverBackground": "#FCA92CCC",
@@ -1215,7 +1222,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "#F86887"
+        "foreground": "#F79CB0"
       }
     },
     {

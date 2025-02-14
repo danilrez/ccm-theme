@@ -1,9 +1,9 @@
 import { getColor } from '../colors';
-import { defaultColor } from '../colors/constants';
+import { defaultColor, transparent } from '../colors/constants';
 
 export const baseColors = {
 	// Overall border color for focused elements. This color is only used if not overridden by a component
-	focusBorder: getColor('violet', 400),
+	focusBorder: transparent,
 	// Overall foreground color. This color is only used if not overridden by a component
 	foreground: getColor('neutral', 200),
 	// Overall foreground for disabled elements. This color is only used if not overridden by a component

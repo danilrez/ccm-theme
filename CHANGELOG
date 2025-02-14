@@ -1,3 +1,7 @@
+### 2.0.1(2)
+
+- Fixing UI Color Bugs
+
 ### 2.0.0
 
 - **Complete Refactor:** Entire codebase rewritten in TypeScript with helper functions.

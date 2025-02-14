@@ -1,7 +1,7 @@
 {
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
-	"description": "CCM Theme for the VS Code",
+	"description": "CrappyCodeMaker's VS Code Themes",
 	"version": "2.0.1",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
@@ -13,10 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/danilrez/CCM-Theme"
+		"url": "https://github.com/danilrez/ccm-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/danilrez/CCM-Theme/issues"
+		"url": "https://github.com/danilrez/ccm-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.85.0"
