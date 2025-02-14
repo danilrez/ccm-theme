@@ -1,6 +1,6 @@
 # CrappyCodeMaker themes for VS Code
 
-Welcome to **CrappyCodeMaker's Themes** for Visual Studio Code!
+Welcome to **CrappyCodeMaker** themes for **VS Code**!
 This collection includes the `Crappy Night` theme and, very soon, the `Crappy Daylight` theme.
 
 ![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/public/images/Preview.png)
