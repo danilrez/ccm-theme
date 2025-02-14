@@ -35,7 +35,7 @@ export const editorGroupsTabs = {
 	// Active Tab foreground color in an active group
 	'tab.activeForeground': getColor('neutral', 100),
 	// Border to separate Tabs from each other
-	'tab.border': getColor('neutral', 700),
+	'tab.border': getColor('neutral', 900),
 	// Bottom border for the active tab
 	'tab.activeBorder': getColor('neutral', 700),
 	// Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups

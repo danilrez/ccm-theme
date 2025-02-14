@@ -1,7 +1,7 @@
 {
 	"name": "crappycode-theme",
-	"displayName": "CCM Theme",
-	"description": "CCM Theme for the VS Code",
+	"displayName": "CrappyCodeMaker Theme",
+	"description": "CrappyCodeMaker themes for VS Code",
 	"version": "2.0.1",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
@@ -13,10 +13,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/danilrez/CCM-Theme"
+		"url": "https://github.com/danilrez/ccm-theme"
 	},
 	"bugs": {
-		"url": "https://github.com/danilrez/CCM-Theme/issues"
+		"url": "https://github.com/danilrez/ccm-theme/issues"
 	},
 	"engines": {
 		"vscode": "^1.85.0"
@@ -38,9 +38,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "✨NEW✨ CCM Night",
+				"label": "✨NEW✨ Crappy Night",
 				"uiTheme": "vs-dark",
-				"path": "./public/themes/ccm-night-theme.json"
+				"path": "./public/themes/crappy-night-theme.json"
 			},
 			{
 				"label": "CCM Dark: Bluetalic",

@@ -1,22 +1,22 @@
-# CrappyCodeMaker's VS Code themes
+# CrappyCodeMaker themes for VS Code
 
 Welcome to **CrappyCodeMaker's Themes** for Visual Studio Code!
-This collection includes the `CCM Night` theme and, very soon, the `CCM Daylight` theme.
+This collection includes the `Crappy Night` theme and, very soon, the `Crappy Daylight` theme.
 
-![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/public/images/Title.png)
+![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/public/images/Preview.png)
 
 ## 🚀 Install
 
 1. Go to [![VS Marketplace Badge](https://img.shields.io/badge/VS%20Marketplace-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme).
 2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button.
 3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
-    - `CCM Night` ✨ new ✨
-    - `CCM Daylight` ⏳ coming soon ⏳
+    - `Crappy Night` ✨ new ✨
+    - `Crappy Daylight` ⏳ coming soon ⏳
 4. Enjoy! 🎉
 
 #### ⏳ Coming Soon
 
-In the upcoming minor update, we’ll release the `CCM Daylight` theme. Stay tuned for more exciting updates!
+In the upcoming minor update, we’ll release the `Crappy Daylight` theme. Stay tuned for more exciting updates!
 
 #### ⚠️ Deprecated
 
