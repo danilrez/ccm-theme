@@ -2,11 +2,11 @@
 	"name": "crappycode-theme",
 	"displayName": "CCM Theme",
 	"description": "CCM Theme for the VS Code",
-	"version": "1.53.19",
+	"version": "2.0.0",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
-	"icon": "./public/images/icon.png",
+	"icon": "public/images/icon.png",
 	"galleryBanner": {
 		"color": "#232934",
 		"theme": "dark"
