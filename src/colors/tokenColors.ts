@@ -2,41 +2,48 @@ import { getColor } from '.';
 
 const baseTokenColors = [
 	{
-		scope: 'comment',
+		scope: ['comment'],
 		settings: { foreground: getColor('neutral', 400) },
 	},
 	{
-		scope: 'keyword',
+		scope: ['keyword'],
 		settings: { foreground: getColor('violet', 400) },
 	},
 	{
-		scope: 'entity.name.function',
+		scope: ['storage.type'],
+		settings: {
+			foreground: getColor('violet', 400),
+		},
+	},
+	{
+		scope: ['entity.name.function'],
 		settings: { foreground: getColor('blue', 400) },
 	},
 	{
-		scope: 'constant.numeric',
+		scope: ['constant.numeric'],
 		settings: { foreground: getColor('orange', 400) },
 	},
 	{
-		scope: 'string',
+		scope: ['string'],
 		settings: { foreground: getColor('green', 400) },
 	},
 	{
-		scope: 'support.type',
+		scope: ['support.type'],
 		settings: { foreground: getColor('red', 400) },
 	},
 	{
-		scope: 'entity.name.type',
+		scope: ['entity.name.type'],
 		settings: { foreground: getColor('magenta', 300) },
 	},
 	{
-		scope: 'variable',
+		scope: ['variable'],
 		settings: { foreground: getColor('neutral', 200) },
 	},
 ];
 
 export const tokenColors = [
 	...baseTokenColors,
+
 	{
 		scope: [
 			'variable.parameter',
@@ -95,34 +102,13 @@ export const tokenColors = [
 			'variable.parameter.keyframe-list.css',
 			'meta.property-value.css',
 			'source.css.less',
-			'variable',
 		],
 		settings: {
 			foreground: getColor('neutral', 200),
 		},
 	},
 	{
-		scope: ['comment', 'comment.markup.link', 'punctuation.definition.comment', 'markup.quote.markdown'],
-		settings: {
-			fontStyle: 'italic',
-			foreground: getColor('neutral', 400), // 400
-		},
-	},
-	{
-		scope: ['invalid'],
-		settings: {
-			fontStyle: 'underline',
-			foreground: getColor('neutral', 500),
-		},
-	},
-	{
-		scope: ['variable.other.property'],
-		settings: {
-			foreground: getColor('red', 400),
-		},
-	},
-	{
-		scope: ['variable.other.object.property', 'variable.other.constant.property'],
+		scope: ['variable.other.property', 'variable.other.object.property', 'variable.other.constant.property'],
 		settings: {
 			foreground: getColor('red', 400),
 		},
@@ -145,13 +131,13 @@ export const tokenColors = [
 			'punctuation.separator.initializers',
 		],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
 		scope: ['keyword.operator.key.php'],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('blue', 200, 80),
 		},
 	},
 	{
@@ -172,7 +158,7 @@ export const tokenColors = [
 			'meta.delimiter.object.comma',
 		],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -187,7 +173,7 @@ export const tokenColors = [
 			'constant.character.end',
 		],
 		settings: {
-			foreground: getColor('neutral', 500),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -198,17 +184,17 @@ export const tokenColors = [
 			'punctuation.separator.method',
 			'punctuation.other.period',
 			'punctuation.dot',
-			' meta.delimiter.property.period',
+			'meta.delimiter.property.period',
 		],
 		settings: {
 			fontStyle: 'bold',
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
 		scope: ['meta.parameters.js'],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -220,7 +206,7 @@ export const tokenColors = [
 	{
 		scope: ['support.constant.property-value.scss', 'support.constant.property-value.css', 'support.constant.vendored.property-value.css'],
 		settings: {
-			foreground: getColor('magenta', 400),
+			foreground: getColor('magenta', 300),
 		},
 	},
 	{
@@ -246,7 +232,7 @@ export const tokenColors = [
 	},
 	{
 		scope: [
-			'keyword.operator.negetion.regexp',
+			'keyword.operator.negation.regexp',
 			'keyword.control.anchor.regexp',
 			'punctuation.definition.group.capture.regexp',
 			'keyword.operator.quantifier.regexp',
@@ -275,21 +261,15 @@ export const tokenColors = [
 		},
 	},
 	{
-		scope: ['punctuation.definition.comment'],
-		settings: {
-			foreground: getColor('neutral', 400),
-		},
-	},
-	{
 		scope: ['keyword.operator.expression.typeof', 'keyword.other.typeof'],
 		settings: {
-			foreground: getColor('cyan', 400),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
 		scope: ['keyword.operator.assignment', 'meta.property-value.css keyword.operator.less'],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -297,7 +277,7 @@ export const tokenColors = [
 			'punctuation.definition.tag',
 			'meta.tag.inline.any',
 			'meta.tag.block.any',
-			'meta.tag.any ',
+			'meta.tag.any',
 			'meta.tag.structure.any',
 			'meta.tag.metadata.script',
 			'punctuation.definition.tag.begin',
@@ -333,14 +313,14 @@ export const tokenColors = [
 			'keyword.operator.assignment.augmented',
 			'storage.type.variable.ruby',
 			'keyword.operator.assignment.arithmetic',
-			'punctuation.definition.list.begin.markdown',
+			'punctuation.definition.list.begin',
 			'variable.language.import-all',
 			'constant.language.import-export-all',
 			'storage.modifier.reference',
 			'storage.modifier.pointer',
 		],
 		settings: {
-			foreground: getColor('neutral', 200),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
@@ -382,7 +362,7 @@ export const tokenColors = [
 			'support.function.dom',
 		],
 		settings: {
-			foreground: getColor('cyan', 400),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
@@ -423,11 +403,11 @@ export const tokenColors = [
 	{
 		scope: ['entity.name.type.class'],
 		settings: {
-			foreground: getColor('magenta', 300), // '#FF6AB3',
+			foreground: getColor('magenta', 300),
 		},
 	},
 	{
-		scope: 'support.class',
+		scope: ['support.class'],
 		settings: {
 			foreground: getColor('blue', 400),
 		},
@@ -516,7 +496,6 @@ export const tokenColors = [
 		],
 		settings: {
 			foreground: getColor('magenta', 400),
-			fontStyle: 'italic',
 		},
 	},
 	{
@@ -578,7 +557,6 @@ export const tokenColors = [
 			'storage.type.primitive',
 			'meta.type.annotation',
 			'meta.method.identifier',
-			'entity.other.inherited-classentity.name.type.interface',
 			'meta.return.type',
 			'meta.type.parameters',
 			'keyword.interface',
@@ -625,7 +603,7 @@ export const tokenColors = [
 		scope: ['constant.language', 'constant.language.boolean', 'keyword.operator.expression.void'],
 		settings: {
 			fontStyle: 'italic',
-			foreground: getColor('violet', 400),
+			foreground: getColor('violet', 500),
 		},
 	},
 	{
@@ -654,19 +632,7 @@ export const tokenColors = [
 		},
 	},
 	{
-		scope: ['markup.bold.markdown', 'punctuation.definition.bold.markdown'],
-		settings: {
-			foreground: getColor('yellow', 300),
-		},
-	},
-	{
-		scope: ['punctuation.definition.markdown'],
-		settings: {
-			foreground: getColor('neutral', 500),
-		},
-	},
-	{
-		scope: ['beginning.punctuation.definition.quote.markdown'],
+		scope: ['beginning.punctuation.definition.quote'],
 		settings: {
 			foreground: getColor('blue', 400),
 		},
@@ -674,7 +640,8 @@ export const tokenColors = [
 	{
 		scope: ['fenced_code.block.language'],
 		settings: {
-			foreground: getColor('magenta', 300), // '#FF6AB3',
+			fontStyle: 'italic',
+			foreground: getColor('red', 400),
 		},
 	},
 	{
@@ -686,8 +653,8 @@ export const tokenColors = [
 	{
 		scope: [
 			'text.html.basic',
-			'text.html.markdown',
-			'meta.paragraph.markdown',
+			'text.html',
+			'meta.paragraph',
 			'text.html.php',
 			'text.html.derivative',
 			'text.html.wxml',
@@ -705,7 +672,7 @@ export const tokenColors = [
 	{
 		scope: ['meta.jsx.children'],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -790,7 +757,7 @@ export const tokenColors = [
 			'keyword.operator.delete.array.bracket',
 		],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -808,7 +775,7 @@ export const tokenColors = [
 			'punctuation.section.keyframes.end.bracket.curly.css',
 		],
 		settings: {
-			foreground: getColor('neutral', 300),
+			foreground: getColor('neutral', 200),
 		},
 	},
 	{
@@ -828,21 +795,16 @@ export const tokenColors = [
 			'support.type.vendored.property-name.css',
 			'meta.at-rule.each.scss support.constant.property-value.css',
 			'source.css.scss',
+			'entity.name.tag.css',
 		],
 		settings: {
-			foreground: getColor('neutral', 300),
-		},
-	},
-	{
-		scope: ['meta.property-name.css'],
-		settings: {
-			foreground: getColor('neutral', 500),
+			foreground: getColor('blue', 300, 80),
 		},
 	},
 	{
 		scope: ['entity.other.attribute-name', 'invalid.deprecated.entity.other.attribute-name'],
 		settings: {
-			foreground: getColor('cyan', 400),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
@@ -865,7 +827,7 @@ export const tokenColors = [
 	{
 		scope: ['entity.other.attribute-name.pseudo-class.css', 'support.type.property-name.media.css', 'support.constant.media.css'],
 		settings: {
-			foreground: getColor('cyan', 400),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
@@ -874,54 +836,20 @@ export const tokenColors = [
 			foreground: getColor('red', 400),
 		},
 	},
+
 	{
-		scope: ['entity.name.section.markdown', 'markup.heading', 'punctuation.definition.heading.markdown'],
-		settings: {
-			foreground: getColor('red', 400),
-		},
-	},
-	{
-		scope: ['markup.italic', 'punctuation.definition.italic'],
-		settings: {
-			fontStyle: 'italic',
-			foreground: getColor('magenta', 400),
-		},
-	},
-	{
-		scope: ['beginning.punctuation.definition.list.markdown', 'beginning.punctuation.definition.quote.markdown'],
+		scope: ['beginning.punctuation.definition.list', 'beginning.punctuation.definition.quote'],
 		settings: {
 			foreground: getColor('blue', 400),
 		},
 	},
 	{
-		scope: ['markup.inline.raw.markdown'],
-		settings: {
-			foreground: getColor('green', 400),
-		},
-	},
-	{
-		scope: ['markup.quote.markdown'],
-		settings: {
-			foreground: getColor('neutral', 500),
-		},
-	},
-	{
-		scope: ['markup.underline.link.markdown', 'markup.underline.link.image.markdown', 'punctuation.definition.metadata.markdown'],
+		scope: ['string.other.link.title', 'string.other.link.description'],
 		settings: {
 			foreground: getColor('blue', 400),
 		},
 	},
-	{
-		scope: [
-			'string.other.link.title.markdown',
-			'string.other.link.description.markdown',
-			'punctuation.definition.string.begin.markdown',
-			'punctuation.definition.string.end.markdown',
-		],
-		settings: {
-			foreground: getColor('blue', 400),
-		},
-	},
+
 	{
 		scope: ['string.regexp'],
 		settings: {
@@ -937,13 +865,14 @@ export const tokenColors = [
 	{
 		scope: ['constant.character.escape'],
 		settings: {
-			foreground: getColor('cyan', 400),
+			foreground: getColor('cyan', 600),
 		},
 	},
 	{
-		scope: ['invalid.illegal', 'invalid.illegal.expected-dictionary-separator.json', 'invalid.broken', 'invalid.deprecated'],
+		scope: ['invalid', 'invalid.illegal', 'invalid.illegal.expected-dictionary-separator.json', 'invalid.broken', 'invalid.deprecated'],
 		settings: {
-			foreground: getColor('neutral', 300),
+			fontStyle: 'italic bold underline',
+			foreground: getColor('red', 600),
 		},
 	},
 	{
@@ -976,35 +905,39 @@ export const tokenColors = [
 			'variable.language.super',
 			'variable.language.special.self.python',
 			'variable.language.dart',
-			' keyword.operator.delete',
-			' keyword.operator.expression.delete',
+			'keyword.operator.delete',
+			'keyword.operator.expression.delete',
 		],
 		settings: {
-			foreground: getColor('red', 300),
 			fontStyle: 'italic',
+			foreground: getColor('red', 500),
 		},
 	},
 	{
 		scope: ['token.info-token'],
 		settings: {
-			foreground: getColor('blue', 400),
+			fontStyle: 'italic bold',
+			foreground: getColor('blue', 500),
 		},
 	},
 	{
 		scope: ['token.warn-token'],
 		settings: {
+			fontStyle: 'italic bold',
 			foreground: getColor('yellow', 500),
 		},
 	},
 	{
 		scope: ['token.error-token'],
 		settings: {
+			fontStyle: 'italic bold',
 			foreground: getColor('red', 500),
 		},
 	},
 	{
-		scope: ['token.debug-token'],
+		scope: ['token.debug-token', 'keyword.other.debugger'],
 		settings: {
+			fontStyle: 'italic bold',
 			foreground: getColor('magenta', 500),
 		},
 	},
@@ -1038,12 +971,7 @@ export const tokenColors = [
 		},
 	},
 	{
-		scope: [
-			'punctuation.definition.block.tag.jsdoc',
-			'storage.type.class.jsdoc',
-			'keyword.ccontrol.at-rule.keyframes.css',
-			'keyword.control.at-rule.keyframes.css',
-		],
+		scope: ['punctuation.definition.block.tag.jsdoc', 'storage.type.class.jsdoc', 'keyword.control.at-rule.keyframes.css'],
 		settings: {
 			foreground: getColor('violet', 400),
 		},
@@ -1055,12 +983,50 @@ export const tokenColors = [
 		},
 	},
 	{
+		scope: ['markup.bold', 'punctuation.definition.bold'],
+		settings: {
+			foreground: getColor('yellow', 300),
+		},
+	},
+	{
+		scope: ['comment.markup.link', 'punctuation.definition.comment', 'markup.quote'],
+		settings: {
+			fontStyle: 'italic',
+			foreground: getColor('neutral', 400),
+		},
+	},
+	{
+		scope: ['entity.name.section', 'markup.heading', 'punctuation.definition.heading'],
+		settings: {
+			foreground: getColor('red', 400),
+		},
+	},
+	{
+		scope: ['markup.italic', 'punctuation.definition.italic'],
+		settings: {
+			fontStyle: 'italic',
+			foreground: getColor('magenta', 300),
+		},
+	},
+	{
+		scope: ['markup.inline.raw'],
+		settings: {
+			foreground: getColor('green', 400),
+		},
+	},
+	{
+		scope: ['markup.underline.link', 'markup.underline.link.image', 'punctuation.definition.metadata'],
+		settings: {
+			foreground: getColor('blue', 300),
+		},
+	},
+	{
 		scope: [
-			'markup.inline.raw.string.markdown',
-			'punctuation.definition.raw.markdown',
-			'markup.fenced_code.block.markdown',
-			'markup.fenced_code.block.markdown punctuation',
-			'markup.raw.block.markdown',
+			'markup.inline.raw.string',
+			'punctuation.definition.raw',
+			'markup.fenced_code.block',
+			'markup.fenced_code.block punctuation',
+			'markup.raw.block',
 		],
 		settings: {
 			foreground: getColor('violet', 300),
