@@ -3,7 +3,7 @@
 Welcome to **CrappyCodeMaker's Themes** for Visual Studio Code!
 This collection includes the `CCM Night` theme and, very soon, the `CCM Daylight` theme.
 
-![Preview](https://github.com/danilrez/CCM-Theme/blob/feature/ccm-theme-v2/public/images/Title.png)
+![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/public/images/Title.png)
 
 ## 🚀 Install
 
