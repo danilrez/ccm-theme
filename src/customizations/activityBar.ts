@@ -1,5 +1,5 @@
 import { getColor } from '../colors';
-import { defaultColor, transparent } from '../colors/constants';
+import { defaultColor } from '../colors/constants';
 
 // The Activity Bar is usually displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar
 export const activityBar = {
