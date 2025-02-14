@@ -1,7 +1,9 @@
 .vscode/**
 .vscode-test/**
-.gitignore
-vsc settings
-images
-vsc-extension-quickstart.md
-.DS_Store
+.changeset/
+/node_modules/
+/pnpm-lock.yaml
+/src/
+/build/
+/.eslintrc.json
+/.prettierignore
