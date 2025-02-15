@@ -2,7 +2,8 @@ import { isNestedObject } from '../validators/isNestedObject';
 import { isValidHexColor } from '../validators/isValidHexColor';
 import { isValidOpacity } from '../validators/isValidOpacity';
 import { colorsDark, opacityLevel } from './constants';
-import type { Color, HexColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
+import type { Color, ColorShades, HexColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
+import { Color as ColorClass } from './color';
 
 export const withOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${color}${opacityLevel[opacity]}`;
 
@@ -35,3 +36,16 @@ export const flattenOptimizedTestTheme = (obj: NestedObject, result: Theme = {})
 
 	return result;
 };
+
+export const generateShades = (color: ColorClass, darkMode = false): ColorShades => ({
+	50: darkMode ? color.darken(0.9) : color.lighten(0.9),
+	100: darkMode ? color.darken(0.8) : color.lighten(0.7),
+	200: darkMode ? color.darken(0.7) : color.lighten(0.5),
+	300: darkMode ? color.darken(0.5) : color.lighten(0.35),
+	400: darkMode ? color.darken(0.3) : color.lighten(0.15),
+	500: color,
+	600: darkMode ? color.lighten(0.4) : color.darken(0.2),
+	700: darkMode ? color.lighten(0.7) : color.darken(0.4),
+	800: darkMode ? color.lighten(0.8) : color.darken(0.6),
+	900: darkMode ? color.lighten(0.9) : color.darken(0.7),
+});
