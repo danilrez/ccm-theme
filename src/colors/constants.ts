@@ -1,3 +1,4 @@
+// TODO: rewrite with РЫД object
 const neutral = {
 	900: '#0D1017',
 	800: '#1A1F28',
@@ -115,6 +116,7 @@ const orange = {
 	50: '#F9F0EC',
 };
 
+// TODO: make a Map instead
 export const opacityLevel = {
 	90: 'E6',
 	80: 'CC',
@@ -130,6 +132,7 @@ export const opacityLevel = {
 export const transparent = '#0000';
 export const defaultColor = 'default';
 
+// TODO: should use generateShades(neutral)
 export const colorsDark = {
 	neutral,
 	red,
