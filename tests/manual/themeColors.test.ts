@@ -2,7 +2,7 @@
 import { promises as fs } from 'fs';
 import { flattenOptimizedTheme } from '../../src/colors';
 import { tokenCustomizations, workbenchCustomizations } from '../../src/customizations';
-import { ANSIcolors, HELLO, GOODBYE, settingsFile, vscodeDir, shortPathToVscodeSettings } from '../constants';
+import { ANSIcolors, HELLO, GOODBYE, settingsFile, vscodeDir, shortPathToVscodeSettings } from '../test-constants';
 
 const { green, greenBG, yellow, yellowBG, redBG, blackBG, reset } = ANSIcolors;
 

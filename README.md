@@ -10,7 +10,7 @@ This collection includes the `Crappy Night` theme and, very soon, the `Crappy Da
 1. Go to [![VS Marketplace Badge](https://img.shields.io/badge/VS%20Marketplace-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
 2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button
 3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
-    - `Crappy Night` ✨ new ✨
+    - `Crappy Night`
     - `Crappy Daylight` ⏳ coming soon ⏳
 4. Enjoy! 🎉
 
