@@ -33,7 +33,7 @@ const generateColor = (color: HexColor | HSLColor): HexColor => (typeof color ==
  * @returns {ColorShades} A Map mapping shade keys (900, 800, …, 50) to HEX color strings.
  * @throws {Error} If the input array does not have exactly 10 items.
  */
-const generateShades = (colors: (HexColor | HSLColor)[]): ColorShades => {
+export const generateShades = (colors: (HexColor | HSLColor)[]): ColorShades => {
 	if (colors.length !== 10) throw new Error('Input array must have a length of 10.');
 
 	const shadeKeys: Shade[] = [900, 800, 700, 600, 500, 400, 300, 200, 100, 50];
