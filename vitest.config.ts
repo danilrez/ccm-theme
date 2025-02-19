@@ -7,12 +7,11 @@ export default defineConfig({
 		environment: 'node',
 		watch: false,
 		isolate: false,
-		// Exclude the "manual" folder from being picked up as tests:
-		exclude: ['tests/manual/**', 'build/tests/manual/**', 'node_modules/**/*'],
+		exclude: ['tests/manual/**', 'build', 'node_modules'],
 
 		coverage: {
-			include: ['src/**'],
-			exclude: ['tests/manual/**'], // this excludes them from coverage
+			include: ['src'],
+			exclude: ['tests/manual/**'],
 			reporter: ['text', 'html'],
 			reportsDirectory: './tests/coverage/',
 		},

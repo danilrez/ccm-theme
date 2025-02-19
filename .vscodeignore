@@ -1,11 +1,12 @@
-.vscode/**
-.vscode-test/**
-.changeset/
-/node_modules/
-/pnpm-lock.yaml
-/src/
-/build/
-/.eslintrc.json
-/.prettierignore
-/tests/
-.idea/**
+# Exclude EVERYTHING by default
+**
+
+# Re-include Files
+!CHANGELOG
+!LICENSE
+!package.json
+!README.md
+
+# Re-include Folders
+!public
+!public/**
