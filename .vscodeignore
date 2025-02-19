@@ -7,3 +7,5 @@
 /build/
 /.eslintrc.json
 /.prettierignore
+/tests/
+.idea/**
