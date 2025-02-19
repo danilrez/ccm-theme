@@ -38,59 +38,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "✨NEW✨ Crappy Night",
+				"label": "Crappy Night",
 				"uiTheme": "vs-dark",
 				"path": "./public/themes/crappy-night-theme.json"
 			},
 			{
-				"label": "CCM Dark: Bluetalic",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-dark-blueitalic.json"
-			},
-			{
-				"label": "CCM Dark: DARK++",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-dark-dark-plus.json"
-			},
-			{
-				"label": "CCM Dark: Fresh",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-dark-fresh.json"
-			},
-			{
-				"label": "CCM Dark: Night",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-dark-night.json"
-			},
-			{
-				"label": "CCM Night: Bluetalic",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-night-blueitalic.json"
-			},
-			{
-				"label": "CCM Night: DARK++",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-night-dark-plus.json"
-			},
-			{
-				"label": "CCM Night: Fresh",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-night-fresh.json"
-			},
-			{
-				"label": "CCM Night: Night",
-				"uiTheme": "vs-dark",
-				"path": "./public/themes/deprecated/dark/ccm-night-night.json"
-			},
-			{
-				"label": "CCM Light: Light",
+				"label": "Crappy Daylight",
 				"uiTheme": "vs",
-				"path": "./public/themes/deprecated/light/ccm-theme-light.json"
-			},
-			{
-				"label": "CCM Light: Light Plus",
-				"uiTheme": "vs",
-				"path": "./public/themes/deprecated/light/ccm-theme-light-plus.json"
+				"path": "./public/themes/crappy-daylight-theme.json"
 			}
 		]
 	},
@@ -100,16 +55,18 @@
 		"@vscode/vsce": "^3.2.2",
 		"prettier": "^3.3.3",
 		"tsx": "^4.19.2",
-		"typescript": "5.3.3"
+		"typescript": "5.3.3",
+		"vitest": "^3.0.6"
 	},
 	"scripts": {
 		"prebuild": "rm -rf ./build",
 		"build": "tsc",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
-		"theme": "pnpm tsx ./src/index.ts",
-		"test:colors-set": "pnpm tsx ./src/tests/testThemeColors.ts",
-		"test:colors-unset": "pnpm tsx ./src/tests/testUnsetThemeColors.ts",
-		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
+		"generate-theme": "pnpm tsx ./src/index.ts",
+		"test": "NODE_ENV=unittest vitest",
+		"test:set": "pnpm tsx ./tests/manual/themeColors.test.ts",
+		"test:unset": "pnpm tsx ./tests/manual/unsetThemeColors.test.ts",
+		"test:terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
 		"ci:prettier": "prettier . --write"
 	},
 	"prettier": {
