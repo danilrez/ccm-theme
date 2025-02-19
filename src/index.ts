@@ -1,22 +1,21 @@
 import { promises as fs } from 'fs';
 import { flattenOptimizedTheme } from './colors';
-import { customizations } from './customizations';
-import { tokenColors } from './colors/tokenColors';
+import { tokenCustomizations, workbenchCustomizations } from './customizations';
 
 const nightTheme = {
 	name: 'Crappy Night',
 	type: 'dark',
 	semanticHighlighting: true,
-	colors: flattenOptimizedTheme(customizations),
-	tokenColors,
+	colors: flattenOptimizedTheme(workbenchCustomizations),
+	tokenColors: tokenCustomizations,
 };
 
 const daylightTheme = {
 	name: 'Crappy Night',
 	type: 'light',
 	semanticHighlighting: true,
-	colors: flattenOptimizedTheme(customizations),
-	tokenColors,
+	colors: flattenOptimizedTheme(workbenchCustomizations),
+	tokenColors: tokenCustomizations,
 };
 
 // Write themes

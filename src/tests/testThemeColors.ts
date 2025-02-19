@@ -1,19 +1,15 @@
 // 👉 Get SET colors for manual UI testing
 import { promises as fs } from 'fs';
 import { flattenOptimizedTheme } from '../colors';
-import { customizations } from '../customizations';
+import { tokenCustomizations, workbenchCustomizations } from '../customizations';
 
-const nightThemeColors = flattenOptimizedTheme(customizations);
-// const daylightThemeColors = flattenOptimizedTheme(customizations);
+const themeColors = {
+	'workbench.colorCustomizations': flattenOptimizedTheme(workbenchCustomizations),
+	'editor.tokenColorCustomizations': { textMateRules: tokenCustomizations },
+};
 
-// Write themes
 fs.mkdir('./src/tests/outDir', { recursive: true })
-	.then(() =>
-		Promise.all([
-			fs.writeFile('./src/tests/outDir/test-night-colors.json', JSON.stringify(nightThemeColors, null, 2)),
-			// fs.writeFile('./src/tests/outDir/test-daylight-colors.json', JSON.stringify(daylightThemeColors, null, 2)),
-		]),
-	)
+	.then(() => Promise.all([fs.writeFile('./src/tests/outDir/test-theme-colors.json', JSON.stringify(themeColors, null, 2))]))
 	.catch((error: Error) => {
 		console.warn('ERROR:', error);
 		process.exit(1);

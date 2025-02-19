@@ -1,4 +1,4 @@
-import { opacityLevel } from '../colors/constants';
+import { opacityLevelMap } from '../colors/constants';
 import { OpacityLevel } from '../colors/types';
 
-export const isValidOpacity = (opacity: number): opacity is OpacityLevel => opacity in opacityLevel;
+export const isValidOpacity = (opacity: number): opacity is OpacityLevel => opacityLevelMap.has(opacity);
