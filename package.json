@@ -2,7 +2,7 @@
 	"name": "crappycode-theme",
 	"displayName": "CrappyCodeMaker Theme",
 	"description": "CrappyCodeMaker themes for VS Code",
-	"version": "2.0.4",
+	"version": "2.1.0",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -43,7 +43,7 @@
 				"path": "./public/themes/crappy-night-theme.json"
 			},
 			{
-				"label": "Crappy Daylight",
+				"label": "✨NEW✨ Crappy Daylight",
 				"uiTheme": "vs",
 				"path": "./public/themes/crappy-daylight-theme.json"
 			}
