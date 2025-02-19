@@ -1,23 +1,23 @@
-import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
+import { DEFAULT, TRANSPARENT, getHEXColor } from '../../colors';
 
 // For coloring inserted and removed text, use either a background or a border color but not both
 export const diffEditor = {
 	// Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.insertedTextBackground': getColor('green', 500, 20),
+	'diffEditor.insertedTextBackground': getHEXColor('green', 500, 20),
 	// Outline color for the text that got inserted
 	'diffEditor.insertedTextBorder': TRANSPARENT,
 	// Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.removedTextBackground': getColor('red', 500, 20),
+	'diffEditor.removedTextBackground': getHEXColor('red', 500, 20),
 	// Outline color for text that got removed
 	'diffEditor.removedTextBorder': TRANSPARENT,
 	// Border color between the two text editors
 	'diffEditor.border': TRANSPARENT,
 	// Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views
-	'diffEditor.diagonalFill': getColor('neutral', 500),
+	'diffEditor.diagonalFill': getHEXColor('neutral', 500),
 	// Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.insertedLineBackground': getColor('green', 500, 20),
+	'diffEditor.insertedLineBackground': getHEXColor('green', 500, 20),
 	// Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations
-	'diffEditor.removedLineBackground': getColor('red', 500, 20),
+	'diffEditor.removedLineBackground': getHEXColor('red', 500, 20),
 	// Background color for the margin where lines got inserted
 	'diffEditorGutter.insertedLineBackground': TRANSPARENT,
 	// Background color for the margin where lines got removed

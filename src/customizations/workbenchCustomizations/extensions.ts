@@ -1,13 +1,13 @@
-import { DEFAULT, getColor } from '../../colors';
+import { DEFAULT, getHEXColor } from '../../colors';
 
 // Extensions colors
 export const extension = {
 	// Extension view button foreground color (for example Install button)
-	'extensionButton.prominentForeground': getColor('neutral', 50),
+	'extensionButton.prominentForeground': getHEXColor('neutral', 50),
 	// Extension view button background color
-	'extensionButton.prominentBackground': getColor('yellow', 500),
+	'extensionButton.prominentBackground': getHEXColor('yellow', 500),
 	// Extension view button background hover color
-	'extensionButton.prominentHoverBackground': getColor('yellow', 500, 80),
+	'extensionButton.prominentHoverBackground': getHEXColor('yellow', 500, 80),
 	// Button background color for extension actions
 	'extensionButton.background': DEFAULT,
 	// Button foreground color for extension actions
@@ -21,11 +21,11 @@ export const extension = {
 	// Foreground color for the remote badge in the extensions view
 	'extensionBadge.remoteForeground': DEFAULT,
 	// The icon color for extension ratings
-	'extensionIcon.starForeground': getColor('yellow', 500),
+	'extensionIcon.starForeground': getHEXColor('yellow', 500),
 	// The icon color for extension verified publisher
-	'extensionIcon.verifiedForeground': getColor('blue', 500),
+	'extensionIcon.verifiedForeground': getHEXColor('blue', 500),
 	// The icon color for pre-release extension
-	'extensionIcon.preReleaseForeground': getColor('blue', 500),
+	'extensionIcon.preReleaseForeground': getHEXColor('blue', 500),
 	// The icon color for extension sponsor
-	'extensionIcon.sponsorForeground': getColor('orange', 500),
+	'extensionIcon.sponsorForeground': getHEXColor('orange', 500),
 };

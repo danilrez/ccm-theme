@@ -1,15 +1,15 @@
-import { getColor } from '../../colors';
+import { getHEXColor } from '../../colors';
 
 // The theme colors for breadcrumbs navigation
 export const breadcrumbs = {
 	// Color of breadcrumb items
-	'breadcrumb.foreground': getColor('neutral', 300),
+	'breadcrumb.foreground': getHEXColor('neutral', 300),
 	// Background color of breadcrumb items
-	'breadcrumb.background': getColor('neutral', 700),
+	'breadcrumb.background': getHEXColor('neutral', 700),
 	// Color of focused breadcrumb items
-	'breadcrumb.focusForeground': getColor('neutral', 100),
+	'breadcrumb.focusForeground': getHEXColor('neutral', 100),
 	// Color of selected breadcrumb items
-	'breadcrumb.activeSelectionForeground': getColor('neutral', 100),
+	'breadcrumb.activeSelectionForeground': getHEXColor('neutral', 100),
 	// Background color of breadcrumb item picker
-	'breadcrumbPicker.background': getColor('neutral', 700),
+	'breadcrumbPicker.background': getHEXColor('neutral', 700),
 };

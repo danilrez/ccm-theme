@@ -1,15 +1,15 @@
-import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
+import { DEFAULT, TRANSPARENT, getHEXColor } from '../../colors';
 
 // Merge conflict decorations are shown when the editor contains special diff ranges
 export const mergeConflicts = {
 	// Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations
-	'merge.currentHeaderBackground': getColor('cyan', 500, 40),
+	'merge.currentHeaderBackground': getHEXColor('cyan', 500, 40),
 	// Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations
-	'merge.currentContentBackground': getColor('cyan', 500, 20),
+	'merge.currentContentBackground': getHEXColor('cyan', 500, 20),
 	// Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations
-	'merge.incomingHeaderBackground': getColor('blue', 500, 40),
+	'merge.incomingHeaderBackground': getHEXColor('blue', 500, 40),
 	// Incoming content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations
-	'merge.incomingContentBackground': getColor('blue', 500, 20),
+	'merge.incomingContentBackground': getHEXColor('blue', 500, 20),
 	// Border color on headers and the splitter in inline merge conflicts
 	'merge.border': TRANSPARENT,
 	// Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations
@@ -17,21 +17,21 @@ export const mergeConflicts = {
 	// Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations
 	'merge.commonHeaderBackground': DEFAULT,
 	// The background color for changes
-	'mergeEditor.change.background': getColor('red', 300, 20),
+	'mergeEditor.change.background': getHEXColor('red', 300, 20),
 	// The background color for word changes
-	'mergeEditor.change.word.background': getColor('red', 800, 60),
+	'mergeEditor.change.word.background': getHEXColor('red', 800, 60),
 	// The border color of unhandled unfocused conflicts
-	'mergeEditor.conflict.unhandledUnfocused.border': getColor('red', 400, 40),
+	'mergeEditor.conflict.unhandledUnfocused.border': getHEXColor('red', 400, 40),
 	// The border color of unhandled focused conflicts
-	'mergeEditor.conflict.unhandledFocused.border': getColor('red', 400),
+	'mergeEditor.conflict.unhandledFocused.border': getHEXColor('red', 400),
 	// The border color of handled unfocused conflicts
-	'mergeEditor.conflict.handledUnfocused.border': getColor('neutral', 400, 40),
+	'mergeEditor.conflict.handledUnfocused.border': getHEXColor('neutral', 400, 40),
 	// The border color of handled focused conflicts
-	'mergeEditor.conflict.handledFocused.border': getColor('neutral', 400),
+	'mergeEditor.conflict.handledFocused.border': getHEXColor('neutral', 400),
 	// The foreground color for changes in input 1
-	'mergeEditor.conflict.handled.minimapOverViewRuler': getColor('neutral', 400),
+	'mergeEditor.conflict.handled.minimapOverViewRuler': getHEXColor('neutral', 400),
 	// The foreground color for changes in input 1
-	'mergeEditor.conflict.unhandled.minimapOverViewRuler': getColor('red', 400),
+	'mergeEditor.conflict.unhandled.minimapOverViewRuler': getHEXColor('red', 400),
 	// The background of the "Conflicting Lines" text
 	'mergeEditor.conflictingLines.background': DEFAULT,
 	// The background color for changes in base

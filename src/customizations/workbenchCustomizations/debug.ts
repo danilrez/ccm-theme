@@ -1,8 +1,8 @@
-import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
+import { DEFAULT, TRANSPARENT, getHEXColor } from '../../colors';
 
 export const debug = {
 	// Debug toolbar background color
-	'debugToolBar.background': getColor('neutral', 700),
+	'debugToolBar.background': getHEXColor('neutral', 700),
 	// Debug toolbar border color
 	'debugToolBar.border': TRANSPARENT,
 	// Background color of the top stack frame highlight in the editor

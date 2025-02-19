@@ -1,14 +1,14 @@
 // 👉 Get UNSET colors for manual UI testing
 import { promises as fs } from 'fs';
 import path from 'path';
-import { flattenOptimizedTestTheme } from '../../src/colors';
+import { flattenOptimizedTheme } from '../../src/colors';
 import { workbenchCustomizations } from '../../src/customizations';
 import { ANSIcolors, HELLO, GOODBYE } from '../constants';
 
 const { green, greenBG, yellow, yellowBG, redBG, reset } = ANSIcolors;
 
 const unsetThemeColors = {
-	'workbench.colorCustomizations': flattenOptimizedTestTheme(workbenchCustomizations),
+	'workbench.colorCustomizations': flattenOptimizedTheme(workbenchCustomizations, true),
 };
 
 const vscodeDir = path.resolve(process.cwd(), '.vscode');

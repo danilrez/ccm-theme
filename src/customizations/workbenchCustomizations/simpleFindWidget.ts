@@ -1,6 +1,6 @@
-import { getColor } from '../../colors';
+import { getHEXColor } from '../../colors';
 
 export const simpleFindWidget = {
 	// Border color of the sash border
-	'simpleFindWidget.sashBorder': getColor('violet', 400),
+	'simpleFindWidget.sashBorder': getHEXColor('violet', 400),
 };

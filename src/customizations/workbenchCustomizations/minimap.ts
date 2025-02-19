@@ -1,21 +1,21 @@
-import { DEFAULT, getColor } from '../../colors';
+import { DEFAULT, getHEXColor } from '../../colors';
 
 // The Minimap shows a minified version of the current file
 export const minimap = {
 	// Highlight color for matches from search within files
-	'minimap.findMatchHighlight': getColor('violet', 400, 40),
+	'minimap.findMatchHighlight': getHEXColor('violet', 400, 40),
 	// Highlight color for the editor selection
-	'minimap.selectionHighlight': getColor('neutral', 200, 10),
+	'minimap.selectionHighlight': getHEXColor('neutral', 200, 10),
 	// Highlight color for errors within the editor
 	'minimap.errorHighlight': DEFAULT,
 	// Highlight color for warnings within the editor
 	'minimap.warningHighlight': DEFAULT,
 	// Minimap background color
-	'minimap.background': getColor('neutral', 900, 30),
+	'minimap.background': getHEXColor('neutral', 900, 30),
 	// Minimap marker color for repeating editor selections
 	'minimap.selectionOccurrenceHighlight': DEFAULT,
 	// Opacity of foreground elements rendered in the minimap. For example, "#000000c0" will render the elements with 75% opacity
-	'minimap.foregroundOpacity': getColor('neutral', 900, 80),
+	'minimap.foregroundOpacity': getHEXColor('neutral', 900, 80),
 	// Minimap marker color for infos
 	'minimap.infoHighlight': DEFAULT,
 	// Minimap slider background color
