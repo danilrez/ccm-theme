@@ -100,13 +100,15 @@
 		"@vscode/vsce": "^3.2.2",
 		"prettier": "^3.3.3",
 		"tsx": "^4.19.2",
-		"typescript": "5.3.3"
+		"typescript": "5.3.3",
+		"vitest": "^3.0.6"
 	},
 	"scripts": {
 		"prebuild": "rm -rf ./build",
 		"build": "tsc",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
 		"theme": "pnpm tsx ./src/index.ts",
+		"test": "NODE_ENV=unittest vitest",
 		"test:colors-set": "pnpm tsx ./tests/manual/themeColors.test.ts",
 		"test:colors-unset": "pnpm tsx ./tests/manual/unsetThemeColors.test.ts",
 		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
