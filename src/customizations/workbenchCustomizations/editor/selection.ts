@@ -5,11 +5,11 @@ import { DEFAULT, getColor } from '../../../colors';
  */
 export const selectionHighlight = {
 	// Color of the editor selection
-	'editor.selectionBackground': getColor('neutral', 600),
+	'editor.selectionBackground': getColor('neutral', 200, 10),
 	// Color of the selected text for high contrast
 	'editor.selectionForeground': DEFAULT,
 	// Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations
-	'editor.inactiveSelectionBackground': getColor('neutral', 600, 80),
+	'editor.inactiveSelectionBackground': getColor('neutral', 400, 10),
 	// Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations
 	'editor.selectionHighlightBackground': getColor('violet', 400, 30),
 	// Border color for regions with the same content as the selection

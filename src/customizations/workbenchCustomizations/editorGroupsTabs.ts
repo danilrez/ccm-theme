@@ -8,7 +8,7 @@ export const editorGroupsTabs = {
 	// Color to separate multiple editor groups from each other
 	'editorGroup.border': getColor('neutral', 900),
 	// Background color when dragging editors around
-	'editorGroup.dropBackground': getColor('neutral', 500, 40),
+	'editorGroup.dropBackground': getColor('neutral', 200, 10),
 	// Background color of the editor group title header when using single Tab (set "workbench.editor.showTabs": "single")
 	'editorGroupHeader.noTabsBackground': DEFAULT,
 	// Background color of the Tabs container

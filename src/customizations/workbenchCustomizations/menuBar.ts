@@ -4,7 +4,7 @@ export const menuBar = {
 	// Foreground color of the selected menu item in the menubar
 	'menubar.selectionForeground': getColor('neutral', 100),
 	// Background color of the selected menu item in the menubar
-	'menubar.selectionBackground': getColor('neutral', 500, 40),
+	'menubar.selectionBackground': getColor('neutral', 200, 10),
 	// Border color of the selected menu item in the menubar
 	'menubar.selectionBorder': TRANSPARENT,
 	// Foreground color of menu items

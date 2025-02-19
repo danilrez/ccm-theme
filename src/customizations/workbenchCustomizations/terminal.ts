@@ -44,11 +44,11 @@ export const terminal = {
 	'terminal.ansiBrightYellow': getColor('yellow', 300),
 
 	// The selection background color of the terminal
-	'terminal.selectionBackground': getColor('neutral', 600),
+	'terminal.selectionBackground': getColor('neutral', 200, 10),
 	// The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied
 	'terminal.selectionForeground': DEFAULT,
 	// The selection background color of the terminal when it does not have focus
-	'terminal.inactiveSelectionBackground': getColor('neutral', 600, 40),
+	'terminal.inactiveSelectionBackground': getColor('neutral', 400, 10),
 
 	// Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content
 	'terminal.findMatchBackground': DEFAULT,
@@ -67,7 +67,7 @@ export const terminal = {
 	'terminalCursor.foreground': getColor('yellow', 400),
 
 	// The background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through
-	'terminal.dropBackground': getColor('neutral', 500, 40),
+	'terminal.dropBackground': getColor('neutral', 200, 10),
 	// Border on the side of the terminal tab in the panel. This defaults to tab.activeBorder
 	'terminal.tab.activeBorder': getColor('green', 400),
 

@@ -909,8 +909,8 @@ export const tokenCustomizations = [
 			'keyword.operator.expression.delete',
 		],
 		settings: {
-			fontStyle: 'italic',
-			foreground: getColor('red', 500),
+			fontStyle: 'italic bold',
+			foreground: getColor('orange', 300),
 		},
 	},
 	{

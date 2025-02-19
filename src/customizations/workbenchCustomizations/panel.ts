@@ -20,7 +20,7 @@ export const panel = {
 	// Panel section border color used when multiple views are stacked horizontally in the panel. Panels are shown below the editor area and contain views like output and integrated terminal
 	'panelSection.border': DEFAULT,
 	// Drag and drop feedback color for the panel sections. The color should have transparency so that the panel sections can still shine through. Panels are shown below the editor area and contain views like output and integrated terminal
-	'panelSection.dropBackground': getColor('neutral', 500, 40),
+	'panelSection.dropBackground': getColor('neutral', 200, 10),
 	// Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal
 	'panelSectionHeader.background': getColor('neutral', 600),
 	// Panel section header foreground color. Panels are shown below the editor area and contain views like output and integrated terminal

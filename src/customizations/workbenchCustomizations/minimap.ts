@@ -5,7 +5,7 @@ export const minimap = {
 	// Highlight color for matches from search within files
 	'minimap.findMatchHighlight': getColor('violet', 400, 40),
 	// Highlight color for the editor selection
-	'minimap.selectionHighlight': getColor('neutral', 400, 40),
+	'minimap.selectionHighlight': getColor('neutral', 200, 10),
 	// Highlight color for errors within the editor
 	'minimap.errorHighlight': DEFAULT,
 	// Highlight color for warnings within the editor

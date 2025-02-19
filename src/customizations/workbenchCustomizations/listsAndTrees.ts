@@ -9,7 +9,7 @@ export const listsAndTrees = {
 	// List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 	'list.activeSelectionIconForeground': getColor('neutral', 100),
 	// List/Tree drag and drop background when moving items around using the mouse
-	'list.dropBackground': getColor('neutral', 500, 40),
+	'list.dropBackground': getColor('neutral', 200, 10),
 	// List/Tree background color for the focused item when the list/tree is active
 	'list.focusBackground': getColor('violet', 400, 40),
 	// List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
