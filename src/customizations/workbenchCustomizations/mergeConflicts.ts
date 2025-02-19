@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 // Merge conflict decorations are shown when the editor contains special diff ranges
 export const mergeConflicts = {

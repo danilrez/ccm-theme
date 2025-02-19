@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 export const debug = {
 	// Debug toolbar background color

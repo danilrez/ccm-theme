@@ -1,5 +1,4 @@
-import { getColor } from '../../colors';
-import { DEFAULT } from '../../colors';
+import { DEFAULT, getColor } from '../../colors';
 
 // Extensions colors
 export const extension = {

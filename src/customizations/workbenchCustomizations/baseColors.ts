@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 export const baseColors = {
 	// Overall border color for focused elements. This color is only used if not overridden by a component

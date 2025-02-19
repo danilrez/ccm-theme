@@ -11,9 +11,9 @@ export const notebook = {
 	'notebook.cellInsertionIndicator': DEFAULT,
 	// The background color of notebook cell status bar items
 	'notebook.cellStatusBarItemHoverBackground': DEFAULT,
-	// The color of the separator in the cell bottom toolba
+	// The color of the separator in the cell bottom toolbar
 	'notebook.cellToolbarSeparator': DEFAULT,
-	// The color of the notebook cell editor backgroun
+	// The color of the notebook cell editor background
 	'notebook.cellEditorBackground': DEFAULT,
 	// The background color of a cell when the cell is focused
 	'notebook.focusedCellBackground': DEFAULT,

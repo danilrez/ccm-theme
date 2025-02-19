@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 // The Status Bar is shown in the bottom of the workbench
 export const statusBar = {
@@ -39,7 +39,7 @@ export const statusBar = {
 	// Foreground color for the remote indicator on the status bar
 	'statusBarItem.remoteForeground': getColor('neutral', 50),
 	// Background color for the remote indicator on the status bar when hovering
-	'statusBarItem.remoteHoverBackground': getColor('violet', 500),
+	'statusBarItem.remoteHoverBackground': getColor('neutral', 900, 20),
 	// Foreground color for the remote indicator on the status bar when hovering
 	'statusBarItem.remoteHoverForeground': getColor('neutral', 50),
 	// Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions

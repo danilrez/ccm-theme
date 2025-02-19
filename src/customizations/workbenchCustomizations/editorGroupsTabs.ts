@@ -2,7 +2,7 @@
 // There can be many editor groups. A Tab is the container of an editor
 // Multiple Tabs can be opened in one editor group
 
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 export const editorGroupsTabs = {
 	// Color to separate multiple editor groups from each other

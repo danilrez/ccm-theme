@@ -16,6 +16,5 @@ build
 Thumbs.db
 
 # Test files
-outDir/
 test.js
 test.json

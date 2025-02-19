@@ -1,4 +1,4 @@
-import { getColor } from '../../colors';
+import { getColor } from '../colors';
 
 const baseTokens = [
 	{
@@ -110,7 +110,7 @@ export const tokenCustomizations = [
 	{
 		scope: ['variable.other.property', 'variable.other.object.property', 'variable.other.constant.property'],
 		settings: {
-			foreground: getColor('red', 400),
+			foreground: getColor('blue', 300),
 		},
 	},
 	{

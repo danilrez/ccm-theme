@@ -1,5 +1,4 @@
-import { getColor } from '../../colors';
-import { DEFAULT } from '../../colors';
+import { DEFAULT, getColor } from '../../colors';
 
 // Debug Icons colors
 export const debugIcons = {
@@ -34,11 +33,11 @@ export const debugIcons = {
 	// Debug toolbar icon for step back
 	'debugIcon.stepBackForeground': getColor('blue', 400),
 	// Foreground color for info messages in debug REPL console
-	'debugConsole.infoForeground': getColor('blue', 500),
+	'debugConsole.infoForeground': getColor('blue', 400),
 	// Foreground color for warning messages in debug REPL console
-	'debugConsole.warningForeground': getColor('yellow', 500),
+	'debugConsole.warningForeground': getColor('yellow', 400),
 	// Foreground color for error messages in debug REPL console
-	'debugConsole.errorForeground': getColor('red', 500),
+	'debugConsole.errorForeground': getColor('red', 400),
 	// Foreground color for source filenames in debug REPL console
 	'debugConsole.sourceForeground': DEFAULT,
 	// Foreground color for debug console input marker icon

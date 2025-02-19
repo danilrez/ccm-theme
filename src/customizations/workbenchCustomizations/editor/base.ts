@@ -4,7 +4,7 @@
  * See Customizing a Color Theme for details on updating a Color Theme and the available token types
  */
 
-import { DEFAULT, getColor, TRANSPARENT } from '../../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../../colors';
 
 // All other editor colors are listed here
 export const editorBase = {

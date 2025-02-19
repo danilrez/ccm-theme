@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 // The Side Bar contains views like the Explorer and Search
 export const sideBar = {
@@ -17,7 +17,7 @@ export const sideBar = {
 	// Side Bar section header foreground color
 	'sideBarSectionHeader.foreground': getColor('neutral', 300),
 	// Side bar section header border color
-	'sideBarSectionHeader.border': getColor('neutral', 900),
+	'sideBarSectionHeader.border': TRANSPARENT,
 	// Border color between the activity bar at the top/bottom and the views
 	'sideBarActivityBarTop.border': TRANSPARENT,
 	// Side bar title background color. The side bar is the container for views like explorer and search

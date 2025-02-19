@@ -1,6 +1,5 @@
 import { getColor, TRANSPARENT } from '../../colors';
 
-// TODO: test on Windows OS
 export const menuBar = {
 	// Foreground color of the selected menu item in the menubar
 	'menubar.selectionForeground': getColor('neutral', 100),

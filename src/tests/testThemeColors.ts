@@ -9,7 +9,7 @@ const themeColors = {
 };
 
 fs.mkdir('./src/tests/outDir', { recursive: true })
-	.then(() => Promise.all([fs.writeFile('./src/tests/outDir/test-theme-colors.json', JSON.stringify(themeColors, null, 2))]))
+	.then(() => Promise.all([fs.writeFile('./src/tests/outDir/settings.json', JSON.stringify(themeColors, null, 2))]))
 	.catch((error: Error) => {
 		console.warn('ERROR:', error);
 		process.exit(1);

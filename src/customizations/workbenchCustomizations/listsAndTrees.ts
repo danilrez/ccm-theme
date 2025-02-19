@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 // Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not
 export const listsAndTrees = {

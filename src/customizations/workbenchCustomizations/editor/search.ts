@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../../colors';
 
 // Search colors are used in the search viewlet's global search results
 export const search = {

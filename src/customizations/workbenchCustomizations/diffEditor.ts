@@ -1,4 +1,4 @@
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 // For coloring inserted and removed text, use either a background or a border color but not both
 export const diffEditor = {

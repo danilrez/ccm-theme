@@ -1,9 +1,7 @@
-import { isValidHexColor } from '../validators/isValidHexColor';
-import { isValidOpacity } from '../validators/isValidOpacity';
-import { HSLColors, opacityLevelMap } from './constants';
-import type { ColorName, ColorShades, HexColor, HSLColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
+import { isNestedObject, isValidHexColor, isValidOpacity } from '../validators';
 import { Color } from './color';
-import { isNestedObject } from '../validators/isNestedObject';
+import { HSLColors, opacityLevelMap } from './constants';
+import { ColorName, ColorShades, HexColor, HSLColor, NestedObject, OpacityLevel, Shade, Theme } from './types';
 
 const hexWithOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${color}${opacityLevelMap.get(opacity)}`;
 const generateColor = (color: HexColor | HSLColor): HexColor => (typeof color === 'string' ? Color.fromHEX(color) : Color.fromHSL(color)).hex;
@@ -15,7 +13,7 @@ const generateColor = (color: HexColor | HSLColor): HexColor => (typeof color ==
  * @param {(HexColor | HSLColor)[]} colors - Array of colors in HEX string or HSLColor format.
  * @returns {ColorShades} A Map mapping shade keys to HEX color strings.
  */
-export const generateShades = (colors: (HexColor | HSLColor)[]): ColorShades => {
+const generateShades = (colors: (HexColor | HSLColor)[]): ColorShades => {
 	if (colors.length !== 10) throw new Error('Input array must have a length of 10.');
 
 	const shadeKeys: Shade[] = [900, 800, 700, 600, 500, 400, 300, 200, 100, 50];
@@ -40,7 +38,6 @@ export const getColor = (colorName: ColorName, shade: Shade, opacity?: number): 
 export const flattenOptimizedTheme = (obj: NestedObject, result: Theme = {}): Theme => {
 	Object.entries(obj).forEach(([key, value]) => {
 		if (isNestedObject(value)) flattenOptimizedTheme(value, result);
-		// else if (value !== undefined && value !== DEFAULT) result[key] = value as HexColor;
 		else if (value !== undefined) result[key] = value as HexColor;
 	});
 

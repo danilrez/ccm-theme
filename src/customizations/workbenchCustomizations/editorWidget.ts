@@ -1,7 +1,7 @@
 // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover
 // The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception
 
-import { DEFAULT, getColor, TRANSPARENT } from '../../colors';
+import { DEFAULT, TRANSPARENT, getColor } from '../../colors';
 
 export const editorWidget = {
 	// Foreground color of editor widgets, such as find/replace

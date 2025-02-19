@@ -1,4 +1,4 @@
-import { getColor, TRANSPARENT } from '../../colors';
+import { TRANSPARENT, getColor } from '../../colors';
 
 // A set of colors to control the interactions with actions across the workbench
 export const toolBar = {

@@ -1,2 +1,2 @@
-export { tokenCustomizations } from './tokenCustomizations/tokenCustomizations';
-export * from './workbenchCustomizations';
+export { tokenCustomizations } from './tokenCustomizations';
+export * as workbenchCustomizations from './workbenchCustomizations';
