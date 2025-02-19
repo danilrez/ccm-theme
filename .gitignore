@@ -16,5 +16,4 @@ build
 Thumbs.db
 
 # Test files
-test.js
-test.json
+settings.json

@@ -1,3 +1,10 @@
+### 2.1.0
+
+- Replaced HEX with HSL Colors for easier support
+- Added tests
+- Fixed bugs
+- Compressed images for optimization
+
 ### 2.0.1 - 2.0.4
 
 - Fix icon outline
