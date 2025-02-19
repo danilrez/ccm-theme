@@ -107,11 +107,11 @@
 		"prebuild": "rm -rf ./build",
 		"build": "tsc",
 		"package": "vsce package -o ./ccm-vscode-theme.vsix",
-		"theme": "pnpm tsx ./src/index.ts",
+		"generate-theme": "pnpm tsx ./src/index.ts",
 		"test": "NODE_ENV=unittest vitest",
-		"test:colors-set": "pnpm tsx ./tests/manual/themeColors.test.ts",
-		"test:colors-unset": "pnpm tsx ./tests/manual/unsetThemeColors.test.ts",
-		"test:colors-terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
+		"test:set": "pnpm tsx ./tests/manual/themeColors.test.ts",
+		"test:unset": "pnpm tsx ./tests/manual/unsetThemeColors.test.ts",
+		"test:terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
 		"ci:prettier": "prettier . --write"
 	},
 	"prettier": {

@@ -1,21 +1,19 @@
 // 👉 Get UNSET colors for manual UI testing
 import { promises as fs } from 'fs';
-import path from 'path';
 import { flattenOptimizedTheme } from '../../src/colors';
 import { workbenchCustomizations } from '../../src/customizations';
-import { ANSIcolors, HELLO, GOODBYE } from '../constants';
+import { ANSIcolors, HELLO, GOODBYE, settingsFile, vscodeDir, shortPathToVscodeSettings } from '../constants';
 
-const { green, greenBG, yellow, yellowBG, redBG, reset } = ANSIcolors;
+const { green, greenBG, yellow, yellowBG, redBG, blackBG, reset } = ANSIcolors;
 
 const unsetThemeColors = {
 	'workbench.colorCustomizations': flattenOptimizedTheme(workbenchCustomizations, true),
 };
 
-const vscodeDir = path.resolve(process.cwd(), '.vscode');
-const settingsFile = path.join(vscodeDir, 'settings.json');
+const displayPath = shortPathToVscodeSettings(settingsFile);
 
 console.log(HELLO);
-console.log(`> ${yellow}Writing ${yellowBG} UNSET COLORS ${reset}${yellow} settings to:${reset} ${settingsFile}`);
+console.log(`> ${yellow}Writing ${yellowBG} UNSET COLORS ${reset}${yellow} settings to:${reset} ${blackBG}${displayPath}${reset}`);
 
 fs.mkdir(vscodeDir, { recursive: true })
 	.then(() => fs.writeFile(settingsFile, JSON.stringify(unsetThemeColors, null, 2)))
