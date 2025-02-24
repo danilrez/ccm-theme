@@ -2,19 +2,18 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { FancyText } from '../fancyText';
 import { releaseDir, vscodeDir, settingsFile, shortPathToVscodeSettings, ERROR_HEADER } from './utils';
-import { generateTheme } from '../theme/generateTheme';
-import { ThemeDescriptor, ThemeType } from '../theme/themeState';
+import { generateTheme, ThemeDescriptor } from '../theme';
 
 const crappyNight: ThemeDescriptor = { name: 'Crappy Night', type: 'dark' };
 const crappyDaylight: ThemeDescriptor = { name: 'Crappy Daylight', type: 'light' };
 
-export const generateAllThemes = (themes: Map<string, any>) => {
-	themes.set('dark', generateTheme(crappyNight));
-	themes.set('light', generateTheme(crappyDaylight));
+export const generateAllThemes = (themes: Map<string, any>, unsetMode: boolean) => {
+	themes.set('dark', generateTheme({ ...crappyNight, unsetMode }));
+	themes.set('light', generateTheme({ ...crappyDaylight, unsetMode }));
 };
 
-export const generateSingleTheme = (type: ThemeType, themes: Map<string, any>) =>
-	type === 'dark' ? themes.set('dark', generateTheme(crappyNight)) : themes.set('light', generateTheme(crappyDaylight));
+export const generateSingleTheme = (type: string, themes: Map<string, any>, unsetMode: boolean) =>
+	themes.set(type, generateTheme({ ...(type === 'dark' ? crappyNight : crappyDaylight), unsetMode }));
 
 export const runThemeGeneration = async (themes: Map<string, any>) => {
 	const { red } = FancyText;
@@ -31,14 +30,14 @@ export const runThemeGeneration = async (themes: Map<string, any>) => {
 	}
 };
 
-export const runTestColors = async (type: ThemeType, testUnSetColors: boolean, themes: Map<string, any>) => {
+export const runTestColors = async (type: string, themes: Map<string, any>, testUnsetMode: boolean) => {
 	const { red, cyan } = FancyText;
 
 	try {
 		const themeTestColors = {
 			'workbench.colorCustomizations': themes.get(type)?.colors,
 			'editor.tokenColorCustomizations': {
-				textMateRules: !testUnSetColors ? themes.get(type)?.tokenColors : [],
+				textMateRules: !testUnsetMode ? themes.get(type)?.tokenColors : [],
 			},
 		};
 

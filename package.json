@@ -68,7 +68,7 @@
 		"test": "NODE_ENV=unittest vitest",
 		"test:dark": "pnpm generate:themes --dark --test",
 		"test:light": "pnpm generate:themes --light --test",
-		"test:unset": "pnpm tsx ./src/index.ts --dark --test-unset",
+		"test:unset": "pnpm tsx ./src/index.ts --dark --unset",
 		"test:terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
 		"ci:prettier": "prettier . --write"
 	},

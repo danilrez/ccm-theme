@@ -3,7 +3,6 @@ import { palettes } from '../../colors/palettes';
 import { FancyText } from '../fancyText';
 import { generateShades } from './generateShades';
 import { isValidHexColor, isValidOpacity, isValidShade } from '../validators';
-import { themeContextManager } from '../..';
 import { ERROR_HEADER } from '../cli';
 
 /**
@@ -40,11 +39,12 @@ const hexWithOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${
  * const hexWithOp = resolvePaletteColor('neutral', 800, 50);
  */
 export const resolvePaletteColor = (
+	themeType: string,
 	colorName: ColorName | string,
 	shade: Shade | string | number,
 	opacity?: OpacityLevel | string | number,
 ): HexColor => {
-	const palette = palettes?.[themeContextManager.getThemeType()]?.[colorName];
+	const palette = palettes?.[themeType]?.[colorName];
 	const { red, redBG, bold } = FancyText;
 
 	if (!palette) throw new Error(`${ERROR_HEADER} ${red('Invalid palette for color:')} ${bold(redBG(colorName))}\n`);

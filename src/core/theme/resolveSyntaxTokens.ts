@@ -1,6 +1,14 @@
 import { Token } from '../../customizations';
 import { resolvePaletteColor } from '../colors/resolvePaletteColor';
 
+type RemapFunction = (shade: number) => number;
+
+const remapStrategies = (themeType: string): Record<string, RemapFunction> => ({
+	neutral: (shade: number) => (themeType === 'dark' ? shade : shade === 900 ? 700 : shade === 700 ? 900 : shade),
+	default: (shade: number) =>
+		themeType === 'dark' ? shade : shade === 300 ? 500 : shade === 400 ? 600 : shade === 500 ? 700 : shade + 100 <= 900 ? shade + 100 : 900,
+});
+
 /**
  * @description Resolves syntax tokens by processing an array of token objects.
  *
@@ -25,14 +33,16 @@ import { resolvePaletteColor } from '../colors/resolvePaletteColor';
  * const resolvedTokens = resolveSyntaxTokens(tokens);
  * // resolvedTokens[0].settings.foreground now holds the HEX color from resolvePaletteColor('neutral', 200)
  */
-export const resolveSyntaxTokens = (tokens: Token[]): Token[] =>
+export const resolveSyntaxTokens = (themeType: string, tokens: Token[]): Token[] =>
 	tokens.map((token) => {
 		const newToken = { ...token };
 		if (newToken.settings && newToken.settings?.foreground) {
 			const fg = newToken.settings.foreground;
 			if (Array.isArray(fg) && (fg.length === 2 || fg.length === 3)) {
 				const [color, shade, opacity] = fg;
-				newToken.settings.foreground = resolvePaletteColor(color, shade, opacity);
+				const remapFn = remapStrategies(themeType)[color] ?? remapStrategies(themeType).default;
+				const newShade = remapFn(Number(shade));
+				newToken.settings.foreground = resolvePaletteColor(themeType, color, newShade, opacity);
 			}
 		}
 		return newToken;

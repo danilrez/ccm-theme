@@ -4,21 +4,21 @@ import { FancyText, resolveSyntaxTokens, resolveWorkbenchTokens } from '../../..
 import { DEFAULT, TESTER, TRANSPARENT } from '../../../src/colors';
 
 describe('resolveWorkbenchTokens()', () => {
-	it('flattens a simple nested object (isTest=false)', () => {
+	it('flattens a simple nested object (unsetMode=false)', () => {
 		const nestedObj: NestedObject = {
 			foo: '#000000',
 			bar: {
 				baz: '#ffffff',
 			},
 		};
-		const result = resolveWorkbenchTokens(nestedObj, false);
+		const result = resolveWorkbenchTokens('dark', nestedObj, false);
 		expect(result).toEqual({
 			foo: '#000000',
 			baz: '#ffffff',
 		});
 	});
 
-	it('replaces undefined keys with fallback (TESTER) when isTest is true', () => {
+	it('replaces undefined keys with fallback (TESTER) when unsetMode is true', () => {
 		const nestedObj: NestedObject = {
 			key1: '#123456',
 			key2: undefined,
@@ -27,7 +27,7 @@ describe('resolveWorkbenchTokens()', () => {
 				key4: '#abcdef',
 			},
 		};
-		const result = resolveWorkbenchTokens(nestedObj, true);
+		const result = resolveWorkbenchTokens('dark', nestedObj, true);
 		expect(result).toEqual({
 			key2: TESTER,
 			key3: TESTER,
@@ -43,27 +43,27 @@ describe('resolveWorkbenchTokens()', () => {
 				},
 			},
 		};
-		const resultFalse = resolveWorkbenchTokens(nestedObj, false);
+		const resultFalse = resolveWorkbenchTokens('dark', nestedObj, false);
 		expect(resultFalse).toEqual({
 			d: '#ff0000',
 		});
-		const resultTrue = resolveWorkbenchTokens(nestedObj, true);
+		const resultTrue = resolveWorkbenchTokens('dark', nestedObj, true);
 		expect(resultTrue).toEqual({
 			c: TESTER,
 		});
 	});
 
 	it('returns an empty object when input is empty', () => {
-		expect(resolveWorkbenchTokens({}, false)).toEqual({});
-		expect(resolveWorkbenchTokens({}, true)).toEqual({});
+		expect(resolveWorkbenchTokens('dark', {}, false)).toEqual({});
+		expect(resolveWorkbenchTokens('dark', {}, true)).toEqual({});
 	});
 
-	it('copies non-token string values when isTest is false', () => {
+	it('copies non-token string values when unsetMode is false', () => {
 		const nestedObj: NestedObject = {
 			randomString: 'hello-world',
 			validHex: '#cc00cc',
 		};
-		const result = resolveWorkbenchTokens(nestedObj, false);
+		const result = resolveWorkbenchTokens('dark', nestedObj, false);
 		expect(result).toEqual({ validHex: '#cc00cc' });
 	});
 
@@ -71,7 +71,7 @@ describe('resolveWorkbenchTokens()', () => {
 		const nestedObj: NestedObject = {
 			borderColor: ['neutral', 400],
 		};
-		const result = resolveWorkbenchTokens(nestedObj, false);
+		const result = resolveWorkbenchTokens('dark', nestedObj, false);
 		expect(typeof result.borderColor).toBe('string');
 		expect(result.borderColor as string).toMatch(/^#[A-Fa-f0-9]{6,8}$/);
 	});
@@ -80,7 +80,7 @@ describe('resolveWorkbenchTokens()', () => {
 		// This array is interpreted as a color token; "1" is used as colorName.
 		const invalidObj: NestedObject = { invalidKey: [1, 2, 3] as any };
 		const expectedErrorMessage = `${FancyText.bold(FancyText.redBG(' Error: '))} ${FancyText.red('Invalid palette for color:')} ${FancyText.bold(FancyText.redBG('1'))}\n`;
-		expect(() => resolveWorkbenchTokens(invalidObj, false)).toThrowError(expectedErrorMessage);
+		expect(() => resolveWorkbenchTokens('dark', invalidObj, false)).toThrowError(expectedErrorMessage);
 	});
 
 	it('preserves TRANSPARENT and DEFAULT values', () => {
@@ -92,7 +92,7 @@ describe('resolveWorkbenchTokens()', () => {
 				border: DEFAULT,
 			},
 		};
-		const result = resolveWorkbenchTokens(nestedObj, false);
+		const result = resolveWorkbenchTokens('dark', nestedObj, false);
 		expect(result).toEqual({
 			focusBorder: TRANSPARENT,
 			'sash.hoverBorder': DEFAULT,
@@ -113,7 +113,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolvedTokens = resolveSyntaxTokens(tokens);
+		const resolvedTokens = resolveSyntaxTokens('dark', tokens);
 		expect(typeof resolvedTokens[0].settings.foreground).toBe('string');
 		expect(resolvedTokens[0].settings.foreground).toMatch(/^#[A-Fa-f0-9]{6,8}$/);
 	});
@@ -128,7 +128,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolvedTokens = resolveSyntaxTokens(tokens);
+		const resolvedTokens = resolveSyntaxTokens('dark', tokens);
 		expect(resolvedTokens[0].settings.foreground).toBe('#ff00ff');
 	});
 
@@ -141,7 +141,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolvedTokens = resolveSyntaxTokens(tokens);
+		const resolvedTokens = resolveSyntaxTokens('dark', tokens);
 		expect(resolvedTokens[0].settings.fontStyle).toBe('italic');
 		expect(resolvedTokens[0].settings.foreground).toBeUndefined();
 	});

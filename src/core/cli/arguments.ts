@@ -16,16 +16,17 @@ const validateArgs = (dark: boolean, light: boolean, test: boolean) => {
 
 export const parseCLIArgs = () => {
 	const args = process.argv.slice(2);
-	const darkFlag = args.includes('--dark');
-	const lightFlag = args.includes('--light');
-	const testMode = args.includes('--test');
-	const testUnsetMode = args.includes('--test-unset');
+	const dark = args.includes('--dark');
+	const light = args.includes('--light');
+	const test = args.includes('--test');
+	const unset = args.includes('--unset');
 
-	const generateDark = darkFlag && !lightFlag;
-	const generateLight = lightFlag && !darkFlag;
-	const generateBoth = !darkFlag && !lightFlag;
+	const generateDark = dark && !light;
+	const generateLight = light && !dark;
+	const generateBoth = !dark && !light;
+	const testMode = test || unset;
 
-	validateArgs(darkFlag, lightFlag, testMode || testUnsetMode);
+	validateArgs(dark, light, testMode);
 
-	return { generateDark, generateLight, generateBoth, testMode: testMode || testUnsetMode, testUnsetMode };
+	return { generateDark, generateLight, generateBoth, testMode, unsetMode: unset ?? false };
 };

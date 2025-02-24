@@ -1,4 +1,3 @@
-import { ThemeState, ThemeType } from './core/theme/themeState';
 import {
 	parseCLIArgs,
 	generateAllThemes,
@@ -10,20 +9,18 @@ import {
 	GOODBYE,
 	ERROR_HEADER,
 } from './core';
+import { ThemeType } from './core/theme/generateTheme';
 
-const { generateDark, generateLight, generateBoth, testMode, testUnsetMode } = parseCLIArgs();
-
-export const themeContextManager = new ThemeState();
-themeContextManager.setTestUnsetMode(testUnsetMode);
+const { generateDark, generateLight, generateBoth, testMode, unsetMode } = parseCLIArgs();
 
 console.log(HELLO);
 
 const { red } = FancyText;
 const themes = new Map<string, any>();
 
-if (generateDark) generateSingleTheme('dark' as ThemeType, themes);
-if (generateLight) generateSingleTheme('light' as ThemeType, themes);
-if (generateBoth) generateAllThemes(themes);
+if (generateDark) generateSingleTheme('dark' as ThemeType, themes, unsetMode);
+if (generateLight) generateSingleTheme('light' as ThemeType, themes, unsetMode);
+if (generateBoth) generateAllThemes(themes, unsetMode);
 
 if (!testMode) {
 	runThemeGeneration(themes)
@@ -35,7 +32,7 @@ if (!testMode) {
 } else {
 	const type = generateDark ? 'dark' : generateLight ? 'light' : 'dark';
 
-	runTestColors(type, testUnsetMode, themes)
+	runTestColors(type, themes, unsetMode)
 		.then(() => console.log(GOODBYE))
 		.catch((error: Error) => {
 			console.log(`${ERROR_HEADER} ${red(error?.message)}\n`);

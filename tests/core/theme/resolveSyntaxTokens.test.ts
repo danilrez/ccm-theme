@@ -15,7 +15,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolved = resolveSyntaxTokens(tokens);
+		const resolved = resolveSyntaxTokens('dark', tokens);
 		expect(typeof resolved[0].settings.foreground).toBe('string');
 		expect(resolved[0].settings.foreground as string).toMatch(hexRegex);
 	});
@@ -29,7 +29,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolved = resolveSyntaxTokens(tokens);
+		const resolved = resolveSyntaxTokens('dark', tokens);
 		expect(typeof resolved[0].settings.foreground).toBe('string');
 		expect(resolved[0].settings.foreground as string).toMatch(hexRegex);
 	});
@@ -44,7 +44,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolved = resolveSyntaxTokens(tokens);
+		const resolved = resolveSyntaxTokens('dark', tokens);
 		expect(resolved[0].settings.foreground).toBe('#ff00ff');
 	});
 
@@ -57,7 +57,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolved = resolveSyntaxTokens(tokens);
+		const resolved = resolveSyntaxTokens('dark', tokens);
 		expect(resolved[0].settings.fontStyle).toBe('italic');
 		expect(resolved[0].settings.foreground).toBeUndefined();
 	});
@@ -71,7 +71,7 @@ describe('resolveSyntaxTokens()', () => {
 				},
 			},
 		];
-		const resolved = resolveSyntaxTokens(tokens);
+		const resolved = resolveSyntaxTokens('dark', tokens);
 		expect(Array.isArray(resolved[0].settings.foreground)).toBe(true);
 		expect(resolved[0].settings.foreground).toEqual(['neutral', 200, 50, 'extra']);
 	});
