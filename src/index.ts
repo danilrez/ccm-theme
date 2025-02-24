@@ -9,7 +9,6 @@ import {
 	GOODBYE,
 	ERROR_HEADER,
 } from './core';
-import { ThemeType } from './core/theme/generateTheme';
 
 const { generateDark, generateLight, generateBoth, testMode, unsetMode } = parseCLIArgs();
 
@@ -18,8 +17,8 @@ console.log(HELLO);
 const { red } = FancyText;
 const themes = new Map<string, any>();
 
-if (generateDark) generateSingleTheme('dark' as ThemeType, themes, unsetMode);
-if (generateLight) generateSingleTheme('light' as ThemeType, themes, unsetMode);
+if (generateDark) generateSingleTheme('dark', themes, unsetMode);
+if (generateLight) generateSingleTheme('light', themes, unsetMode);
 if (generateBoth) generateAllThemes(themes, unsetMode);
 
 if (!testMode) {

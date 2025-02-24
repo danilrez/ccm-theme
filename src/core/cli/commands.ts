@@ -2,7 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { FancyText } from '../fancyText';
 import { releaseDir, vscodeDir, settingsFile, shortPathToVscodeSettings, ERROR_HEADER } from './utils';
-import { generateTheme, ThemeDescriptor } from '../theme';
+import { generateTheme, ThemeDescriptor, ThemeType } from '../theme';
 
 const crappyNight: ThemeDescriptor = { name: 'Crappy Night', type: 'dark' };
 const crappyDaylight: ThemeDescriptor = { name: 'Crappy Daylight', type: 'light' };
@@ -12,7 +12,7 @@ export const generateAllThemes = (themes: Map<string, any>, unsetMode: boolean) 
 	themes.set('light', generateTheme({ ...crappyDaylight, unsetMode }));
 };
 
-export const generateSingleTheme = (type: string, themes: Map<string, any>, unsetMode: boolean) =>
+export const generateSingleTheme = (type: ThemeType, themes: Map<string, any>, unsetMode: boolean) =>
 	themes.set(type, generateTheme({ ...(type === 'dark' ? crappyNight : crappyDaylight), unsetMode }));
 
 export const runThemeGeneration = async (themes: Map<string, any>) => {
@@ -30,7 +30,7 @@ export const runThemeGeneration = async (themes: Map<string, any>) => {
 	}
 };
 
-export const runTestColors = async (type: string, themes: Map<string, any>, testUnsetMode: boolean) => {
+export const runTestColors = async (type: ThemeType, themes: Map<string, any>, testUnsetMode: boolean) => {
 	const { red, cyan } = FancyText;
 
 	try {

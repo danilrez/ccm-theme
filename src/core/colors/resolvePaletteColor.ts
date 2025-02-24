@@ -4,6 +4,7 @@ import { FancyText } from '../fancyText';
 import { generateShades } from './generateShades';
 import { isValidHexColor, isValidOpacity, isValidShade } from '../validators';
 import { ERROR_HEADER } from '../cli';
+import { ThemeType } from '../theme';
 
 /**
  * @private
@@ -39,7 +40,7 @@ const hexWithOpacity = (color: HexColor, opacity: OpacityLevel): HexColor => `${
  * const hexWithOp = resolvePaletteColor('neutral', 800, 50);
  */
 export const resolvePaletteColor = (
-	themeType: string,
+	themeType: ThemeType,
 	colorName: ColorName | string,
 	shade: Shade | string | number,
 	opacity?: OpacityLevel | string | number,

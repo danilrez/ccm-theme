@@ -1,9 +1,10 @@
 import { Token } from '../../customizations';
 import { resolvePaletteColor } from '../colors/resolvePaletteColor';
+import { ThemeType } from './generateTheme';
 
 type RemapFunction = (shade: number) => number;
 
-const remapStrategies = (themeType: string): Record<string, RemapFunction> => ({
+const remapStrategies = (themeType: ThemeType): Record<string, RemapFunction> => ({
 	neutral: (shade: number) => (themeType === 'dark' ? shade : shade === 900 ? 700 : shade === 700 ? 900 : shade),
 	default: (shade: number) =>
 		themeType === 'dark' ? shade : shade === 300 ? 500 : shade === 400 ? 600 : shade === 500 ? 700 : shade + 100 <= 900 ? shade + 100 : 900,
@@ -33,7 +34,7 @@ const remapStrategies = (themeType: string): Record<string, RemapFunction> => ({
  * const resolvedTokens = resolveSyntaxTokens(tokens);
  * // resolvedTokens[0].settings.foreground now holds the HEX color from resolvePaletteColor('neutral', 200)
  */
-export const resolveSyntaxTokens = (themeType: string, tokens: Token[]): Token[] =>
+export const resolveSyntaxTokens = (themeType: ThemeType, tokens: Token[]): Token[] =>
 	tokens.map((token) => {
 		const newToken = { ...token };
 		if (newToken.settings && newToken.settings?.foreground) {

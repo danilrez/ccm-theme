@@ -2,11 +2,12 @@ import { Default, DEFAULT, TESTER, TRANSPARENT, type HexColor } from '../../colo
 import { NestedObject } from '../../customizations';
 import { resolvePaletteColor } from '../colors/resolvePaletteColor';
 import { isNestedObject, isValidHexColor } from '../validators';
+import { ThemeType } from './generateTheme';
 
 export type Theme = Record<string, HexColor | Default>;
 type RemapFunction = (shade: number) => number;
 
-const remapStrategies = (themeType: string): Record<string, RemapFunction> => ({
+const remapStrategies = (themeType: ThemeType): Record<string, RemapFunction> => ({
 	neutral: (shade: number) => shade, // (themeState.getThemeType() === 'dark' ? shade : shade === 900 ? 700 : shade === 700 ? 900 : shade),
 	default: (shade: number) =>
 		themeType === 'dark' ? shade : shade === 300 ? 500 : shade === 400 ? 600 : shade === 500 ? 700 : shade + 100 <= 900 ? shade + 100 : 900,
@@ -47,7 +48,7 @@ const remapStrategies = (themeType: string): Record<string, RemapFunction> => ({
  * };
  * const flatTheme = resolveWorkbenchTokens(themeCustomization);
  */
-export const resolveWorkbenchTokens = (themeType: string, obj: NestedObject, unsetMode: boolean = false, result: Theme = {}): Theme => {
+export const resolveWorkbenchTokens = (themeType: ThemeType, obj: NestedObject, unsetMode: boolean = false, result: Theme = {}): Theme => {
 	Object.entries(obj).forEach(([key, value]) => {
 		if (isNestedObject(value) && !Array.isArray(value)) resolveWorkbenchTokens(themeType, value, unsetMode, result);
 		if (unsetMode && value === undefined) result[key] = TESTER;
