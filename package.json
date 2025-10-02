@@ -52,35 +52,10 @@
 	"devDependencies": {
 		"@types/node": "22.x",
 		"@types/vscode": "^1.85.0",
-		"@vscode/vsce": "^3.2.2",
-		"prettier": "^3.3.3",
-		"tsx": "^4.19.2",
-		"typescript": "5.3.3",
-		"vitest": "^3.0.6"
+		"@vscode/vsce": "^3.2.2"
 	},
 	"scripts": {
-		"prebuild": "rm -rf ./build",
-		"build": "tsc",
-		"package": "vsce package -o ./ccm-vscode-theme.vsix",
-		"generate-theme": "pnpm tsx ./src/index.ts",
-		"test": "NODE_ENV=unittest vitest",
-		"test:set": "pnpm tsx ./tests/manual/themeColors.test.ts",
-		"test:unset": "pnpm tsx ./tests/manual/unsetThemeColors.test.ts",
-		"test:terminal": "for i in {0..15}; do printf \"\\e[48;5;${i}m  %3d  \\e[0m\" \"$i\"; (( (i+1) % 8 == 0 )) && echo \"\"; done",
-		"ci:prettier": "prettier . --write"
-	},
-	"prettier": {
-		"printWidth": 150,
-		"singleQuote": true,
-		"useTabs": true,
-		"tabWidth": 4,
-		"importOrder": [
-			"^[./]"
-		],
-		"importOrderCaseInsensitive": true,
-		"importOrderSeparation": true,
-		"importOrderSortSpecifiers": true,
-		"endOfLine": "lf"
+		"package": "vsce package -o ./ccm-vscode-theme.vsix"
 	},
 	"packageManager": "pnpm@9.0.0"
 }
