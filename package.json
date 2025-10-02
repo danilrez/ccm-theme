@@ -43,14 +43,13 @@
 				"path": "./public/themes/crappy-night-theme.json"
 			},
 			{
-				"label": "✨NEW✨ Crappy Daylight",
+				"label": "✨BETA✨ Crappy Daylight",
 				"uiTheme": "vs",
 				"path": "./public/themes/crappy-daylight-theme.json"
 			}
 		]
 	},
 	"devDependencies": {
-		"@types/node": "22.x",
 		"@types/vscode": "^1.85.0",
 		"@vscode/vsce": "^3.2.2"
 	},

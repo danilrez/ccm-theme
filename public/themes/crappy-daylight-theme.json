@@ -1,5 +1,5 @@
 {
-	"name": "Crappy Night",
+	"name": "Crappy Daylight",
 	"type": "light",
 	"semanticHighlighting": true,
 	"colors": {
@@ -359,10 +359,7 @@
 		},
 		{
 			"name": "Storage",
-			"scope": [
-				"storage",
-				"constant.language"
-			],
+			"scope": ["storage", "constant.language"],
 			"settings": {
 				"foreground": "#0098dd"
 			}
@@ -390,10 +387,7 @@
 		},
 		{
 			"name": "Integers",
-			"scope": [
-				"constant.numeric",
-				"variable.other.anonymous.elixir"
-			],
+			"scope": ["constant.numeric", "variable.other.anonymous.elixir"],
 			"settings": {
 				"foreground": "#ce33c0"
 			}
@@ -429,10 +423,7 @@
 		},
 		{
 			"name": "Tags",
-			"scope": [
-				"entity.name.tag",
-				"punctuation.definition.tag"
-			],
+			"scope": ["entity.name.tag", "punctuation.definition.tag"],
 			"settings": {
 				"foreground": "#275fe4"
 			}
@@ -483,10 +474,7 @@
 		},
 		{
 			"name": "Bold",
-			"scope": [
-				"markup.bold",
-				"punctuation.definition.bold"
-			],
+			"scope": ["markup.bold", "punctuation.definition.bold"],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#d52753"
@@ -494,10 +482,7 @@
 		},
 		{
 			"name": "Italic",
-			"scope": [
-				"markup.italic",
-				"punctuation.definition.italic"
-			],
+			"scope": ["markup.italic", "punctuation.definition.italic"],
 			"settings": {
 				"foreground": "#df631c",
 				"fontStyle": "italic"
@@ -705,10 +690,7 @@
 		},
 		{
 			"name": "Type Primitive",
-			"scope": [
-				"support.type.primitive",
-				"support.type.builtin"
-			],
+			"scope": ["support.type.primitive", "support.type.builtin"],
 			"settings": {
 				"foreground": "#0098dd"
 			}
