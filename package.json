@@ -2,11 +2,11 @@
 	"name": "crappycode-theme",
 	"displayName": "CrappyCodeMaker Theme",
 	"description": "CrappyCodeMaker themes for VS Code",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
-	"icon": "public/images/icon.png",
+	"icon": "images/icon.png",
 	"galleryBanner": {
 		"color": "#232934",
 		"theme": "dark"
@@ -40,12 +40,12 @@
 			{
 				"label": "Crappy Night",
 				"uiTheme": "vs-dark",
-				"path": "./public/themes/crappy-night-theme.json"
+				"path": "./themes/crappy-night-theme.json"
 			},
 			{
 				"label": "✨BETA✨ Crappy Daylight",
 				"uiTheme": "vs",
-				"path": "./public/themes/crappy-daylight-theme.json"
+				"path": "./themes/crappy-daylight-theme.json"
 			}
 		]
 	},

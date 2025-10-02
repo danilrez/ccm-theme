@@ -3,7 +3,7 @@
 Welcome to **CrappyCodeMaker** themes for **VS Code**!
 This collection includes the `Crappy Night` theme and, very soon, the `Crappy Daylight` theme.
 
-![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/public/images/Preview.jpg)
+![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/images/Preview.jpg)
 
 ## 🚀 Install
 
