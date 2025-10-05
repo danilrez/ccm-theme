@@ -1,1 +1,10 @@
-images/Preview*
+# Exclude everything by default
+**
+
+# Re-include only the "build" folder and the following files:
+!themes/
+!images/icon.*
+!CHANGELOG
+!LICENSE
+!package.json
+!README.md
