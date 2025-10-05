@@ -1,7 +1,12 @@
 # CrappyCodeMaker themes for VS Code
 
 Welcome to **CrappyCodeMaker** themes for **VS Code**!
-This collection includes the `Crappy Night` theme and, very soon, the `Crappy Daylight` theme.
+The collection now ships four variants so you can match the vibe (and syntax tokens) you need:
+
+- `Crappy Night` — Dark, neon-soaked palette built for late-night hacking.
+- `Crappy Night (no tokens)` — Same UI; syntax falls back to VS Code’s _Default Dark Modern_.
+- `Crappy Daylight` — Light, neon-soaked palette tuned for daytime focus.
+- `Crappy Daylight (no tokens)` — Same UI; syntax falls back to VS Code’s _Default Light Modern_.
 
 ![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/images/Preview.jpg)
 
@@ -11,7 +16,9 @@ This collection includes the `Crappy Night` theme and, very soon, the `Crappy Da
 2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button
 3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
     - `Crappy Night`
-    - `Crappy Daylight` ✨ beta ✨
+    - `Crappy Night (no tokens)`
+    - `Crappy Daylight`
+    - `Crappy Daylight (no tokens)`
 4. Enjoy! 🎉
 
 ## 🔠 Fonts

@@ -1,9 +1,10 @@
 ### 2.1.0
 
-- Replaced HEX with HSL Colors for easier support
-- Added tests
-- Fixed bugs
-- Compressed images for optimization
+- Added `Crappy Daylight` light theme powered by the new HSL palette engine.
+- Introduced `Crappy Night (no tokens)` and `Crappy Daylight (no tokens)` variants that reuse VS Code's `Default Dark Modern` and `Default Light Modern` syntax tokens.
+- Added CLI support for `--no-tokens` along with new generation and test scripts for every theme flavor.
+- Swapped hard-coded HEX tables for dynamic HSL palettes to keep colors consistent and easier to maintain.
+- Refreshed documentation and assets (including compressed previews) for the expanded lineup.
 
 ### 2.0.1 - 2.0.4
 
