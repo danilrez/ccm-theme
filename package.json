@@ -40,12 +40,22 @@
 			{
 				"label": "Crappy Night",
 				"uiTheme": "vs-dark",
-				"path": "./themes/crappy-night-theme.json"
+				"path": "themes/crappy-night-theme.json"
 			},
 			{
-				"label": "✨BETA✨ Crappy Daylight",
+				"label": "Crappy Night (no tokens)",
+				"uiTheme": "vs-dark",
+				"path": "themes/crappy-night-theme-no-tokens.json"
+			},
+			{
+				"label": "Crappy Daylight",
 				"uiTheme": "vs",
-				"path": "./themes/crappy-daylight-theme.json"
+				"path": "themes/crappy-daylight-theme.json"
+			},
+			{
+				"label": "Crappy Daylight (no tokens)",
+				"uiTheme": "vs",
+				"path": "themes/crappy-daylight-theme-no-tokens.json"
 			}
 		]
 	},
