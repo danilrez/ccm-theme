@@ -1,7 +1,7 @@
 # Exclude everything by default
 **
 
-# Re-include only the "build" folder and the following files:
+# Re-include only the "themes" folder and the following files:
 !themes/
 !images/icon.*
 !CHANGELOG
