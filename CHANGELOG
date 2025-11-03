@@ -1,3 +1,10 @@
+### 2.2.0
+
+- Harmonized dark palette values and refreshed status bar contrast, especially for folderless sessions.
+- Migrated workbench colors to the flexible `[dark, light]` token format and tuned highlights across editor, activity bar, panels, and more.
+- Introduced primary/secondary brand aliases with override support and regression tests, plus reorganized notification customizations.
+- Simplified CLI theme generation by inlining brand overrides and removing redundant shade defaults.
+
 ### 2.1.0
 
 - Added `Crappy Daylight` light theme powered by the new HSL palette engine.
