@@ -1,3 +1,7 @@
+### 2.2.1
+
+- Hotfix: adjusted Git decorations to remove subtle clashes between staged and unstaged indicators.
+
 ### 2.2.0
 
 - Harmonized dark palette values and refreshed status bar contrast, especially for folderless sessions.

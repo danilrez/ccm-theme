@@ -318,19 +318,19 @@
     "extensionIcon.verifiedForeground": "#6CB2F9",
     "extensionIcon.preReleaseForeground": "#6CB2F9",
     "extensionIcon.sponsorForeground": "#F99B6C",
-    "gitDecoration.addedResourceForeground": "#52E0A3",
-    "gitDecoration.modifiedResourceForeground": "#A46CF9",
+    "gitDecoration.addedResourceForeground": "#77F8C0",
+    "gitDecoration.modifiedResourceForeground": "#76ECF9",
     "gitDecoration.deletedResourceForeground": "#F98BAC",
-    "gitDecoration.renamedResourceForeground": "#94F9CE",
-    "gitDecoration.stageModifiedResourceForeground": "#A46CF9",
-    "gitDecoration.stageDeletedResourceForeground": "#F96C96",
+    "gitDecoration.renamedResourceForeground": "#52E0A3",
+    "gitDecoration.stageModifiedResourceForeground": "#52D2E0",
+    "gitDecoration.stageDeletedResourceForeground": "#E25A83",
     "gitDecoration.untrackedResourceForeground": "#5AF6B3",
     "gitDecoration.ignoredResourceForeground": "#4F5869",
-    "gitDecoration.conflictingResourceForeground": "#FAD59E",
+    "gitDecoration.conflictingResourceForeground": "#FABD9E",
     "gitDecoration.submoduleResourceForeground": "default",
-    "editorGutter.modifiedBackground": "#A46CF9",
-    "editorGutter.addedBackground": "#77F8C0",
-    "editorGutter.deletedBackground": "#F98BAC",
+    "editorGutter.modifiedBackground": "#5AE7F6",
+    "editorGutter.addedBackground": "#5AF6B3",
+    "editorGutter.deletedBackground": "#F96C96",
     "inlineChat.background": "default",
     "inlineChat.foreground": "default",
     "inlineChat.border": "default",
@@ -1486,7 +1486,7 @@
         "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#F98BAC"
+        "foreground": "#E25A83"
       }
     },
     {

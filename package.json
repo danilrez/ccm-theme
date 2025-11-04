@@ -2,13 +2,13 @@
 	"name": "crappycode-theme",
 	"displayName": "CrappyCodeMaker Theme",
 	"description": "CrappyCodeMaker themes for VS Code",
-	"version": "2.2.0",
+	"version": "2.2.1",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
 	"icon": "images/icon.png",
 	"galleryBanner": {
-		"color": "#232934",
+		"color": "#252B37",
 		"theme": "dark"
 	},
 	"repository": {
@@ -26,6 +26,10 @@
 	],
 	"keywords": [
 		"theme",
+		"vscode-theme",
+		"color-theme",
+		"dark-theme",
+		"light-theme",
 		"ccm",
 		"crappycodemaker",
 		"danilrez",
