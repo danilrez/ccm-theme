@@ -2,7 +2,7 @@
 	"name": "crappycode-theme",
 	"displayName": "CrappyCodeMaker Theme",
 	"description": "CrappyCodeMaker themes for VS Code",
-	"version": "2.2.1",
+	"version": "2.2.2",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -19,7 +19,7 @@
 		"url": "https://github.com/danilrez/ccm-theme/issues"
 	},
 	"engines": {
-		"vscode": "^1.85.0"
+		"vscode": "^1.100.0"
 	},
 	"categories": [
 		"Themes"
@@ -63,7 +63,14 @@
 			}
 		]
 	},
+	"files": [
+		"CHANGELOG",
+		"LICENSE",
+		"README.md",
+		"themes/**",
+		"images/**"
+	],
 	"scripts": {
-		"package": "vsce package -o ./crappycode-theme-${npm_package_version}.vsix"
+		"package": "vsce package -o ./${npm_package_name}-${npm_package_version}.vsix"
 	}
 }

@@ -1,3 +1,7 @@
+### 2.2.2
+
+- Rebuilt every dark accent ramp (red, green, yellow, blue, magenta, cyan, violet, orange) with the brighter high-saturation HSLA values we already use in the light palette, so diagnostics, Git badges, and other accents now share the same brand hues instead of muted stand-ins.
+
 ### 2.2.1
 
 - Hotfix: adjusted Git decorations to remove subtle clashes between staged and unstaged indicators.
