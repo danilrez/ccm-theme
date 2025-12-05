@@ -27,9 +27,16 @@
 	"keywords": [
 		"theme",
 		"vscode-theme",
+		"vscode-color-theme",
+		"vs-code-theme",
+		"visual-studio-code-theme",
 		"color-theme",
 		"dark-theme",
+		"night-theme",
 		"light-theme",
+		"dark-mode",
+		"light-mode",
+		"high-contrast",
 		"ccm",
 		"crappycodemaker",
 		"danilrez",
@@ -37,7 +44,18 @@
 		"dark",
 		"night",
 		"light",
-		"daylight"
+		"daylight",
+		"twilight",
+		"flux",
+		"flux-theme",
+		"pastel",
+		"neon",
+		"minimal",
+		"developer-theme",
+		"coding-theme",
+		"focus-theme",
+		"productivity",
+		"ui-theme"
 	],
 	"contributes": {
 		"themes": [
