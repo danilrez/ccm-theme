@@ -1,8 +1,8 @@
 {
 	"name": "crappycode-theme",
-	"displayName": "CrappyCodeMaker Theme",
-	"description": "CrappyCodeMaker themes for VS Code",
-	"version": "2.2.2",
+	"displayName": "Flux Theme",
+	"description": "Flux themes for VS Code",
+	"version": "2.2.3",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -42,24 +42,19 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Crappy Night",
+				"label": "Flux Night",
 				"uiTheme": "vs-dark",
-				"path": "themes/crappy-night-theme.json"
+				"path": "themes/flux-night-theme.json"
 			},
 			{
-				"label": "Crappy Night (no tokens)",
+				"label": "Flux Twilight",
 				"uiTheme": "vs-dark",
-				"path": "themes/crappy-night-theme-no-tokens.json"
+				"path": "themes/flux-twilight-theme.json"
 			},
 			{
-				"label": "Crappy Daylight",
+				"label": "Flux Daylight",
 				"uiTheme": "vs",
-				"path": "themes/crappy-daylight-theme.json"
-			},
-			{
-				"label": "Crappy Daylight (no tokens)",
-				"uiTheme": "vs",
-				"path": "themes/crappy-daylight-theme-no-tokens.json"
+				"path": "themes/flux-daylight-theme.json"
 			}
 		]
 	},

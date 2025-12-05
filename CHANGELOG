@@ -1,3 +1,8 @@
+### 2.2.3
+
+- Added a night palette and applied it across the generated themes.
+- Renamed themes and refreshed docs; the README preview is now a higher-quality PNG.
+
 ### 2.2.2
 
 - Rebuilt every dark accent ramp (red, green, yellow, blue, magenta, cyan, violet, orange) with the brighter high-saturation HSLA values we already use in the light palette, so diagnostics, Git badges, and other accents now share the same brand hues instead of muted stand-ins.
@@ -15,8 +20,8 @@
 
 ### 2.1.0
 
-- Added `Crappy Daylight` light theme powered by the new HSL palette engine.
-- Introduced `Crappy Night (no tokens)` and `Crappy Daylight (no tokens)` variants that reuse VS Code's `Default Dark Modern` and `Default Light Modern` syntax tokens.
+- Added `Flux Daylight` light theme powered by the new HSL palette engine.
+- Introduced `Flux Night (no tokens)` and `Flux Daylight (no tokens)` variants that reuse VS Code's `Default Dark Modern` and `Default Light Modern` syntax tokens.
 - Added CLI support for `--no-tokens` along with new generation and test scripts for every theme flavor.
 - Swapped hard-coded HEX tables for dynamic HSL palettes to keep colors consistent and easier to maintain.
 - Refreshed documentation and assets (including compressed previews) for the expanded lineup.
