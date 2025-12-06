@@ -1,8 +1,8 @@
 {
 	"name": "crappycode-theme",
 	"displayName": "Flux Theme",
-	"description": "Flux themes for VS Code",
-	"version": "2.2.4",
+	"description": "Flux themes for VS Code, Cursor, and other VS Code-compatible editors",
+	"version": "2.3.0",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",
@@ -19,7 +19,7 @@
 		"url": "https://github.com/danilrez/ccm-theme/issues"
 	},
 	"engines": {
-		"vscode": "^1.100.0"
+		"vscode": "^1.95.0"
 	},
 	"categories": [
 		"Themes"
@@ -30,6 +30,13 @@
 		"vscode-color-theme",
 		"vs-code-theme",
 		"visual-studio-code-theme",
+		"vscodium",
+		"cursor",
+		"windsurf",
+		"antigravity",
+		"code-oss",
+		"code oss",
+		"openvsx",
 		"color-theme",
 		"dark-theme",
 		"night-theme",
@@ -68,6 +75,11 @@
 				"label": "Flux Twilight",
 				"uiTheme": "vs-dark",
 				"path": "themes/flux-twilight-theme.json"
+			},
+			{
+				"label": "Flux Dawn",
+				"uiTheme": "vs",
+				"path": "themes/flux-dawn-theme.json"
 			},
 			{
 				"label": "Flux Daylight",

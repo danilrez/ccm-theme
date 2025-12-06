@@ -1,3 +1,13 @@
+### 2.3.0
+
+- Added the new **Flux Dawn** light theme, a warm and energetic theme with a vibrant orange primary, and refined its daylight syntax colors.
+- Refreshed docs to list the full four-theme lineup and prepared a new preview for Dawn.
+
+### 2.2.5
+
+- Introduced palette-specific workbench overrides with the new `Flux Twilight` variant, renaming night overrides and deepening selection and drag backgrounds for better contrast in dark themes.
+- Tweaked dark palette neutrals to slightly darken selections and highlight backgrounds for consistent contrast across Night and Twilight.
+
 ### 2.2.3
 
 - Added a night palette and applied it across the generated themes.

@@ -1,23 +1,26 @@
-# Flux Theme for VS Code
+# Flux Theme
 
-Welcome to **Flux Theme** for **VS Code**!
+Welcome to **Flux Theme** for VS Code-compatible editors including **VS Code**, **Cursor**, **Windsurf**, **Antigravity**, **VSCodium**, and other Code OSS builds (via Open VSX).
+
 Pick the variant that fits your focus:
 
-- `Flux Night` — Dark palette built on deep neutral blues for late sessions.
-- `Flux Twilight` — Muted dark variant with softened neutrals for evening focus.
-- `Flux Daylight` — Light palette on airy neutrals for daytime clarity.
+- `Flux Night` — A dark theme featuring a neutral palette, designed to minimize distractions and keep your focus squarely on the code.
+- `Flux Twilight` — A rich dark theme with a vibrant violet base, offering a more expressive and colorful alternative to traditional neutral themes.
+- `Flux Dawn` — A warm light theme featuring a vibrant orange primary, creating an energetic and inspiring atmosphere to kickstart your day.
+- `Flux Daylight` — A clean light theme with a neutral palette, designed for maximum clarity and focus during daytime coding sessions.
 
 ![Preview](https://raw.githubusercontent.com/danilrez/ccm-theme/refs/heads/master/images/Preview.png)
 
 ## 🚀 Install
 
-1. Go to [![VS Marketplace Badge](https://img.shields.io/badge/VS%20Marketplace-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
-2. Click on the ![Install Badge](https://img.shields.io/badge/Install-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat) button
-3. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
+1. Install from your store of choice:
+    - VS Code Marketplace: [![VS Marketplace Badge](https://img.shields.io/badge/VS%20Marketplace-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme)
+    - Open VSX (Cursor, Windsurf, VSCodium, Antigravity, Code OSS builds): open Extensions and search for **"Flux Theme"**
+2. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
     - `Flux Night`
     - `Flux Twilight`
     - `Flux Daylight`
-4. Enjoy! 🎉
+3. Enjoy! 🎉
 
 ## 🔠 Fonts
 
