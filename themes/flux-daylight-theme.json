@@ -584,7 +584,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#E1094A"
+        "foreground": "#206BB6"
       }
     },
     {
@@ -1277,7 +1277,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#E1094A"
+        "foreground": "#206BB6"
       }
     },
     {

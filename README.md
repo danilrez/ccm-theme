@@ -19,6 +19,7 @@ Pick the variant that fits your focus:
 2. Then [![Select a theme Badge](https://img.shields.io/badge/Select%20a%20theme-2C94FC?logo=visualstudiocode&logoColor=fff&style=flat)](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme):
     - `Flux Night`
     - `Flux Twilight`
+    - `Flux Dawn`
     - `Flux Daylight`
 3. Enjoy! 🎉
 

@@ -2,7 +2,7 @@
 	"name": "crappycode-theme",
 	"displayName": "Flux Theme",
 	"description": "Flux themes for VS Code, Cursor, and other VS Code-compatible editors",
-	"version": "2.3.1",
+	"version": "2.3.2",
 	"author": "Danil Reznichenko [@danilrez]",
 	"publisher": "CrappyCodeMaker",
 	"license": "MIT",

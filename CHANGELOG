@@ -1,3 +1,11 @@
+### 2.3.2
+
+- Swapped JSON key accents from red to light blue for better readability.
+
+### 2.3.1
+
+- Fixed minor color inconsistencies across palettes.
+
 ### 2.3.0
 
 - Added the new **Flux Dawn** light theme, a warm and energetic theme with a vibrant orange primary, and refined its daylight syntax colors.
